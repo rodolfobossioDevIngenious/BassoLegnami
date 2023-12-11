@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "FQBYz0IsiOfxdpATk2cthOBZ53c1rHkvkEuw6b648k3BpDK9SEDPASJaWzFKADbheaaRJwmlwVf02hRy1ZIGNg==",
+  "dgSpecHash": "qpLD8WhZJwIqNfALjH7OhLYl09gEhfdm3TSWmDf5zOWM/73n9xqlJUL4kmNxq7kwC9f25f8ZB4YSZsifNSG9SA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\rodolfo.bossio\\OneDrive - Icri s.r.l\\Desktop\\BassoLegnami\\BassoLegnami.Reports\\BassoLegnami.Reports.csproj",
+  "projectFilePath": "E:\\Develop\\DTB\\BassoLegnami\\BassoLegnami\\BassoLegnami.Reports\\BassoLegnami.Reports.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\rodolfo.bossio\\.nuget\\packages\\itextsharp-lgpl\\4.1.6\\itextsharp-lgpl.4.1.6.nupkg.sha512",
     "C:\\Users\\rodolfo.bossio\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\7.0.0\\microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",
