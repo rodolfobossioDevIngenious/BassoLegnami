@@ -1,0 +1,589 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = BassoLegnami
+build_property.RootNamespace = BassoLegnami
+build_property.ProjectDir = C:\Users\rodolfo.bossio\OneDrive - Icri s.r.l\Desktop\BassoLegnami\BassoLegnami\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = true
+build_property.MSBuildProjectDirectory = C:\Users\rodolfo.bossio\OneDrive - Icri s.r.l\Desktop\BassoLegnami\BassoLegnami
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/rodolfo.bossio/OneDrive - Icri s.r.l/Desktop/BassoLegnami/BassoLegnami/Areas/GeographicSupport/Views/Region/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcR2VvZ3JhcGhpY1N1cHBvcnRcVmlld3NcUmVnaW9uXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rodolfo.bossio/OneDrive - Icri s.r.l/Desktop/BassoLegnami/BassoLegnami/Areas/GeographicSupport/Views/Region/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcR2VvZ3JhcGhpY1N1cHBvcnRcVmlld3NcUmVnaW9uXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rodolfo.bossio/OneDrive - Icri s.r.l/Desktop/BassoLegnami/BassoLegnami/Areas/GeographicSupport/Views/Region/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcR2VvZ3JhcGhpY1N1cHBvcnRcVmlld3NcUmVnaW9uXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rodolfo.bossio/OneDrive - Icri s.r.l/Desktop/BassoLegnami/BassoLegnami/Areas/GeographicSupport/Views/Region/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcR2VvZ3JhcGhpY1N1cHBvcnRcVmlld3NcUmVnaW9uXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rodolfo.bossio/OneDrive - Icri s.r.l/Desktop/BassoLegnami/BassoLegnami/Areas/GeographicSupport/Views/Region/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcR2VvZ3JhcGhpY1N1cHBvcnRcVmlld3NcUmVnaW9uXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rodolfo.bossio/OneDrive - Icri s.r.l/Desktop/BassoLegnami/BassoLegnami/Areas/GeographicSupport/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcR2VvZ3JhcGhpY1N1cHBvcnRcVmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rodolfo.bossio/OneDrive - Icri s.r.l/Desktop/BassoLegnami/BassoLegnami/Areas/Support/Views/ExternalSystems/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcU3VwcG9ydFxWaWV3c1xFeHRlcm5hbFN5c3RlbXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rodolfo.bossio/OneDrive - Icri s.r.l/Desktop/BassoLegnami/BassoLegnami/Areas/Support/Views/ExternalSystems/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcU3VwcG9ydFxWaWV3c1xFeHRlcm5hbFN5c3RlbXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rodolfo.bossio/OneDrive - Icri s.r.l/Desktop/BassoLegnami/BassoLegnami/Areas/Support/Views/ExternalSystems/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcU3VwcG9ydFxWaWV3c1xFeHRlcm5hbFN5c3RlbXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rodolfo.bossio/OneDrive - Icri s.r.l/Desktop/BassoLegnami/BassoLegnami/Areas/Support/Views/ExternalSystems/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcU3VwcG9ydFxWaWV3c1xFeHRlcm5hbFN5c3RlbXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rodolfo.bossio/OneDrive - Icri s.r.l/Desktop/BassoLegnami/BassoLegnami/Areas/Support/Views/ExternalSystems/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcU3VwcG9ydFxWaWV3c1xFeHRlcm5hbFN5c3RlbXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rodolfo.bossio/OneDrive - Icri s.r.l/Desktop/BassoLegnami/BassoLegnami/Areas/Support/Views/ExternalSystemValues/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcU3VwcG9ydFxWaWV3c1xFeHRlcm5hbFN5c3RlbVZhbHVlc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rodolfo.bossio/OneDrive - Icri s.r.l/Desktop/BassoLegnami/BassoLegnami/Areas/Support/Views/ExternalSystemValues/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcU3VwcG9ydFxWaWV3c1xFeHRlcm5hbFN5c3RlbVZhbHVlc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rodolfo.bossio/OneDrive - Icri s.r.l/Desktop/BassoLegnami/BassoLegnami/Areas/Support/Views/ExternalSystemValues/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcU3VwcG9ydFxWaWV3c1xFeHRlcm5hbFN5c3RlbVZhbHVlc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rodolfo.bossio/OneDrive - Icri s.r.l/Desktop/BassoLegnami/BassoLegnami/Areas/Support/Views/ExternalSystemValues/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcU3VwcG9ydFxWaWV3c1xFeHRlcm5hbFN5c3RlbVZhbHVlc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rodolfo.bossio/OneDrive - Icri s.r.l/Desktop/BassoLegnami/BassoLegnami/Areas/Support/Views/ExternalSystemValues/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcU3VwcG9ydFxWaWV3c1xFeHRlcm5hbFN5c3RlbVZhbHVlc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rodolfo.bossio/OneDrive - Icri s.r.l/Desktop/BassoLegnami/BassoLegnami/Areas/Support/Views/Festivities/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcU3VwcG9ydFxWaWV3c1xGZXN0aXZpdGllc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rodolfo.bossio/OneDrive - Icri s.r.l/Desktop/BassoLegnami/BassoLegnami/Areas/Support/Views/Festivities/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcU3VwcG9ydFxWaWV3c1xGZXN0aXZpdGllc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rodolfo.bossio/OneDrive - Icri s.r.l/Desktop/BassoLegnami/BassoLegnami/Areas/Support/Views/Festivities/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcU3VwcG9ydFxWaWV3c1xGZXN0aXZpdGllc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rodolfo.bossio/OneDrive - Icri s.r.l/Desktop/BassoLegnami/BassoLegnami/Areas/Support/Views/Festivities/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcU3VwcG9ydFxWaWV3c1xGZXN0aXZpdGllc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rodolfo.bossio/OneDrive - Icri s.r.l/Desktop/BassoLegnami/BassoLegnami/Areas/Support/Views/Festivities/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcU3VwcG9ydFxWaWV3c1xGZXN0aXZpdGllc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rodolfo.bossio/OneDrive - Icri s.r.l/Desktop/BassoLegnami/BassoLegnami/Areas/Support/Views/FileFolders/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcU3VwcG9ydFxWaWV3c1xGaWxlRm9sZGVyc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rodolfo.bossio/OneDrive - Icri s.r.l/Desktop/BassoLegnami/BassoLegnami/Areas/Support/Views/FileFolders/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcU3VwcG9ydFxWaWV3c1xGaWxlRm9sZGVyc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rodolfo.bossio/OneDrive - Icri s.r.l/Desktop/BassoLegnami/BassoLegnami/Areas/Support/Views/FileFolders/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcU3VwcG9ydFxWaWV3c1xGaWxlRm9sZGVyc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rodolfo.bossio/OneDrive - Icri s.r.l/Desktop/BassoLegnami/BassoLegnami/Areas/Support/Views/FileFolders/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcU3VwcG9ydFxWaWV3c1xGaWxlRm9sZGVyc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rodolfo.bossio/OneDrive - Icri s.r.l/Desktop/BassoLegnami/BassoLegnami/Areas/Support/Views/FileFolders/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcU3VwcG9ydFxWaWV3c1xGaWxlRm9sZGVyc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rodolfo.bossio/OneDrive - Icri s.r.l/Desktop/BassoLegnami/BassoLegnami/Areas/Support/Views/UnitsOfMeasurement/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcU3VwcG9ydFxWaWV3c1xVbml0c09mTWVhc3VyZW1lbnRcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rodolfo.bossio/OneDrive - Icri s.r.l/Desktop/BassoLegnami/BassoLegnami/Areas/Support/Views/UnitsOfMeasurement/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcU3VwcG9ydFxWaWV3c1xVbml0c09mTWVhc3VyZW1lbnRcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rodolfo.bossio/OneDrive - Icri s.r.l/Desktop/BassoLegnami/BassoLegnami/Areas/Support/Views/UnitsOfMeasurement/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcU3VwcG9ydFxWaWV3c1xVbml0c09mTWVhc3VyZW1lbnRcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rodolfo.bossio/OneDrive - Icri s.r.l/Desktop/BassoLegnami/BassoLegnami/Areas/Support/Views/UnitsOfMeasurement/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcU3VwcG9ydFxWaWV3c1xVbml0c09mTWVhc3VyZW1lbnRcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rodolfo.bossio/OneDrive - Icri s.r.l/Desktop/BassoLegnami/BassoLegnami/Areas/Support/Views/UnitsOfMeasurement/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcU3VwcG9ydFxWaWV3c1xVbml0c09mTWVhc3VyZW1lbnRcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rodolfo.bossio/OneDrive - Icri s.r.l/Desktop/BassoLegnami/BassoLegnami/Areas/Support/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcU3VwcG9ydFxWaWV3c1xfVmlld0ltcG9ydHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rodolfo.bossio/OneDrive - Icri s.r.l/Desktop/BassoLegnami/BassoLegnami/Areas/Users/Views/Authorizations/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlcnNcVmlld3NcQXV0aG9yaXphdGlvbnNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rodolfo.bossio/OneDrive - Icri s.r.l/Desktop/BassoLegnami/BassoLegnami/Areas/Users/Views/Authorizations/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlcnNcVmlld3NcQXV0aG9yaXphdGlvbnNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rodolfo.bossio/OneDrive - Icri s.r.l/Desktop/BassoLegnami/BassoLegnami/Areas/Users/Views/Authorizations/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlcnNcVmlld3NcQXV0aG9yaXphdGlvbnNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rodolfo.bossio/OneDrive - Icri s.r.l/Desktop/BassoLegnami/BassoLegnami/Areas/Users/Views/Authorizations/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlcnNcVmlld3NcQXV0aG9yaXphdGlvbnNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rodolfo.bossio/OneDrive - Icri s.r.l/Desktop/BassoLegnami/BassoLegnami/Areas/Users/Views/Authorizations/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlcnNcVmlld3NcQXV0aG9yaXphdGlvbnNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rodolfo.bossio/OneDrive - Icri s.r.l/Desktop/BassoLegnami/BassoLegnami/Areas/Users/Views/Logs/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlcnNcVmlld3NcTG9nc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rodolfo.bossio/OneDrive - Icri s.r.l/Desktop/BassoLegnami/BassoLegnami/Areas/Users/Views/Logs/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlcnNcVmlld3NcTG9nc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rodolfo.bossio/OneDrive - Icri s.r.l/Desktop/BassoLegnami/BassoLegnami/Areas/Users/Views/RecordFilterRules/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlcnNcVmlld3NcUmVjb3JkRmlsdGVyUnVsZXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rodolfo.bossio/OneDrive - Icri s.r.l/Desktop/BassoLegnami/BassoLegnami/Areas/Users/Views/RecordFilterRules/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlcnNcVmlld3NcUmVjb3JkRmlsdGVyUnVsZXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rodolfo.bossio/OneDrive - Icri s.r.l/Desktop/BassoLegnami/BassoLegnami/Areas/Users/Views/RecordFilterRules/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlcnNcVmlld3NcUmVjb3JkRmlsdGVyUnVsZXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rodolfo.bossio/OneDrive - Icri s.r.l/Desktop/BassoLegnami/BassoLegnami/Areas/Users/Views/RecordFilterRules/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlcnNcVmlld3NcUmVjb3JkRmlsdGVyUnVsZXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rodolfo.bossio/OneDrive - Icri s.r.l/Desktop/BassoLegnami/BassoLegnami/Areas/Users/Views/RecordFilterRules/RecordFilterRuleValueDisplay.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlcnNcVmlld3NcUmVjb3JkRmlsdGVyUnVsZXNcUmVjb3JkRmlsdGVyUnVsZVZhbHVlRGlzcGxheS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rodolfo.bossio/OneDrive - Icri s.r.l/Desktop/BassoLegnami/BassoLegnami/Areas/Users/Views/RecordFilterRules/RecordFilterRuleValueEdit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlcnNcVmlld3NcUmVjb3JkRmlsdGVyUnVsZXNcUmVjb3JkRmlsdGVyUnVsZVZhbHVlRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rodolfo.bossio/OneDrive - Icri s.r.l/Desktop/BassoLegnami/BassoLegnami/Areas/Users/Views/RecordFilterRuleTypes/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlcnNcVmlld3NcUmVjb3JkRmlsdGVyUnVsZVR5cGVzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rodolfo.bossio/OneDrive - Icri s.r.l/Desktop/BassoLegnami/BassoLegnami/Areas/Users/Views/RecordFilterRuleTypes/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlcnNcVmlld3NcUmVjb3JkRmlsdGVyUnVsZVR5cGVzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rodolfo.bossio/OneDrive - Icri s.r.l/Desktop/BassoLegnami/BassoLegnami/Areas/Users/Views/RecordFilterRuleTypes/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlcnNcVmlld3NcUmVjb3JkRmlsdGVyUnVsZVR5cGVzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rodolfo.bossio/OneDrive - Icri s.r.l/Desktop/BassoLegnami/BassoLegnami/Areas/Users/Views/RecordFilterRuleTypes/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlcnNcVmlld3NcUmVjb3JkRmlsdGVyUnVsZVR5cGVzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rodolfo.bossio/OneDrive - Icri s.r.l/Desktop/BassoLegnami/BassoLegnami/Areas/Users/Views/RecordFilterRuleTypes/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlcnNcVmlld3NcUmVjb3JkRmlsdGVyUnVsZVR5cGVzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rodolfo.bossio/OneDrive - Icri s.r.l/Desktop/BassoLegnami/BassoLegnami/Areas/Users/Views/Roles/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlcnNcVmlld3NcUm9sZXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rodolfo.bossio/OneDrive - Icri s.r.l/Desktop/BassoLegnami/BassoLegnami/Areas/Users/Views/Roles/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlcnNcVmlld3NcUm9sZXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rodolfo.bossio/OneDrive - Icri s.r.l/Desktop/BassoLegnami/BassoLegnami/Areas/Users/Views/Roles/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlcnNcVmlld3NcUm9sZXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rodolfo.bossio/OneDrive - Icri s.r.l/Desktop/BassoLegnami/BassoLegnami/Areas/Users/Views/Roles/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlcnNcVmlld3NcUm9sZXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rodolfo.bossio/OneDrive - Icri s.r.l/Desktop/BassoLegnami/BassoLegnami/Areas/Users/Views/Roles/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlcnNcVmlld3NcUm9sZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rodolfo.bossio/OneDrive - Icri s.r.l/Desktop/BassoLegnami/BassoLegnami/Areas/Users/Views/Users/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlcnNcVmlld3NcVXNlcnNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rodolfo.bossio/OneDrive - Icri s.r.l/Desktop/BassoLegnami/BassoLegnami/Areas/Users/Views/Users/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlcnNcVmlld3NcVXNlcnNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rodolfo.bossio/OneDrive - Icri s.r.l/Desktop/BassoLegnami/BassoLegnami/Areas/Users/Views/Users/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlcnNcVmlld3NcVXNlcnNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rodolfo.bossio/OneDrive - Icri s.r.l/Desktop/BassoLegnami/BassoLegnami/Areas/Users/Views/Users/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlcnNcVmlld3NcVXNlcnNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rodolfo.bossio/OneDrive - Icri s.r.l/Desktop/BassoLegnami/BassoLegnami/Areas/Users/Views/Users/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlcnNcVmlld3NcVXNlcnNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rodolfo.bossio/OneDrive - Icri s.r.l/Desktop/BassoLegnami/BassoLegnami/Areas/Users/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlcnNcVmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rodolfo.bossio/OneDrive - Icri s.r.l/Desktop/BassoLegnami/BassoLegnami/Templates/ControllerGenerator/ApiControllerWIthActions.cshtml]
+build_metadata.AdditionalFiles.TargetPath = VGVtcGxhdGVzXENvbnRyb2xsZXJHZW5lcmF0b3JcQXBpQ29udHJvbGxlcldJdGhBY3Rpb25zLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rodolfo.bossio/OneDrive - Icri s.r.l/Desktop/BassoLegnami/BassoLegnami/Templates/ControllerGenerator/ApiControllerWithContext.cshtml]
+build_metadata.AdditionalFiles.TargetPath = VGVtcGxhdGVzXENvbnRyb2xsZXJHZW5lcmF0b3JcQXBpQ29udHJvbGxlcldpdGhDb250ZXh0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rodolfo.bossio/OneDrive - Icri s.r.l/Desktop/BassoLegnami/BassoLegnami/Templates/ControllerGenerator/ApiEmptyController.cshtml]
+build_metadata.AdditionalFiles.TargetPath = VGVtcGxhdGVzXENvbnRyb2xsZXJHZW5lcmF0b3JcQXBpRW1wdHlDb250cm9sbGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rodolfo.bossio/OneDrive - Icri s.r.l/Desktop/BassoLegnami/BassoLegnami/Templates/ControllerGenerator/ControllerWithActions.cshtml]
+build_metadata.AdditionalFiles.TargetPath = VGVtcGxhdGVzXENvbnRyb2xsZXJHZW5lcmF0b3JcQ29udHJvbGxlcldpdGhBY3Rpb25zLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rodolfo.bossio/OneDrive - Icri s.r.l/Desktop/BassoLegnami/BassoLegnami/Templates/ControllerGenerator/EmptyController.cshtml]
+build_metadata.AdditionalFiles.TargetPath = VGVtcGxhdGVzXENvbnRyb2xsZXJHZW5lcmF0b3JcRW1wdHlDb250cm9sbGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rodolfo.bossio/OneDrive - Icri s.r.l/Desktop/BassoLegnami/BassoLegnami/Templates/ControllerGenerator/MvcControllerWithContext.cshtml]
+build_metadata.AdditionalFiles.TargetPath = VGVtcGxhdGVzXENvbnRyb2xsZXJHZW5lcmF0b3JcTXZjQ29udHJvbGxlcldpdGhDb250ZXh0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rodolfo.bossio/OneDrive - Icri s.r.l/Desktop/BassoLegnami/BassoLegnami/Templates/MvcLayout/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = VGVtcGxhdGVzXE12Y0xheW91dFxFcnJvci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rodolfo.bossio/OneDrive - Icri s.r.l/Desktop/BassoLegnami/BassoLegnami/Templates/MvcLayout/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = VGVtcGxhdGVzXE12Y0xheW91dFxfTGF5b3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rodolfo.bossio/OneDrive - Icri s.r.l/Desktop/BassoLegnami/BassoLegnami/Templates/RazorPageGenerator/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = VGVtcGxhdGVzXFJhem9yUGFnZUdlbmVyYXRvclxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rodolfo.bossio/OneDrive - Icri s.r.l/Desktop/BassoLegnami/BassoLegnami/Templates/RazorPageGenerator/CreatePageModel.cshtml]
+build_metadata.AdditionalFiles.TargetPath = VGVtcGxhdGVzXFJhem9yUGFnZUdlbmVyYXRvclxDcmVhdGVQYWdlTW9kZWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rodolfo.bossio/OneDrive - Icri s.r.l/Desktop/BassoLegnami/BassoLegnami/Templates/RazorPageGenerator/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = VGVtcGxhdGVzXFJhem9yUGFnZUdlbmVyYXRvclxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rodolfo.bossio/OneDrive - Icri s.r.l/Desktop/BassoLegnami/BassoLegnami/Templates/RazorPageGenerator/DeletePageModel.cshtml]
+build_metadata.AdditionalFiles.TargetPath = VGVtcGxhdGVzXFJhem9yUGFnZUdlbmVyYXRvclxEZWxldGVQYWdlTW9kZWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rodolfo.bossio/OneDrive - Icri s.r.l/Desktop/BassoLegnami/BassoLegnami/Templates/RazorPageGenerator/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = VGVtcGxhdGVzXFJhem9yUGFnZUdlbmVyYXRvclxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rodolfo.bossio/OneDrive - Icri s.r.l/Desktop/BassoLegnami/BassoLegnami/Templates/RazorPageGenerator/DetailsPageModel.cshtml]
+build_metadata.AdditionalFiles.TargetPath = VGVtcGxhdGVzXFJhem9yUGFnZUdlbmVyYXRvclxEZXRhaWxzUGFnZU1vZGVsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rodolfo.bossio/OneDrive - Icri s.r.l/Desktop/BassoLegnami/BassoLegnami/Templates/RazorPageGenerator/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = VGVtcGxhdGVzXFJhem9yUGFnZUdlbmVyYXRvclxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rodolfo.bossio/OneDrive - Icri s.r.l/Desktop/BassoLegnami/BassoLegnami/Templates/RazorPageGenerator/EditPageModel.cshtml]
+build_metadata.AdditionalFiles.TargetPath = VGVtcGxhdGVzXFJhem9yUGFnZUdlbmVyYXRvclxFZGl0UGFnZU1vZGVsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rodolfo.bossio/OneDrive - Icri s.r.l/Desktop/BassoLegnami/BassoLegnami/Templates/RazorPageGenerator/Empty.cshtml]
+build_metadata.AdditionalFiles.TargetPath = VGVtcGxhdGVzXFJhem9yUGFnZUdlbmVyYXRvclxFbXB0eS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rodolfo.bossio/OneDrive - Icri s.r.l/Desktop/BassoLegnami/BassoLegnami/Templates/RazorPageGenerator/EmptyPageModel.cshtml]
+build_metadata.AdditionalFiles.TargetPath = VGVtcGxhdGVzXFJhem9yUGFnZUdlbmVyYXRvclxFbXB0eVBhZ2VNb2RlbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rodolfo.bossio/OneDrive - Icri s.r.l/Desktop/BassoLegnami/BassoLegnami/Templates/RazorPageGenerator/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = VGVtcGxhdGVzXFJhem9yUGFnZUdlbmVyYXRvclxMaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rodolfo.bossio/OneDrive - Icri s.r.l/Desktop/BassoLegnami/BassoLegnami/Templates/RazorPageGenerator/ListPageModel.cshtml]
+build_metadata.AdditionalFiles.TargetPath = VGVtcGxhdGVzXFJhem9yUGFnZUdlbmVyYXRvclxMaXN0UGFnZU1vZGVsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rodolfo.bossio/OneDrive - Icri s.r.l/Desktop/BassoLegnami/BassoLegnami/Templates/RazorPageGenerator/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = VGVtcGxhdGVzXFJhem9yUGFnZUdlbmVyYXRvclxfVmFsaWRhdGlvblNjcmlwdHNQYXJ0aWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rodolfo.bossio/OneDrive - Icri s.r.l/Desktop/BassoLegnami/BassoLegnami/Templates/Startup/ReadMe.cshtml]
+build_metadata.AdditionalFiles.TargetPath = VGVtcGxhdGVzXFN0YXJ0dXBcUmVhZE1lLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rodolfo.bossio/OneDrive - Icri s.r.l/Desktop/BassoLegnami/BassoLegnami/Templates/Startup/Startup.cshtml]
+build_metadata.AdditionalFiles.TargetPath = VGVtcGxhdGVzXFN0YXJ0dXBcU3RhcnR1cC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rodolfo.bossio/OneDrive - Icri s.r.l/Desktop/BassoLegnami/BassoLegnami/Templates/ViewGenerator/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = VGVtcGxhdGVzXFZpZXdHZW5lcmF0b3JcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rodolfo.bossio/OneDrive - Icri s.r.l/Desktop/BassoLegnami/BassoLegnami/Templates/ViewGenerator/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = VGVtcGxhdGVzXFZpZXdHZW5lcmF0b3JcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rodolfo.bossio/OneDrive - Icri s.r.l/Desktop/BassoLegnami/BassoLegnami/Templates/ViewGenerator/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = VGVtcGxhdGVzXFZpZXdHZW5lcmF0b3JcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rodolfo.bossio/OneDrive - Icri s.r.l/Desktop/BassoLegnami/BassoLegnami/Templates/ViewGenerator/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = VGVtcGxhdGVzXFZpZXdHZW5lcmF0b3JcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rodolfo.bossio/OneDrive - Icri s.r.l/Desktop/BassoLegnami/BassoLegnami/Templates/ViewGenerator/Empty.cshtml]
+build_metadata.AdditionalFiles.TargetPath = VGVtcGxhdGVzXFZpZXdHZW5lcmF0b3JcRW1wdHkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rodolfo.bossio/OneDrive - Icri s.r.l/Desktop/BassoLegnami/BassoLegnami/Templates/ViewGenerator/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = VGVtcGxhdGVzXFZpZXdHZW5lcmF0b3JcTGlzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rodolfo.bossio/OneDrive - Icri s.r.l/Desktop/BassoLegnami/BassoLegnami/Templates/ViewGenerator/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = VGVtcGxhdGVzXFZpZXdHZW5lcmF0b3JcX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rodolfo.bossio/OneDrive - Icri s.r.l/Desktop/BassoLegnami/BassoLegnami/Templates/ViewGenerator_Versioned/Bootstrap3/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = VGVtcGxhdGVzXFZpZXdHZW5lcmF0b3JfVmVyc2lvbmVkXEJvb3RzdHJhcDNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rodolfo.bossio/OneDrive - Icri s.r.l/Desktop/BassoLegnami/BassoLegnami/Templates/ViewGenerator_Versioned/Bootstrap3/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = VGVtcGxhdGVzXFZpZXdHZW5lcmF0b3JfVmVyc2lvbmVkXEJvb3RzdHJhcDNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rodolfo.bossio/OneDrive - Icri s.r.l/Desktop/BassoLegnami/BassoLegnami/Templates/ViewGenerator_Versioned/Bootstrap3/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = VGVtcGxhdGVzXFZpZXdHZW5lcmF0b3JfVmVyc2lvbmVkXEJvb3RzdHJhcDNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rodolfo.bossio/OneDrive - Icri s.r.l/Desktop/BassoLegnami/BassoLegnami/Templates/ViewGenerator_Versioned/Bootstrap3/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = VGVtcGxhdGVzXFZpZXdHZW5lcmF0b3JfVmVyc2lvbmVkXEJvb3RzdHJhcDNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rodolfo.bossio/OneDrive - Icri s.r.l/Desktop/BassoLegnami/BassoLegnami/Templates/ViewGenerator_Versioned/Bootstrap3/Empty.cshtml]
+build_metadata.AdditionalFiles.TargetPath = VGVtcGxhdGVzXFZpZXdHZW5lcmF0b3JfVmVyc2lvbmVkXEJvb3RzdHJhcDNcRW1wdHkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rodolfo.bossio/OneDrive - Icri s.r.l/Desktop/BassoLegnami/BassoLegnami/Templates/ViewGenerator_Versioned/Bootstrap3/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = VGVtcGxhdGVzXFZpZXdHZW5lcmF0b3JfVmVyc2lvbmVkXEJvb3RzdHJhcDNcTGlzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rodolfo.bossio/OneDrive - Icri s.r.l/Desktop/BassoLegnami/BassoLegnami/Templates/ViewGenerator_Versioned/Bootstrap3/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = VGVtcGxhdGVzXFZpZXdHZW5lcmF0b3JfVmVyc2lvbmVkXEJvb3RzdHJhcDNcX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rodolfo.bossio/OneDrive - Icri s.r.l/Desktop/BassoLegnami/BassoLegnami/Views/Account/AccessDenied.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxBY2Nlc3NEZW5pZWQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rodolfo.bossio/OneDrive - Icri s.r.l/Desktop/BassoLegnami/BassoLegnami/Views/Account/ConfirmEmail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxDb25maXJtRW1haWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rodolfo.bossio/OneDrive - Icri s.r.l/Desktop/BassoLegnami/BassoLegnami/Views/Account/ExternalLogin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxFeHRlcm5hbExvZ2luLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rodolfo.bossio/OneDrive - Icri s.r.l/Desktop/BassoLegnami/BassoLegnami/Views/Account/ForgotPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxGb3Jnb3RQYXNzd29yZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rodolfo.bossio/OneDrive - Icri s.r.l/Desktop/BassoLegnami/BassoLegnami/Views/Account/ForgotPasswordConfirmation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxGb3Jnb3RQYXNzd29yZENvbmZpcm1hdGlvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rodolfo.bossio/OneDrive - Icri s.r.l/Desktop/BassoLegnami/BassoLegnami/Views/Account/Lockout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2Nrb3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rodolfo.bossio/OneDrive - Icri s.r.l/Desktop/BassoLegnami/BassoLegnami/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rodolfo.bossio/OneDrive - Icri s.r.l/Desktop/BassoLegnami/BassoLegnami/Views/Account/LoginWith2fa.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbldpdGgyZmEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rodolfo.bossio/OneDrive - Icri s.r.l/Desktop/BassoLegnami/BassoLegnami/Views/Account/LoginWithRecoveryCode.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbldpdGhSZWNvdmVyeUNvZGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rodolfo.bossio/OneDrive - Icri s.r.l/Desktop/BassoLegnami/BassoLegnami/Views/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rodolfo.bossio/OneDrive - Icri s.r.l/Desktop/BassoLegnami/BassoLegnami/Views/Account/ResetPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZXNldFBhc3N3b3JkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rodolfo.bossio/OneDrive - Icri s.r.l/Desktop/BassoLegnami/BassoLegnami/Views/Account/ResetPasswordConfirmation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZXNldFBhc3N3b3JkQ29uZmlybWF0aW9uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rodolfo.bossio/OneDrive - Icri s.r.l/Desktop/BassoLegnami/BassoLegnami/Views/Account/SignedOut.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxTaWduZWRPdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rodolfo.bossio/OneDrive - Icri s.r.l/Desktop/BassoLegnami/BassoLegnami/Views/Account/_Account.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxfQWNjb3VudC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rodolfo.bossio/OneDrive - Icri s.r.l/Desktop/BassoLegnami/BassoLegnami/Views/Home/About.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBYm91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rodolfo.bossio/OneDrive - Icri s.r.l/Desktop/BassoLegnami/BassoLegnami/Views/Home/Contact.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb250YWN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rodolfo.bossio/OneDrive - Icri s.r.l/Desktop/BassoLegnami/BassoLegnami/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rodolfo.bossio/OneDrive - Icri s.r.l/Desktop/BassoLegnami/BassoLegnami/Views/Home/TilesMain.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxUaWxlc01haW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rodolfo.bossio/OneDrive - Icri s.r.l/Desktop/BassoLegnami/BassoLegnami/Views/Manage/ChangePassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFuYWdlXENoYW5nZVBhc3N3b3JkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rodolfo.bossio/OneDrive - Icri s.r.l/Desktop/BassoLegnami/BassoLegnami/Views/Manage/Disable2fa.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFuYWdlXERpc2FibGUyZmEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rodolfo.bossio/OneDrive - Icri s.r.l/Desktop/BassoLegnami/BassoLegnami/Views/Manage/EnableAuthenticator.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFuYWdlXEVuYWJsZUF1dGhlbnRpY2F0b3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rodolfo.bossio/OneDrive - Icri s.r.l/Desktop/BassoLegnami/BassoLegnami/Views/Manage/ExternalLogins.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFuYWdlXEV4dGVybmFsTG9naW5zLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rodolfo.bossio/OneDrive - Icri s.r.l/Desktop/BassoLegnami/BassoLegnami/Views/Manage/GenerateRecoveryCodes.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFuYWdlXEdlbmVyYXRlUmVjb3ZlcnlDb2Rlcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rodolfo.bossio/OneDrive - Icri s.r.l/Desktop/BassoLegnami/BassoLegnami/Views/Manage/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFuYWdlXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rodolfo.bossio/OneDrive - Icri s.r.l/Desktop/BassoLegnami/BassoLegnami/Views/Manage/ResetAuthenticator.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFuYWdlXFJlc2V0QXV0aGVudGljYXRvci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rodolfo.bossio/OneDrive - Icri s.r.l/Desktop/BassoLegnami/BassoLegnami/Views/Manage/SetPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFuYWdlXFNldFBhc3N3b3JkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rodolfo.bossio/OneDrive - Icri s.r.l/Desktop/BassoLegnami/BassoLegnami/Views/Manage/ShowRecoveryCodes.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFuYWdlXFNob3dSZWNvdmVyeUNvZGVzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rodolfo.bossio/OneDrive - Icri s.r.l/Desktop/BassoLegnami/BassoLegnami/Views/Manage/TwoFactorAuthentication.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFuYWdlXFR3b0ZhY3RvckF1dGhlbnRpY2F0aW9uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rodolfo.bossio/OneDrive - Icri s.r.l/Desktop/BassoLegnami/BassoLegnami/Views/Manage/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFuYWdlXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rodolfo.bossio/OneDrive - Icri s.r.l/Desktop/BassoLegnami/BassoLegnami/Views/Manage/_ManageNav.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFuYWdlXF9NYW5hZ2VOYXYuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rodolfo.bossio/OneDrive - Icri s.r.l/Desktop/BassoLegnami/BassoLegnami/Views/Manage/_StatusMessage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFuYWdlXF9TdGF0dXNNZXNzYWdlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rodolfo.bossio/OneDrive - Icri s.r.l/Desktop/BassoLegnami/BassoLegnami/Views/Manage/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFuYWdlXF9WaWV3SW1wb3J0cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rodolfo.bossio/OneDrive - Icri s.r.l/Desktop/BassoLegnami/BassoLegnami/Views/Shared/DisplayTemplates/Boolean.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXERpc3BsYXlUZW1wbGF0ZXNcQm9vbGVhbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rodolfo.bossio/OneDrive - Icri s.r.l/Desktop/BassoLegnami/BassoLegnami/Views/Shared/EditorTemplates/Boolean.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVkaXRvclRlbXBsYXRlc1xCb29sZWFuLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rodolfo.bossio/OneDrive - Icri s.r.l/Desktop/BassoLegnami/BassoLegnami/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rodolfo.bossio/OneDrive - Icri s.r.l/Desktop/BassoLegnami/BassoLegnami/Views/Shared/LocalizableObjectDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXExvY2FsaXphYmxlT2JqZWN0RGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rodolfo.bossio/OneDrive - Icri s.r.l/Desktop/BassoLegnami/BassoLegnami/Views/Shared/LocalizableObjectEdit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXExvY2FsaXphYmxlT2JqZWN0RWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rodolfo.bossio/OneDrive - Icri s.r.l/Desktop/BassoLegnami/BassoLegnami/Views/Shared/_AttachedFiles.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9BdHRhY2hlZEZpbGVzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rodolfo.bossio/OneDrive - Icri s.r.l/Desktop/BassoLegnami/BassoLegnami/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rodolfo.bossio/OneDrive - Icri s.r.l/Desktop/BassoLegnami/BassoLegnami/Views/Shared/_LayoutNotLoggedIn.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXROb3RMb2dnZWRJbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rodolfo.bossio/OneDrive - Icri s.r.l/Desktop/BassoLegnami/BassoLegnami/Views/Shared/_LoginPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rodolfo.bossio/OneDrive - Icri s.r.l/Desktop/BassoLegnami/BassoLegnami/Views/Shared/_Menu.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9NZW51LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rodolfo.bossio/OneDrive - Icri s.r.l/Desktop/BassoLegnami/BassoLegnami/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rodolfo.bossio/OneDrive - Icri s.r.l/Desktop/BassoLegnami/BassoLegnami/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rodolfo.bossio/OneDrive - Icri s.r.l/Desktop/BassoLegnami/BassoLegnami/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 

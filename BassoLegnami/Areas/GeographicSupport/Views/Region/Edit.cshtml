@@ -1,0 +1,71 @@
+﻿@model BassoLegnami.Model.Models.GeographicSupport.Region
+@using Microsoft.AspNetCore.Mvc.Localization
+@inject IHtmlLocalizer<SharedResource> SR
+
+@{
+    ViewData["Title"] = string.Format("{0} {1}", SR["Edit"].Value, Html.DisplayNameFor(model => model.RegionID).ToString());
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h5>@ViewBag.Title</h5>
+
+<div class="row">
+    <div class="col-md-3"></div>
+    <div class="col-md-6">
+        <div class="card stacked-form">
+            <div class="card-header">
+                <h4 class="card-title title">@ViewData["Title"]</h4>
+            </div>
+            <div class="card-body">
+                <form asp-action="Edit">
+                    <hr />
+                    <div asp-validation-summary="ModelOnly" class="alert alert-danger"><i class="fa fa-close"></i></div>
+                    <input type="hidden" asp-for="RegionID" />
+
+                    <div class="editor-label">
+                        @Html.LabelFor(model => model.Name)
+                    </div>
+                    <div class="editor-field">
+                        @Html.EditorFor(model => model.Name)
+                        @Html.ValidationMessageFor(model => model.Name)
+                    </div>
+
+                    <div class="editor-label">
+                        @Html.LabelFor(model => model.ISTATCode)
+                    </div>
+                    <div class="editor-field">
+                        @Html.EditorFor(model => model.ISTATCode)
+                        @Html.ValidationMessageFor(model => model.ISTATCode)
+                    </div>
+
+                    <div class="editor-label">
+                        @Html.LabelFor(model => model.RegionalZoneID)
+                    </div>
+                    <div class="editor-field">
+                        @Html.DropDownList("RegionalZoneID", String.Empty)
+                        @Html.ValidationMessageFor(model => model.RegionalZoneID)
+                    </div>
+
+                    <div class="editor-label">
+                        @Html.LabelFor(model => model.Flag1)
+                    </div>
+                    <div class="editor-field">
+                        @Html.EditorFor(model => model.Flag1)
+                        @Html.ValidationMessageFor(model => model.Flag1)
+                    </div>
+                    <input type="hidden" asp-for="CreatedBy" />
+                    <input type="hidden" asp-for="CreatedOn" />
+                    <input type="hidden" asp-for="UpdatedBy" />
+                    <input type="hidden" asp-for="UpdatedOn" />
+                    <input type="hidden" asp-for="RowVersion" />
+                    <hr />
+                    <div class="text-right">
+                        <button type="submit" value="Edit" class="btn btn-warning"><i class="fa fa-save"></i> @SR["Save"]</button>
+                        <a asp-action="Index" class="btn btn-default"><i class="fa fa-chevron-left"></i> @SR["BackToList"]</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3"></div>
+</div>

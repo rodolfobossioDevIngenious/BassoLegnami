@@ -1,0 +1,54 @@
+﻿@model BassoLegnami.Model.Models.LocalizableObject
+
+<fieldset>
+    <legend></legend>
+    <hr class="separator" />
+    <h5>@BassoLegnami.Model.Resources.Models.LocalizableObject.LocalizableObject.Address</h5>
+    <div class="row">
+        <div class="col-md-4 col-sm-12">
+            <div class="form-group">
+                <label asp-for="Address" class="control-label"></label>
+                <input asp-for="Address" class="form-control" />
+                <span asp-validation-for="Address" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="col-sm-1 col-12">
+            <div class="form-group">
+                <label asp-for="CAP" class="control-label"></label>
+                <input asp-for="CAP" class="form-control" />
+                <span asp-validation-for="CAP" class="text-danger"></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-6 col-sm-12">
+            <div class="form-group">
+                <label asp-for="CityName" class="control-label"></label>
+                <input asp-for="CityName" class="form-control" />
+                <span asp-validation-for="CityName" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="col-md-3 col-sm-12">
+            <div class="form-group">
+                <label asp-for="ProvinceName" class="control-label"></label>
+                <input asp-for="ProvinceName" class="form-control" />
+                <span asp-validation-for="ProvinceName" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="col-md-3 col-sm-12">
+            <div class="form-group">
+                <label asp-for="Country" class="control-label"></label>
+                <input asp-for="Country" class="form-control" />
+                <span asp-validation-for="Country" class="text-danger"></span>
+            </div>
+        </div>
+    </div>
+    @if (Model != null)
+    {
+        @Html.Hidden("AddressTimeStamp", Model.RowVersion)
+        @Html.Hidden("AddressStreet", Model.AddressStreet)
+        @Html.Hidden("AddressStreetNumber", Model.AddressStreetNumber)
+        @Html.Hidden("AddressStreetType", Model.AddressStreetType)
+    }
+</fieldset>

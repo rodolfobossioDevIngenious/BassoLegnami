@@ -1,0 +1,116 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup Label="Globals">
+    <SccProjectName>SAK</SccProjectName>
+    <SccProvider>SAK</SccProvider>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccLocalPath>SAK</SccLocalPath>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Models\Main\**" />
+    <Compile Remove="Resources\Models\Main\**" />
+    <EmbeddedResource Remove="Models\Main\**" />
+    <EmbeddedResource Remove="Resources\Models\Main\**" />
+    <None Remove="Models\Main\**" />
+    <None Remove="Resources\Models\Main\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ClosedXML" Version="0.102.0" />
+    <PackageReference Include="Elsa" Version="2.12.0" />
+    <PackageReference Include="Elsa.Activities.Http" Version="2.12.0" />
+    <PackageReference Include="Elsa.Activities.Temporal.Quartz" Version="2.12.0" />
+    <PackageReference Include="Elsa.Designer.Components.Web" Version="2.12.0" />
+    <PackageReference Include="Elsa.Persistence.EntityFramework.Core" Version="2.12.0" />
+    <PackageReference Include="Elsa.Persistence.EntityFramework.SqlServer" Version="2.12.0" />
+    <PackageReference Include="Elsa.Server.Api" Version="2.12.0" />
+    <PackageReference Include="GoogleMapsAPI.NET.Core" Version="1.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="7.0.10" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="7.0.10" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="7.0.10" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" Version="7.0.10" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Proxies" Version="7.0.10" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.10" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="7.0.10">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="morelinq" Version="3.4.2" />
+    <PackageReference Include="NinjaNye.SearchExtensions" Version="3.0.1" />
+    <PackageReference Include="SqlTableDependency" Version="8.5.8" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\In.Core\In.Core.csproj" />
+    <ProjectReference Include="..\BassoLegnami.Reports\BassoLegnami.Reports.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Resources\Models\GeographicSupport\Region\Region.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Region.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources\Models\SharedResource.it.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources\Models\Support\Festivity\Festivity.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Festivity.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Activities\" />
+    <Folder Include="Configuration\" />
+    <Folder Include="Extensions\" />
+    <Folder Include="Resources\Workflows\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="C:\Users\alber\.nuget\packages\tesseract\5.2.0\build\\..\x64\leptonica-1.82.0.dll" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="C:\Users\alber\.nuget\packages\tesseract\5.2.0\build\\..\x64\tesseract50.dll" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="C:\Users\alber\.nuget\packages\tesseract\5.2.0\build\\..\x64\leptonica-1.82.0.dll" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="C:\Users\alber\.nuget\packages\tesseract\5.2.0\build\\..\x64\tesseract50.dll" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="C:\Users\alber\.nuget\packages\tesseract\5.2.0\build\\..\x86\leptonica-1.82.0.dll" />
+    <None Remove="EmailTemplates\ConfirmResetPassword.html" />
+    <None Remove="EmailTemplates\resetPassword.html" />
+    <None Remove="EmailTemplates\resetPasswordEmployee.html" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="EmailTemplates\ConfirmResetPassword.html" />
+    <EmbeddedResource Include="EmailTemplates\resetPassword.html" />
+    <EmbeddedResource Include="EmailTemplates\resetPasswordEmployee.html" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Resources\Models\GeographicSupport\Region\Region.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Region.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Resources\Models\Support\Festivity\Festivity.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Festivity.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+</Project>

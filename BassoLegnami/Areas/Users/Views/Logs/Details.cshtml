@@ -1,0 +1,113 @@
+﻿@model BassoLegnami.Model.Models.Log.Log
+@using Microsoft.AspNetCore.Mvc.Localization
+@inject IHtmlLocalizer<SharedResource> SR
+@inject IHtmlLocalizer<BassoLegnami.Model.Models.Log.Error> E
+@inject UserManager<In.Core.Models.ApplicationUser> userManager;
+
+@{
+    ViewData["Title"] = string.Format("{0} {1}", SR["Details"].Value, Html.DisplayNameFor(model => model.LogID).ToString());
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="card stacked-form">
+    <div class="card-header">
+        <h4 class="card-title title">@ViewData["Title"]</h4>
+    </div>
+    <div class="card-body">
+        <form asp-action="Details">
+            <ul role="tablist" class="nav nav-tabs">
+                <li role="presentation" class="nav-item show active">
+                    <a class="nav-link" id="info-tab" href="#icon-info" data-toggle="tab"><i class="fa fa-info"></i> @SR["GeneralTab"]</a>
+                </li>
+                <li role="presentation">
+                    <a class="nav-link" id="error-tab" href="#icon-error" data-toggle="tab"><i class="fa fa-times"></i> @E["ObjectName"]</a>
+                </li>
+            </ul>
+            <div class="tab-content">
+                <div id="icon-info" class="tab-pane fade show active" role="tabpanel" aria-labelledby="info-tab">
+                    <div class="row">
+                        <div class="col-lg-4 col-sm-12">
+                            <div class="form-group">
+                                <label asp-for="UserID" class="control-label"></label>
+                                <display asp-for="@userManager.FindByIdAsync(Model.UserID.ToString()).Result.UserName" class="form-control"></display>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-sm-12">
+                            <div class="form-group">
+                                <label asp-for="StartTime" class="control-label"></label>
+                                <display asp-for="StartTime" class="form-control"></display>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-sm-12">
+                            <div class="form-group">
+                                <label asp-for="EndTime" class="control-label"></label>
+                                <display asp-for="EndTime" class="form-control"></display>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-lg-3 col-sm-12">
+                            <div class="form-group">
+                                <label asp-for="Controller" class="control-label"></label>
+                                <display asp-for="Controller" class="form-control"></display>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-12">
+                            <div class="form-group">
+                                <label asp-for="Action" class="control-label"></label>
+                                <display asp-for="Action" class="form-control"></display>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-12">
+                            <div class="form-group">
+                                <label asp-for="RecordID" class="control-label"></label>
+                                <display asp-for="RecordID" class="form-control"></display>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-12">
+                            <div class="form-group">
+                                <label asp-for="Method" class="control-label"></label>
+                                <display asp-for="Method" class="form-control"></display>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="QueryString" class="control-label"></label>
+                        <display asp-for="QueryString" class="form-control"></display>
+                    </div>
+                </div>
+                <div id="icon-error" class="tab-pane fade" role="tabpanel" aria-labelledby="error-tab">
+                    <div class="row">
+                        <div class="col-12">
+                            <label asp-for="Errors.FirstOrDefault().Message" class="control-label"></label>
+                            <display asp-for="Errors.FirstOrDefault().Message" class="form-control"></display>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <label asp-for="Errors.FirstOrDefault().ExceptionName" class="control-label"></label>
+                            <display asp-for="Errors.FirstOrDefault().ExceptionName" class="form-control"></display>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <label asp-for="Errors.FirstOrDefault().StackTrace" class="control-label"></label>
+                            <display asp-for="Errors.FirstOrDefault().StackTrace" class="form-control"></display>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <label asp-for="Errors.FirstOrDefault().Source" class="control-label"></label>
+                            <display asp-for="Errors.FirstOrDefault().Source" class="form-control"></display>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+        <hr />
+        <div class="text-right">
+            <a asp-action="Index" class="btn btn-default"><i class="fa fa-chevron-left"></i> @SR["BackToList"]</a>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,47 @@
+﻿@using System.Collections.Generic
+@using System.Linq
+@using Microsoft.AspNetCore.Http
+@using Microsoft.AspNetCore.Mvc.Localization
+@using Microsoft.Extensions.Options;
+@using In.Core.Configuration;
+@model BassoLegnami.Models.AccountViewModels.LoginViewModel
+@inject SignInManager<In.Core.Models.ApplicationUser> SignInManager
+@inject IViewLocalizer L
+@inject IOptions<ApplicationConfigurations> O
+
+@{
+    Layout = "~/Views/Account/_Account.cshtml";
+    ViewData["Title"] = L["LogIn"];
+}
+<form asp-route-returnurl="@ViewData["ReturnUrl"]" method="post">
+    <div class="card card-login card-hidden">
+        <div class="card-header ">
+            <h3 class="header text-center"><i class="fa fa-sign-in"></i>&nbsp;&nbsp;@L["LogIn"]</h3>
+            <hr />
+        </div>
+        <div class="card-body ">
+            <div class="card-body">
+                <div class="form-group">
+                    <label class="control-label">@L["EmailAddress"]</label>
+                    <input type="email" placeholder="@L["EnterEmail"]" asp-for="Email" class="form-control" tabindex="1"/>
+                </div>
+                <div class="form-group">
+                    <label class="control-label">@L["Password"]</label><a asp-controller="Account" asp-action="ForgotPassword" class="pull-right" style="font-size:0.8em;" tabindex="5">@L["ForgotPassword"]</a>
+                    <input type="password" placeholder="@L["EnterPassword"]" asp-for="Password" class="form-control" tabindex="2" />
+                </div>
+                <div class="form-group">
+                    <div class="checkbox">
+                        <label class="control-label">@L["RememberMe"]</label>
+                        <input asp-for="RememberMe" tabindex="3" />
+                    </div>
+                </div>
+
+                @Html.ValidationSummary()
+            </div>
+            <hr />
+        </div>
+        <div class="card-footer ml-auto mr-auto text-center">
+            <button type="submit" class="btn btn-primary btn-wd" tabindex="4"><i class="fa fa-key"></i> @L["LogIn"]</button><br />
+        </div>
+    </div>
+</form>

@@ -1,0 +1,2497 @@
+{
+  "Files": [
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\AUTONOMO - DICHIARAZIONE IDONEITA' TECNICO PROFESSIONALE.pdf",
+      "PackagePath": "staticwebassets\\AUTONOMO - DICHIARAZIONE IDONEITA' TECNICO PROFESSIONALE.pdf"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\Autocertificatione.pdf",
+      "PackagePath": "staticwebassets\\Autocertificatione.pdf"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\ICRI ProAcive - Procedura ripristino password.pdf",
+      "PackagePath": "staticwebassets\\ICRI ProAcive - Procedura ripristino password.pdf"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\ICRI ProActive - Modulo veicoli.pdf",
+      "PackagePath": "staticwebassets\\ICRI ProActive - Modulo veicoli.pdf"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\ICRI ProActive - Procedura registrazione.pdf",
+      "PackagePath": "staticwebassets\\ICRI ProActive - Procedura registrazione.pdf"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\css\\jquery-jvectormap-2.0.3.css",
+      "PackagePath": "staticwebassets\\css\\jquery-jvectormap-2.0.3.css"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\css\\overlaySpinner.css",
+      "PackagePath": "staticwebassets\\css\\overlaySpinner.css"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\images\\WhatsApp.png",
+      "PackagePath": "staticwebassets\\images\\WhatsApp.png"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\images\\alert-icon-red.png",
+      "PackagePath": "staticwebassets\\images\\alert-icon-red.png"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\images\\banner1.svg",
+      "PackagePath": "staticwebassets\\images\\banner1.svg"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\images\\banner2.svg",
+      "PackagePath": "staticwebassets\\images\\banner2.svg"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\images\\banner3.svg",
+      "PackagePath": "staticwebassets\\images\\banner3.svg"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\images\\banner4.svg",
+      "PackagePath": "staticwebassets\\images\\banner4.svg"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\images\\buon_natale_icri_ceti.png",
+      "PackagePath": "staticwebassets\\images\\buon_natale_icri_ceti.png"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\images\\ddt_logo.png",
+      "PackagePath": "staticwebassets\\images\\ddt_logo.png"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\images\\document_1.png",
+      "PackagePath": "staticwebassets\\images\\document_1.png"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\images\\document_2.png",
+      "PackagePath": "staticwebassets\\images\\document_2.png"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\images\\document_3.png",
+      "PackagePath": "staticwebassets\\images\\document_3.png"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\images\\document_4.png",
+      "PackagePath": "staticwebassets\\images\\document_4.png"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\images\\document_5.png",
+      "PackagePath": "staticwebassets\\images\\document_5.png"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\images\\document_6.png",
+      "PackagePath": "staticwebassets\\images\\document_6.png"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\images\\end_of_page.png",
+      "PackagePath": "staticwebassets\\images\\end_of_page.png"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\images\\favicon.ico",
+      "PackagePath": "staticwebassets\\images\\favicon.ico"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\images\\header_logo.png",
+      "PackagePath": "staticwebassets\\images\\header_logo.png"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\images\\loginBackground.jpg",
+      "PackagePath": "staticwebassets\\images\\loginBackground.jpg"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\images\\logo-ceti.png",
+      "PackagePath": "staticwebassets\\images\\logo-ceti.png"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\images\\logo-icri.png",
+      "PackagePath": "staticwebassets\\images\\logo-icri.png"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\images\\logo.png",
+      "PackagePath": "staticwebassets\\images\\logo.png"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\images\\logoCeti.png",
+      "PackagePath": "staticwebassets\\images\\logoCeti.png"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\images\\logoCetiPrint.png",
+      "PackagePath": "staticwebassets\\images\\logoCetiPrint.png"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\images\\logo_Small_Transparent.png",
+      "PackagePath": "staticwebassets\\images\\logo_Small_Transparent.png"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\images\\logo_icri_ceti.png",
+      "PackagePath": "staticwebassets\\images\\logo_icri_ceti.png"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\images\\logo_ko.png",
+      "PackagePath": "staticwebassets\\images\\logo_ko.png"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\images\\logo_ok.png",
+      "PackagePath": "staticwebassets\\images\\logo_ok.png"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\images\\options.png",
+      "PackagePath": "staticwebassets\\images\\options.png"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\images\\orders_header_logo.png",
+      "PackagePath": "staticwebassets\\images\\orders_header_logo.png"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\images\\print.png",
+      "PackagePath": "staticwebassets\\images\\print.png"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\images\\registration.png",
+      "PackagePath": "staticwebassets\\images\\registration.png"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\images\\registration_1.png",
+      "PackagePath": "staticwebassets\\images\\registration_1.png"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\images\\registration_2.png",
+      "PackagePath": "staticwebassets\\images\\registration_2.png"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\images\\registration_3 .png",
+      "PackagePath": "staticwebassets\\images\\registration_3 .png"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\images\\registration_4.png",
+      "PackagePath": "staticwebassets\\images\\registration_4.png"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\images\\resetPassword.png",
+      "PackagePath": "staticwebassets\\images\\resetPassword.png"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\images\\resetPassword_1.png",
+      "PackagePath": "staticwebassets\\images\\resetPassword_1.png"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\images\\resetPassword_2.png",
+      "PackagePath": "staticwebassets\\images\\resetPassword_2.png"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\images\\resetPassword_3.png",
+      "PackagePath": "staticwebassets\\images\\resetPassword_3.png"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\images\\resetPassword_4.png",
+      "PackagePath": "staticwebassets\\images\\resetPassword_4.png"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\images\\sidebar.jpg",
+      "PackagePath": "staticwebassets\\images\\sidebar.jpg"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\images\\success-icon-green.png",
+      "PackagePath": "staticwebassets\\images\\success-icon-green.png"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\images\\warning-icon-yellow.png",
+      "PackagePath": "staticwebassets\\images\\warning-icon-yellow.png"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\js\\site.min.js",
+      "PackagePath": "staticwebassets\\js\\site.min.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\bootstrap-checkbox\\bootstrap-checkbox.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-checkbox\\bootstrap-checkbox.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\bootstrap-checkbox\\i18n\\it.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-checkbox\\i18n\\it.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\bootstrap-fileinput\\css\\fileinput-rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-fileinput\\css\\fileinput-rtl.css"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\bootstrap-fileinput\\css\\fileinput-rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-fileinput\\css\\fileinput-rtl.min.css"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\bootstrap-fileinput\\css\\fileinput.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-fileinput\\css\\fileinput.css"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\bootstrap-fileinput\\css\\fileinput.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-fileinput\\css\\fileinput.min.css"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\bootstrap-fileinput\\fileinput.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-fileinput\\fileinput.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\bootstrap-fileinput\\fileinput.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-fileinput\\fileinput.min.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\bootstrap-fileinput\\img\\loading-sm.gif",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-fileinput\\img\\loading-sm.gif"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\bootstrap-fileinput\\img\\loading.gif",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-fileinput\\img\\loading.gif"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\bootstrap-fileinput\\scss\\fileinput-rtl.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-fileinput\\scss\\fileinput-rtl.scss"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\bootstrap-fileinput\\scss\\fileinput.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-fileinput\\scss\\fileinput.scss"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\bootstrap-fileinput\\scss\\themes\\explorer-fa\\theme.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-fileinput\\scss\\themes\\explorer-fa\\theme.scss"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\bootstrap-fileinput\\scss\\themes\\explorer-fas\\theme.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-fileinput\\scss\\themes\\explorer-fas\\theme.scss"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\bootstrap-fileinput\\scss\\themes\\explorer\\theme.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-fileinput\\scss\\themes\\explorer\\theme.scss"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\bootstrap-fileinput\\themes\\explorer-fa\\theme.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-fileinput\\themes\\explorer-fa\\theme.css"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\bootstrap-fileinput\\themes\\explorer-fa\\theme.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-fileinput\\themes\\explorer-fa\\theme.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\bootstrap-fileinput\\themes\\explorer-fa\\theme.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-fileinput\\themes\\explorer-fa\\theme.min.css"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\bootstrap-fileinput\\themes\\explorer-fa\\theme.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-fileinput\\themes\\explorer-fa\\theme.min.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\bootstrap-fileinput\\themes\\explorer-fas\\theme.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-fileinput\\themes\\explorer-fas\\theme.css"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\bootstrap-fileinput\\themes\\explorer-fas\\theme.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-fileinput\\themes\\explorer-fas\\theme.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\bootstrap-fileinput\\themes\\explorer-fas\\theme.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-fileinput\\themes\\explorer-fas\\theme.min.css"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\bootstrap-fileinput\\themes\\explorer-fas\\theme.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-fileinput\\themes\\explorer-fas\\theme.min.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\bootstrap-fileinput\\themes\\explorer\\theme.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-fileinput\\themes\\explorer\\theme.css"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\bootstrap-fileinput\\themes\\explorer\\theme.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-fileinput\\themes\\explorer\\theme.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\bootstrap-fileinput\\themes\\explorer\\theme.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-fileinput\\themes\\explorer\\theme.min.css"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\bootstrap-fileinput\\themes\\explorer\\theme.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-fileinput\\themes\\explorer\\theme.min.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\bootstrap-fileinput\\themes\\fa\\theme.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-fileinput\\themes\\fa\\theme.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\bootstrap-fileinput\\themes\\fa\\theme.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-fileinput\\themes\\fa\\theme.min.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\bootstrap-fileinput\\themes\\fas\\theme.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-fileinput\\themes\\fas\\theme.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\bootstrap-fileinput\\themes\\fas\\theme.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-fileinput\\themes\\fas\\theme.min.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\bootstrap-fileinput\\themes\\gly\\theme.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-fileinput\\themes\\gly\\theme.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\bootstrap-fileinput\\themes\\gly\\theme.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-fileinput\\themes\\gly\\theme.min.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\bootstrap-glyphicons\\config.json",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-glyphicons\\config.json"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\bootstrap-glyphicons\\css\\bootstrap-theme.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-glyphicons\\css\\bootstrap-theme.css"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\bootstrap-glyphicons\\css\\bootstrap-theme.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-glyphicons\\css\\bootstrap-theme.min.css"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\bootstrap-glyphicons\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-glyphicons\\css\\bootstrap.css"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\bootstrap-glyphicons\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-glyphicons\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\bootstrap-glyphicons\\fonts\\glyphicons-halflings-regular.eot",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-glyphicons\\fonts\\glyphicons-halflings-regular.eot"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\bootstrap-glyphicons\\fonts\\glyphicons-halflings-regular.svg",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-glyphicons\\fonts\\glyphicons-halflings-regular.svg"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\bootstrap-glyphicons\\fonts\\glyphicons-halflings-regular.ttf",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-glyphicons\\fonts\\glyphicons-halflings-regular.ttf"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\bootstrap-glyphicons\\fonts\\glyphicons-halflings-regular.woff",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-glyphicons\\fonts\\glyphicons-halflings-regular.woff"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\bootstrap-glyphicons\\fonts\\glyphicons-halflings-regular.woff2",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-glyphicons\\fonts\\glyphicons-halflings-regular.woff2"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\bootstrap-rating\\bootstrap-rating.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-rating\\bootstrap-rating.css"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\bootstrap-rating\\bootstrap-rating.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-rating\\bootstrap-rating.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\bootstrap-rating\\bootstrap-rating.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-rating\\bootstrap-rating.min.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\bootstrap-treeview\\bootstrap-treeview.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-treeview\\bootstrap-treeview.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\bootstrap-treeview\\bootstrap-treeview.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-treeview\\bootstrap-treeview.min.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\bootstrap\\.bower.json",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\.bower.json"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-theme.css"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-theme.css.map"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-theme.min.css"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-theme.min.css.map"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\bootstrap\\dist\\fonts\\glyphicons-halflings-regular.eot",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\fonts\\glyphicons-halflings-regular.eot"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\bootstrap\\dist\\fonts\\glyphicons-halflings-regular.svg",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\fonts\\glyphicons-halflings-regular.svg"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\bootstrap\\dist\\fonts\\glyphicons-halflings-regular.ttf",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\fonts\\glyphicons-halflings-regular.ttf"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\bootstrap\\dist\\fonts\\glyphicons-halflings-regular.woff",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\fonts\\glyphicons-halflings-regular.woff"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\bootstrap\\dist\\fonts\\glyphicons-halflings-regular.woff2",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\fonts\\glyphicons-halflings-regular.woff2"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\bootstrap\\dist\\js\\npm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\npm.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\download.js",
+      "PackagePath": "staticwebassets\\lib\\download.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\dropzone\\basic.css",
+      "PackagePath": "staticwebassets\\lib\\dropzone\\basic.css"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\dropzone\\dropzone-amd-module.js",
+      "PackagePath": "staticwebassets\\lib\\dropzone\\dropzone-amd-module.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\dropzone\\dropzone.css",
+      "PackagePath": "staticwebassets\\lib\\dropzone\\dropzone.css"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\dropzone\\dropzone.js",
+      "PackagePath": "staticwebassets\\lib\\dropzone\\dropzone.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\dropzone\\min\\basic.min.css",
+      "PackagePath": "staticwebassets\\lib\\dropzone\\min\\basic.min.css"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\dropzone\\min\\dropzone-amd-module.min.js",
+      "PackagePath": "staticwebassets\\lib\\dropzone\\min\\dropzone-amd-module.min.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\dropzone\\min\\dropzone.min.css",
+      "PackagePath": "staticwebassets\\lib\\dropzone\\min\\dropzone.min.css"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\dropzone\\min\\dropzone.min.js",
+      "PackagePath": "staticwebassets\\lib\\dropzone\\min\\dropzone.min.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\dropzone\\readme.md",
+      "PackagePath": "staticwebassets\\lib\\dropzone\\readme.md"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\fileinput\\fileinput.js",
+      "PackagePath": "staticwebassets\\lib\\fileinput\\fileinput.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\fileinput\\fileinput.min.js",
+      "PackagePath": "staticwebassets\\lib\\fileinput\\fileinput.min.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\inputmask\\inputmask\\bindings\\inputmask.binding.min.js",
+      "PackagePath": "staticwebassets\\lib\\inputmask\\inputmask\\bindings\\inputmask.binding.min.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\inputmask\\inputmask\\dependencyLibs\\inputmask.dependencyLib.jqlite.min.js",
+      "PackagePath": "staticwebassets\\lib\\inputmask\\inputmask\\dependencyLibs\\inputmask.dependencyLib.jqlite.min.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\inputmask\\inputmask\\dependencyLibs\\inputmask.dependencyLib.jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\inputmask\\inputmask\\dependencyLibs\\inputmask.dependencyLib.jquery.min.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\inputmask\\inputmask\\dependencyLibs\\inputmask.dependencyLib.min.js",
+      "PackagePath": "staticwebassets\\lib\\inputmask\\inputmask\\dependencyLibs\\inputmask.dependencyLib.min.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\inputmask\\inputmask\\global\\window.min.js",
+      "PackagePath": "staticwebassets\\lib\\inputmask\\inputmask\\global\\window.min.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\inputmask\\inputmask\\inputmask.date.extensions.min.js",
+      "PackagePath": "staticwebassets\\lib\\inputmask\\inputmask\\inputmask.date.extensions.min.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\inputmask\\inputmask\\inputmask.extensions.min.js",
+      "PackagePath": "staticwebassets\\lib\\inputmask\\inputmask\\inputmask.extensions.min.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\inputmask\\inputmask\\inputmask.min.js",
+      "PackagePath": "staticwebassets\\lib\\inputmask\\inputmask\\inputmask.min.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\inputmask\\inputmask\\inputmask.numeric.extensions.min.js",
+      "PackagePath": "staticwebassets\\lib\\inputmask\\inputmask\\inputmask.numeric.extensions.min.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\inputmask\\inputmask\\jquery.inputmask.min.js",
+      "PackagePath": "staticwebassets\\lib\\inputmask\\inputmask\\jquery.inputmask.min.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\inputmask\\jquery.inputmask.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\inputmask\\jquery.inputmask.bundle.min.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\jquery-donetyping\\jquery.donetyping.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-donetyping\\jquery.donetyping.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\jquery-minicolors-master\\jquery.minicolors.css",
+      "PackagePath": "staticwebassets\\lib\\jquery-minicolors-master\\jquery.minicolors.css"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\jquery-minicolors-master\\jquery.minicolors.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-minicolors-master\\jquery.minicolors.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\jquery-minicolors-master\\jquery.minicolors.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-minicolors-master\\jquery.minicolors.min.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\jquery-minicolors-master\\jquery.minicolors.png",
+      "PackagePath": "staticwebassets\\lib\\jquery-minicolors-master\\jquery.minicolors.png"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\jquery-querybuilder\\css\\bootstrap-theme.css",
+      "PackagePath": "staticwebassets\\lib\\jquery-querybuilder\\css\\bootstrap-theme.css"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\jquery-querybuilder\\css\\bootstrap-theme.min.css",
+      "PackagePath": "staticwebassets\\lib\\jquery-querybuilder\\css\\bootstrap-theme.min.css"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\jquery-querybuilder\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\jquery-querybuilder\\css\\bootstrap.css"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\jquery-querybuilder\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\jquery-querybuilder\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\jquery-querybuilder\\css\\query-builder.dark.css",
+      "PackagePath": "staticwebassets\\lib\\jquery-querybuilder\\css\\query-builder.dark.css"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\jquery-querybuilder\\css\\query-builder.dark.min.css",
+      "PackagePath": "staticwebassets\\lib\\jquery-querybuilder\\css\\query-builder.dark.min.css"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\jquery-querybuilder\\css\\query-builder.default.css",
+      "PackagePath": "staticwebassets\\lib\\jquery-querybuilder\\css\\query-builder.default.css"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\jquery-querybuilder\\css\\query-builder.default.min.css",
+      "PackagePath": "staticwebassets\\lib\\jquery-querybuilder\\css\\query-builder.default.min.css"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\jquery-querybuilder\\fonts\\glyphicons-halflings-regular.eot",
+      "PackagePath": "staticwebassets\\lib\\jquery-querybuilder\\fonts\\glyphicons-halflings-regular.eot"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\jquery-querybuilder\\fonts\\glyphicons-halflings-regular.svg",
+      "PackagePath": "staticwebassets\\lib\\jquery-querybuilder\\fonts\\glyphicons-halflings-regular.svg"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\jquery-querybuilder\\fonts\\glyphicons-halflings-regular.ttf",
+      "PackagePath": "staticwebassets\\lib\\jquery-querybuilder\\fonts\\glyphicons-halflings-regular.ttf"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\jquery-querybuilder\\fonts\\glyphicons-halflings-regular.woff",
+      "PackagePath": "staticwebassets\\lib\\jquery-querybuilder\\fonts\\glyphicons-halflings-regular.woff"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\jquery-querybuilder\\fonts\\glyphicons-halflings-regular.woff2",
+      "PackagePath": "staticwebassets\\lib\\jquery-querybuilder\\fonts\\glyphicons-halflings-regular.woff2"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\jquery-querybuilder\\i18n\\query-builder.ar.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-querybuilder\\i18n\\query-builder.ar.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\jquery-querybuilder\\i18n\\query-builder.az.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-querybuilder\\i18n\\query-builder.az.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\jquery-querybuilder\\i18n\\query-builder.bg.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-querybuilder\\i18n\\query-builder.bg.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\jquery-querybuilder\\i18n\\query-builder.cs.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-querybuilder\\i18n\\query-builder.cs.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\jquery-querybuilder\\i18n\\query-builder.da.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-querybuilder\\i18n\\query-builder.da.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\jquery-querybuilder\\i18n\\query-builder.de.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-querybuilder\\i18n\\query-builder.de.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\jquery-querybuilder\\i18n\\query-builder.el.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-querybuilder\\i18n\\query-builder.el.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\jquery-querybuilder\\i18n\\query-builder.en.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-querybuilder\\i18n\\query-builder.en.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\jquery-querybuilder\\i18n\\query-builder.eo.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-querybuilder\\i18n\\query-builder.eo.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\jquery-querybuilder\\i18n\\query-builder.es.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-querybuilder\\i18n\\query-builder.es.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\jquery-querybuilder\\i18n\\query-builder.fa-IR.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-querybuilder\\i18n\\query-builder.fa-IR.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\jquery-querybuilder\\i18n\\query-builder.fr.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-querybuilder\\i18n\\query-builder.fr.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\jquery-querybuilder\\i18n\\query-builder.he.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-querybuilder\\i18n\\query-builder.he.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\jquery-querybuilder\\i18n\\query-builder.hu.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-querybuilder\\i18n\\query-builder.hu.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\jquery-querybuilder\\i18n\\query-builder.it.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-querybuilder\\i18n\\query-builder.it.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\jquery-querybuilder\\i18n\\query-builder.lt.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-querybuilder\\i18n\\query-builder.lt.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\jquery-querybuilder\\i18n\\query-builder.nl.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-querybuilder\\i18n\\query-builder.nl.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\jquery-querybuilder\\i18n\\query-builder.no.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-querybuilder\\i18n\\query-builder.no.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\jquery-querybuilder\\i18n\\query-builder.pl.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-querybuilder\\i18n\\query-builder.pl.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\jquery-querybuilder\\i18n\\query-builder.pt-BR.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-querybuilder\\i18n\\query-builder.pt-BR.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\jquery-querybuilder\\i18n\\query-builder.pt-PT.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-querybuilder\\i18n\\query-builder.pt-PT.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\jquery-querybuilder\\i18n\\query-builder.ro.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-querybuilder\\i18n\\query-builder.ro.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\jquery-querybuilder\\i18n\\query-builder.ru.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-querybuilder\\i18n\\query-builder.ru.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\jquery-querybuilder\\i18n\\query-builder.sk.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-querybuilder\\i18n\\query-builder.sk.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\jquery-querybuilder\\i18n\\query-builder.sq.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-querybuilder\\i18n\\query-builder.sq.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\jquery-querybuilder\\i18n\\query-builder.sv.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-querybuilder\\i18n\\query-builder.sv.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\jquery-querybuilder\\i18n\\query-builder.sw.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-querybuilder\\i18n\\query-builder.sw.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\jquery-querybuilder\\i18n\\query-builder.tr.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-querybuilder\\i18n\\query-builder.tr.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\jquery-querybuilder\\i18n\\query-builder.ua.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-querybuilder\\i18n\\query-builder.ua.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\jquery-querybuilder\\i18n\\query-builder.zh-CN.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-querybuilder\\i18n\\query-builder.zh-CN.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\jquery-querybuilder\\js\\query-builder.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-querybuilder\\js\\query-builder.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\jquery-querybuilder\\js\\query-builder.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-querybuilder\\js\\query-builder.min.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\jquery-querybuilder\\js\\query-builder.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\jquery-querybuilder\\js\\query-builder.min.js.map"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\jquery-querybuilder\\js\\query-builder.standalone.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-querybuilder\\js\\query-builder.standalone.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\jquery-querybuilder\\js\\query-builder.standalone.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-querybuilder\\js\\query-builder.standalone.min.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\jquery-querybuilder\\js\\query-builder.standalone.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\jquery-querybuilder\\js\\query-builder.standalone.min.js.map"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\jquery-querybuilder\\scss\\dark.scss",
+      "PackagePath": "staticwebassets\\lib\\jquery-querybuilder\\scss\\dark.scss"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\jquery-querybuilder\\scss\\default.scss",
+      "PackagePath": "staticwebassets\\lib\\jquery-querybuilder\\scss\\default.scss"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\jquery-querybuilder\\scss\\plugins\\_bt-checkbox.scss",
+      "PackagePath": "staticwebassets\\lib\\jquery-querybuilder\\scss\\plugins\\_bt-checkbox.scss"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\jquery-querybuilder\\scss\\plugins\\_bt-tooltip-errors.scss",
+      "PackagePath": "staticwebassets\\lib\\jquery-querybuilder\\scss\\plugins\\_bt-tooltip-errors.scss"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\jquery-querybuilder\\scss\\plugins\\_filter-description.scss",
+      "PackagePath": "staticwebassets\\lib\\jquery-querybuilder\\scss\\plugins\\_filter-description.scss"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\jquery-querybuilder\\scss\\plugins\\_invert.scss",
+      "PackagePath": "staticwebassets\\lib\\jquery-querybuilder\\scss\\plugins\\_invert.scss"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\jquery-querybuilder\\scss\\plugins\\_sortable.scss",
+      "PackagePath": "staticwebassets\\lib\\jquery-querybuilder\\scss\\plugins\\_sortable.scss"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\jquery-querybuilder\\scss\\plugins\\bt-tooltip-errors.scss",
+      "PackagePath": "staticwebassets\\lib\\jquery-querybuilder\\scss\\plugins\\bt-tooltip-errors.scss"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\jquery-querybuilder\\scss\\plugins\\filter-description.scss",
+      "PackagePath": "staticwebassets\\lib\\jquery-querybuilder\\scss\\plugins\\filter-description.scss"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\jquery-querybuilder\\scss\\plugins\\invert.scss",
+      "PackagePath": "staticwebassets\\lib\\jquery-querybuilder\\scss\\plugins\\invert.scss"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\jquery-querybuilder\\scss\\plugins\\sortable.scss",
+      "PackagePath": "staticwebassets\\lib\\jquery-querybuilder\\scss\\plugins\\sortable.scss"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\jquery-validation-unobtrusive\\.bower.json",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\.bower.json"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\jquery-validation\\.bower.json",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\.bower.json"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\jquery\\.bower.json",
+      "PackagePath": "staticwebassets\\lib\\jquery\\.bower.json"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\jstree\\jstree.js",
+      "PackagePath": "staticwebassets\\lib\\jstree\\jstree.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\jstree\\jstree.min.js",
+      "PackagePath": "staticwebassets\\lib\\jstree\\jstree.min.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\jstree\\themes\\default-dark\\32px.png",
+      "PackagePath": "staticwebassets\\lib\\jstree\\themes\\default-dark\\32px.png"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\jstree\\themes\\default-dark\\40px.png",
+      "PackagePath": "staticwebassets\\lib\\jstree\\themes\\default-dark\\40px.png"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\jstree\\themes\\default-dark\\style.css",
+      "PackagePath": "staticwebassets\\lib\\jstree\\themes\\default-dark\\style.css"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\jstree\\themes\\default-dark\\style.min.css",
+      "PackagePath": "staticwebassets\\lib\\jstree\\themes\\default-dark\\style.min.css"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\jstree\\themes\\default-dark\\throbber.gif",
+      "PackagePath": "staticwebassets\\lib\\jstree\\themes\\default-dark\\throbber.gif"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\jstree\\themes\\default\\32px.png",
+      "PackagePath": "staticwebassets\\lib\\jstree\\themes\\default\\32px.png"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\jstree\\themes\\default\\40px.png",
+      "PackagePath": "staticwebassets\\lib\\jstree\\themes\\default\\40px.png"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\jstree\\themes\\default\\style.css",
+      "PackagePath": "staticwebassets\\lib\\jstree\\themes\\default\\style.css"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\jstree\\themes\\default\\style.min.css",
+      "PackagePath": "staticwebassets\\lib\\jstree\\themes\\default\\style.min.css"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\jstree\\themes\\default\\throbber.gif",
+      "PackagePath": "staticwebassets\\lib\\jstree\\themes\\default\\throbber.gif"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\jvectormap\\jquery-jvectormap-2.0.3.min.js",
+      "PackagePath": "staticwebassets\\lib\\jvectormap\\jquery-jvectormap-2.0.3.min.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\jvectormap\\jquery-jvectormap-it-mill.js",
+      "PackagePath": "staticwebassets\\lib\\jvectormap\\jquery-jvectormap-it-mill.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\jvectormap\\jquery-jvectormap-it_regions-mill.js",
+      "PackagePath": "staticwebassets\\lib\\jvectormap\\jquery-jvectormap-it_regions-mill.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\css\\buttons.dataTables.min.css",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\css\\buttons.dataTables.min.css"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\css\\demo.css",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\css\\demo.css"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\css\\documentation.css",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\css\\documentation.css"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\css\\light-bootstrap-dashboard.css",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\css\\light-bootstrap-dashboard.css"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\fonts\\nucleo-icons.eot",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\fonts\\nucleo-icons.eot"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\fonts\\nucleo-icons.svg",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\fonts\\nucleo-icons.svg"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\fonts\\nucleo-icons.ttf",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\fonts\\nucleo-icons.ttf"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\fonts\\nucleo-icons.woff",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\fonts\\nucleo-icons.woff"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\fonts\\nucleo-icons.woff2",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\fonts\\nucleo-icons.woff2"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\img\\apple-icon.png",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\img\\apple-icon.png"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\img\\bg11.jpg",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\img\\bg11.jpg"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\img\\bg4.jpg",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\img\\bg4.jpg"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\img\\bg5.jpg",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\img\\bg5.jpg"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\img\\bg6.jpg",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\img\\bg6.jpg"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\img\\bg7.jpg",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\img\\bg7.jpg"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\img\\bg8.jpg",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\img\\bg8.jpg"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\img\\blog-1.jpg",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\img\\blog-1.jpg"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\img\\blog-2.jpg",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\img\\blog-2.jpg"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\img\\blog-3.jpg",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\img\\blog-3.jpg"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\img\\blog-4.jpg",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\img\\blog-4.jpg"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\img\\blog-5.jpg",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\img\\blog-5.jpg"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\img\\carousel_1.jpg",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\img\\carousel_1.jpg"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\img\\carousel_2.jpg",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\img\\carousel_2.jpg"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\img\\carousel_3.jpg",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\img\\carousel_3.jpg"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\img\\default-avatar.png",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\img\\default-avatar.png"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\img\\faces\\face-0.jpg",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\img\\faces\\face-0.jpg"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\img\\faces\\face-1.jpg",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\img\\faces\\face-1.jpg"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\img\\faces\\face-2.jpg",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\img\\faces\\face-2.jpg"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\img\\faces\\face-3.jpg",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\img\\faces\\face-3.jpg"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\img\\faces\\face-4.jpg",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\img\\faces\\face-4.jpg"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\img\\faces\\face-5.jpg",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\img\\faces\\face-5.jpg"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\img\\faces\\face-6.jpg",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\img\\faces\\face-6.jpg"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\img\\faces\\face-7.jpg",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\img\\faces\\face-7.jpg"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\img\\faces\\margot.jpg",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\img\\faces\\margot.jpg"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\img\\faces\\tim_vector.jpe",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\img\\faces\\tim_vector.jpe"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\img\\favicon.ico",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\img\\favicon.ico"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\img\\favicon.png",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\img\\favicon.png"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\img\\flags\\AD.png",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\img\\flags\\AD.png"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\img\\flags\\AE.png",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\img\\flags\\AE.png"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\img\\flags\\AG.png",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\img\\flags\\AG.png"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\img\\flags\\AM.png",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\img\\flags\\AM.png"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\img\\flags\\AR.png",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\img\\flags\\AR.png"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\img\\flags\\AT.png",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\img\\flags\\AT.png"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\img\\flags\\AU.png",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\img\\flags\\AU.png"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\img\\flags\\BE.png",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\img\\flags\\BE.png"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\img\\flags\\BF.png",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\img\\flags\\BF.png"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\img\\flags\\BG.png",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\img\\flags\\BG.png"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\img\\flags\\BO.png",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\img\\flags\\BO.png"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\img\\flags\\BR.png",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\img\\flags\\BR.png"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\img\\flags\\CA.png",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\img\\flags\\CA.png"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\img\\flags\\CD.png",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\img\\flags\\CD.png"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\img\\flags\\CG.png",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\img\\flags\\CG.png"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\img\\flags\\CH.png",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\img\\flags\\CH.png"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\img\\flags\\CL.png",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\img\\flags\\CL.png"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\img\\flags\\CM.png",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\img\\flags\\CM.png"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\img\\flags\\CN.png",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\img\\flags\\CN.png"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\img\\flags\\CO.png",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\img\\flags\\CO.png"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\img\\flags\\CZ.png",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\img\\flags\\CZ.png"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\img\\flags\\DE.png",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\img\\flags\\DE.png"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\img\\flags\\DJ.png",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\img\\flags\\DJ.png"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\img\\flags\\DK.png",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\img\\flags\\DK.png"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\img\\flags\\DZ.png",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\img\\flags\\DZ.png"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\img\\flags\\EE.png",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\img\\flags\\EE.png"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\img\\flags\\EG.png",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\img\\flags\\EG.png"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\img\\flags\\ES.png",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\img\\flags\\ES.png"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\img\\flags\\FI.png",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\img\\flags\\FI.png"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\img\\flags\\FR.png",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\img\\flags\\FR.png"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\img\\flags\\GA.png",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\img\\flags\\GA.png"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\img\\flags\\GB.png",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\img\\flags\\GB.png"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\img\\flags\\GM.png",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\img\\flags\\GM.png"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\img\\flags\\GT.png",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\img\\flags\\GT.png"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\img\\flags\\HN.png",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\img\\flags\\HN.png"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\img\\flags\\HT.png",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\img\\flags\\HT.png"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\img\\flags\\HU.png",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\img\\flags\\HU.png"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\img\\flags\\ID.png",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\img\\flags\\ID.png"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\img\\flags\\IE.png",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\img\\flags\\IE.png"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\img\\flags\\IL.png",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\img\\flags\\IL.png"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\img\\flags\\IN.png",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\img\\flags\\IN.png"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\img\\flags\\IQ.png",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\img\\flags\\IQ.png"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\img\\flags\\IR.png",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\img\\flags\\IR.png"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\img\\flags\\IT.png",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\img\\flags\\IT.png"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\img\\flags\\JM.png",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\img\\flags\\JM.png"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\img\\flags\\JO.png",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\img\\flags\\JO.png"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\img\\flags\\JP.png",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\img\\flags\\JP.png"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\img\\flags\\KG.png",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\img\\flags\\KG.png"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\img\\flags\\KN.png",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\img\\flags\\KN.png"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\img\\flags\\KP.png",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\img\\flags\\KP.png"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\img\\flags\\KR.png",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\img\\flags\\KR.png"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\img\\flags\\KW.png",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\img\\flags\\KW.png"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\img\\flags\\KZ.png",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\img\\flags\\KZ.png"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\img\\flags\\LA.png",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\img\\flags\\LA.png"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\img\\flags\\LB.png",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\img\\flags\\LB.png"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\img\\flags\\LC.png",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\img\\flags\\LC.png"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\img\\flags\\LS.png",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\img\\flags\\LS.png"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\img\\flags\\LU.png",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\img\\flags\\LU.png"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\img\\flags\\LV.png",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\img\\flags\\LV.png"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\img\\flags\\MG.png",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\img\\flags\\MG.png"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\img\\flags\\MK.png",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\img\\flags\\MK.png"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\img\\flags\\ML.png",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\img\\flags\\ML.png"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\img\\flags\\MM.png",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\img\\flags\\MM.png"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\img\\flags\\MT.png",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\img\\flags\\MT.png"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\img\\flags\\MX.png",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\img\\flags\\MX.png"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\img\\flags\\NA.png",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\img\\flags\\NA.png"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\img\\flags\\NE.png",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\img\\flags\\NE.png"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\img\\flags\\NG.png",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\img\\flags\\NG.png"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\img\\flags\\NI.png",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\img\\flags\\NI.png"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\img\\flags\\NL.png",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\img\\flags\\NL.png"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\img\\flags\\NO.png",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\img\\flags\\NO.png"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\img\\flags\\OM.png",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\img\\flags\\OM.png"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\img\\flags\\PA.png",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\img\\flags\\PA.png"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\img\\flags\\PE.png",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\img\\flags\\PE.png"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\img\\flags\\PG.png",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\img\\flags\\PG.png"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\img\\flags\\PK.png",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\img\\flags\\PK.png"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\img\\flags\\PL.png",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\img\\flags\\PL.png"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\img\\flags\\PT.png",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\img\\flags\\PT.png"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\img\\flags\\PY.png",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\img\\flags\\PY.png"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\img\\flags\\QA.png",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\img\\flags\\QA.png"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\img\\flags\\RO.png",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\img\\flags\\RO.png"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\img\\flags\\RU.png",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\img\\flags\\RU.png"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\img\\flags\\RW.png",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\img\\flags\\RW.png"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\img\\flags\\SA.png",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\img\\flags\\SA.png"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\img\\flags\\SE.png",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\img\\flags\\SE.png"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\img\\flags\\SG.png",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\img\\flags\\SG.png"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\img\\flags\\SL.png",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\img\\flags\\SL.png"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\img\\flags\\SN.png",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\img\\flags\\SN.png"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\img\\flags\\SO.png",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\img\\flags\\SO.png"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\img\\flags\\SV.png",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\img\\flags\\SV.png"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\img\\flags\\TD.png",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\img\\flags\\TD.png"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\img\\flags\\TJ.png",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\img\\flags\\TJ.png"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\img\\flags\\TL.png",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\img\\flags\\TL.png"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\img\\flags\\TR.png",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\img\\flags\\TR.png"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\img\\flags\\TZ.png",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\img\\flags\\TZ.png"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\img\\flags\\UA.png",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\img\\flags\\UA.png"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\img\\flags\\US.png",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\img\\flags\\US.png"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\img\\flags\\VE.png",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\img\\flags\\VE.png"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\img\\flags\\VN.png",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\img\\flags\\VN.png"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\img\\flags\\YE.png",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\img\\flags\\YE.png"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\img\\full-screen-image-1.jpg",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\img\\full-screen-image-1.jpg"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\img\\full-screen-image-2.jpg",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\img\\full-screen-image-2.jpg"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\img\\full-screen-image-3.jpg",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\img\\full-screen-image-3.jpg"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\img\\full-screen-image-4.jpg",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\img\\full-screen-image-4.jpg"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\img\\loading-bubbles.svg",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\img\\loading-bubbles.svg"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\img\\margot.jpg",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\img\\margot.jpg"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\img\\mask.png",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\img\\mask.png"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\img\\new_logo.png",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\img\\new_logo.png"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\img\\sidebar-1.jpg",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\img\\sidebar-1.jpg"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\img\\sidebar-2.jpg",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\img\\sidebar-2.jpg"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\img\\sidebar-3.jpg",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\img\\sidebar-3.jpg"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\img\\sidebar-4.jpg",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\img\\sidebar-4.jpg"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\img\\sidebar-5.jpg",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\img\\sidebar-5.jpg"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\img\\tim_80x80.png",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\img\\tim_80x80.png"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\js\\core\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\js\\core\\bootstrap.min.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\js\\core\\jquery.3.2.1.min.js",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\js\\core\\jquery.3.2.1.min.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\js\\core\\popper.min.js",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\js\\core\\popper.min.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\js\\demo.js",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\js\\demo.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\js\\light-bootstrap-dashboard.js",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\js\\light-bootstrap-dashboard.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\js\\plugins\\bootstrap-datetimepicker.js",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\js\\plugins\\bootstrap-datetimepicker.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\js\\plugins\\bootstrap-notify.js",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\js\\plugins\\bootstrap-notify.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\js\\plugins\\bootstrap-selectpicker.js",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\js\\plugins\\bootstrap-selectpicker.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\js\\plugins\\bootstrap-switch.js",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\js\\plugins\\bootstrap-switch.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\js\\plugins\\bootstrap-table.js",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\js\\plugins\\bootstrap-table.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\js\\plugins\\bootstrap-tagsinput.js",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\js\\plugins\\bootstrap-tagsinput.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\js\\plugins\\buttons.html5.min.js",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\js\\plugins\\buttons.html5.min.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\js\\plugins\\chartist.min.js",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\js\\plugins\\chartist.min.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\js\\plugins\\dataTables.buttons.min.js",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\js\\plugins\\dataTables.buttons.min.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\js\\plugins\\fullcalendar.min.js",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\js\\plugins\\fullcalendar.min.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\js\\plugins\\jasny-bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\js\\plugins\\jasny-bootstrap.min.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\js\\plugins\\jquery-jvectormap.js",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\js\\plugins\\jquery-jvectormap.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\js\\plugins\\jquery.bootstrap-wizard.js",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\js\\plugins\\jquery.bootstrap-wizard.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\js\\plugins\\jquery.dataTables.min.js",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\js\\plugins\\jquery.dataTables.min.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\js\\plugins\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\js\\plugins\\jquery.validate.min.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\js\\plugins\\jszip.min.js",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\js\\plugins\\jszip.min.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\js\\plugins\\messages_it.js",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\js\\plugins\\messages_it.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\js\\plugins\\moment.min.js",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\js\\plugins\\moment.min.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\js\\plugins\\nouislider.js",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\js\\plugins\\nouislider.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\js\\plugins\\pdfmake.min.js",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\js\\plugins\\pdfmake.min.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\js\\plugins\\perfect-scrollbar.jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\js\\plugins\\perfect-scrollbar.jquery.min.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\js\\plugins\\sweetalert2.min.js",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\js\\plugins\\sweetalert2.min.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\js\\plugins\\vfs_fonts.js",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\js\\plugins\\vfs_fonts.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\sass\\lbd\\_alerts.scss",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\sass\\lbd\\_alerts.scss"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\sass\\lbd\\_bootstrap-switch.scss",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\sass\\lbd\\_bootstrap-switch.scss"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\sass\\lbd\\_buttons.scss",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\sass\\lbd\\_buttons.scss"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\sass\\lbd\\_cards.scss",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\sass\\lbd\\_cards.scss"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\sass\\lbd\\_chartist.scss",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\sass\\lbd\\_chartist.scss"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\sass\\lbd\\_checkbox-radio-switch.scss",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\sass\\lbd\\_checkbox-radio-switch.scss"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\sass\\lbd\\_dropdown.scss",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\sass\\lbd\\_dropdown.scss"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\sass\\lbd\\_fixed-plugin.scss",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\sass\\lbd\\_fixed-plugin.scss"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\sass\\lbd\\_footers.scss",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\sass\\lbd\\_footers.scss"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\sass\\lbd\\_inputs.scss",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\sass\\lbd\\_inputs.scss"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\sass\\lbd\\_misc.scss",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\sass\\lbd\\_misc.scss"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\sass\\lbd\\_mixins.scss",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\sass\\lbd\\_mixins.scss"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\sass\\lbd\\_modal.scss",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\sass\\lbd\\_modal.scss"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\sass\\lbd\\_modals.scss",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\sass\\lbd\\_modals.scss"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\sass\\lbd\\_navbars.scss",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\sass\\lbd\\_navbars.scss"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\sass\\lbd\\_partial-nucleo-icons.scss",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\sass\\lbd\\_partial-nucleo-icons.scss"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\sass\\lbd\\_progress-bars.scss",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\sass\\lbd\\_progress-bars.scss"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\sass\\lbd\\_responsive.scss",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\sass\\lbd\\_responsive.scss"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\sass\\lbd\\_sidebar-and-main-panel.scss",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\sass\\lbd\\_sidebar-and-main-panel.scss"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\sass\\lbd\\_sliders.scss",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\sass\\lbd\\_sliders.scss"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\sass\\lbd\\_social-buttons.scss",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\sass\\lbd\\_social-buttons.scss"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\sass\\lbd\\_tables.scss",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\sass\\lbd\\_tables.scss"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\sass\\lbd\\_tabs-navs-pagination.scss",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\sass\\lbd\\_tabs-navs-pagination.scss"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\sass\\lbd\\_tags.scss",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\sass\\lbd\\_tags.scss"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\sass\\lbd\\_typography.scss",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\sass\\lbd\\_typography.scss"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\sass\\lbd\\_variables.scss",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\sass\\lbd\\_variables.scss"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\sass\\lbd\\mixins\\_buttons.scss",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\sass\\lbd\\mixins\\_buttons.scss"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\sass\\lbd\\mixins\\_cards.scss",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\sass\\lbd\\mixins\\_cards.scss"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\sass\\lbd\\mixins\\_chartist.scss",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\sass\\lbd\\mixins\\_chartist.scss"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\sass\\lbd\\mixins\\_icons.scss",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\sass\\lbd\\mixins\\_icons.scss"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\sass\\lbd\\mixins\\_inputs.scss",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\sass\\lbd\\mixins\\_inputs.scss"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\sass\\lbd\\mixins\\_labels.scss",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\sass\\lbd\\mixins\\_labels.scss"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\sass\\lbd\\mixins\\_morphing-buttons.scss",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\sass\\lbd\\mixins\\_morphing-buttons.scss"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\sass\\lbd\\mixins\\_navbars.scss",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\sass\\lbd\\mixins\\_navbars.scss"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\sass\\lbd\\mixins\\_social-buttons.scss",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\sass\\lbd\\mixins\\_social-buttons.scss"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\sass\\lbd\\mixins\\_table-row.scss",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\sass\\lbd\\mixins\\_table-row.scss"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\sass\\lbd\\mixins\\_tabs.scss",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\sass\\lbd\\mixins\\_tabs.scss"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\sass\\lbd\\mixins\\_transparency.scss",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\sass\\lbd\\mixins\\_transparency.scss"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\sass\\lbd\\mixins\\_vendor-prefixes.scss",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\sass\\lbd\\mixins\\_vendor-prefixes.scss"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\sass\\lbd\\plugins\\_animate.scss",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\sass\\lbd\\plugins\\_animate.scss"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\sass\\lbd\\plugins\\_bootstrap-select.scss",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\sass\\lbd\\plugins\\_bootstrap-select.scss"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\sass\\lbd\\plugins\\_bootstrap-table.scss",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\sass\\lbd\\plugins\\_bootstrap-table.scss"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\sass\\lbd\\plugins\\_chartist.scss",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\sass\\lbd\\plugins\\_chartist.scss"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\sass\\lbd\\plugins\\_datatables.net.scss",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\sass\\lbd\\plugins\\_datatables.net.scss"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\sass\\lbd\\plugins\\_datetime-picker.scss",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\sass\\lbd\\plugins\\_datetime-picker.scss"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\sass\\lbd\\plugins\\_fullcalendar.scss",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\sass\\lbd\\plugins\\_fullcalendar.scss"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\sass\\lbd\\plugins\\_jquery.jvectormap.scss",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\sass\\lbd\\plugins\\_jquery.jvectormap.scss"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\sass\\lbd\\plugins\\_nouislider.scss",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\sass\\lbd\\plugins\\_nouislider.scss"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\sass\\lbd\\plugins\\_perfect-scrollbar.scss",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\sass\\lbd\\plugins\\_perfect-scrollbar.scss"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\sass\\lbd\\plugins\\_sweetalert2.scss",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\sass\\lbd\\plugins\\_sweetalert2.scss"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\light-boostrap-dashboard\\sass\\light-bootstrap-dashboard.scss",
+      "PackagePath": "staticwebassets\\lib\\light-boostrap-dashboard\\sass\\light-bootstrap-dashboard.scss"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\moment\\locales.js",
+      "PackagePath": "staticwebassets\\lib\\moment\\locales.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\moment\\locales.min.js",
+      "PackagePath": "staticwebassets\\lib\\moment\\locales.min.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\moment\\moment-with-locales.js",
+      "PackagePath": "staticwebassets\\lib\\moment\\moment-with-locales.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\moment\\moment-with-locales.min.js",
+      "PackagePath": "staticwebassets\\lib\\moment\\moment-with-locales.min.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\moment\\moment.min.js",
+      "PackagePath": "staticwebassets\\lib\\moment\\moment.min.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\searchableOptionList\\searchableOptionList.css",
+      "PackagePath": "staticwebassets\\lib\\searchableOptionList\\searchableOptionList.css"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\searchableOptionList\\searchableOptionList.js",
+      "PackagePath": "staticwebassets\\lib\\searchableOptionList\\searchableOptionList.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\select2\\css\\select2.css",
+      "PackagePath": "staticwebassets\\lib\\select2\\css\\select2.css"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\select2\\css\\select2.min.css",
+      "PackagePath": "staticwebassets\\lib\\select2\\css\\select2.min.css"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\select2\\js\\i18n\\af.js",
+      "PackagePath": "staticwebassets\\lib\\select2\\js\\i18n\\af.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\select2\\js\\i18n\\ar.js",
+      "PackagePath": "staticwebassets\\lib\\select2\\js\\i18n\\ar.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\select2\\js\\i18n\\az.js",
+      "PackagePath": "staticwebassets\\lib\\select2\\js\\i18n\\az.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\select2\\js\\i18n\\bg.js",
+      "PackagePath": "staticwebassets\\lib\\select2\\js\\i18n\\bg.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\select2\\js\\i18n\\bs.js",
+      "PackagePath": "staticwebassets\\lib\\select2\\js\\i18n\\bs.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\select2\\js\\i18n\\ca.js",
+      "PackagePath": "staticwebassets\\lib\\select2\\js\\i18n\\ca.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\select2\\js\\i18n\\cs.js",
+      "PackagePath": "staticwebassets\\lib\\select2\\js\\i18n\\cs.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\select2\\js\\i18n\\da.js",
+      "PackagePath": "staticwebassets\\lib\\select2\\js\\i18n\\da.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\select2\\js\\i18n\\de.js",
+      "PackagePath": "staticwebassets\\lib\\select2\\js\\i18n\\de.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\select2\\js\\i18n\\dsb.js",
+      "PackagePath": "staticwebassets\\lib\\select2\\js\\i18n\\dsb.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\select2\\js\\i18n\\el.js",
+      "PackagePath": "staticwebassets\\lib\\select2\\js\\i18n\\el.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\select2\\js\\i18n\\en.js",
+      "PackagePath": "staticwebassets\\lib\\select2\\js\\i18n\\en.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\select2\\js\\i18n\\es.js",
+      "PackagePath": "staticwebassets\\lib\\select2\\js\\i18n\\es.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\select2\\js\\i18n\\et.js",
+      "PackagePath": "staticwebassets\\lib\\select2\\js\\i18n\\et.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\select2\\js\\i18n\\eu.js",
+      "PackagePath": "staticwebassets\\lib\\select2\\js\\i18n\\eu.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\select2\\js\\i18n\\fa.js",
+      "PackagePath": "staticwebassets\\lib\\select2\\js\\i18n\\fa.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\select2\\js\\i18n\\fi.js",
+      "PackagePath": "staticwebassets\\lib\\select2\\js\\i18n\\fi.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\select2\\js\\i18n\\fr.js",
+      "PackagePath": "staticwebassets\\lib\\select2\\js\\i18n\\fr.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\select2\\js\\i18n\\gl.js",
+      "PackagePath": "staticwebassets\\lib\\select2\\js\\i18n\\gl.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\select2\\js\\i18n\\he.js",
+      "PackagePath": "staticwebassets\\lib\\select2\\js\\i18n\\he.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\select2\\js\\i18n\\hi.js",
+      "PackagePath": "staticwebassets\\lib\\select2\\js\\i18n\\hi.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\select2\\js\\i18n\\hr.js",
+      "PackagePath": "staticwebassets\\lib\\select2\\js\\i18n\\hr.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\select2\\js\\i18n\\hsb.js",
+      "PackagePath": "staticwebassets\\lib\\select2\\js\\i18n\\hsb.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\select2\\js\\i18n\\hu.js",
+      "PackagePath": "staticwebassets\\lib\\select2\\js\\i18n\\hu.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\select2\\js\\i18n\\hy.js",
+      "PackagePath": "staticwebassets\\lib\\select2\\js\\i18n\\hy.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\select2\\js\\i18n\\id.js",
+      "PackagePath": "staticwebassets\\lib\\select2\\js\\i18n\\id.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\select2\\js\\i18n\\is.js",
+      "PackagePath": "staticwebassets\\lib\\select2\\js\\i18n\\is.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\select2\\js\\i18n\\it.js",
+      "PackagePath": "staticwebassets\\lib\\select2\\js\\i18n\\it.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\select2\\js\\i18n\\ja.js",
+      "PackagePath": "staticwebassets\\lib\\select2\\js\\i18n\\ja.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\select2\\js\\i18n\\km.js",
+      "PackagePath": "staticwebassets\\lib\\select2\\js\\i18n\\km.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\select2\\js\\i18n\\ko.js",
+      "PackagePath": "staticwebassets\\lib\\select2\\js\\i18n\\ko.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\select2\\js\\i18n\\lt.js",
+      "PackagePath": "staticwebassets\\lib\\select2\\js\\i18n\\lt.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\select2\\js\\i18n\\lv.js",
+      "PackagePath": "staticwebassets\\lib\\select2\\js\\i18n\\lv.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\select2\\js\\i18n\\mk.js",
+      "PackagePath": "staticwebassets\\lib\\select2\\js\\i18n\\mk.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\select2\\js\\i18n\\ms.js",
+      "PackagePath": "staticwebassets\\lib\\select2\\js\\i18n\\ms.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\select2\\js\\i18n\\nb.js",
+      "PackagePath": "staticwebassets\\lib\\select2\\js\\i18n\\nb.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\select2\\js\\i18n\\nl.js",
+      "PackagePath": "staticwebassets\\lib\\select2\\js\\i18n\\nl.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\select2\\js\\i18n\\pl.js",
+      "PackagePath": "staticwebassets\\lib\\select2\\js\\i18n\\pl.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\select2\\js\\i18n\\ps.js",
+      "PackagePath": "staticwebassets\\lib\\select2\\js\\i18n\\ps.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\select2\\js\\i18n\\pt-BR.js",
+      "PackagePath": "staticwebassets\\lib\\select2\\js\\i18n\\pt-BR.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\select2\\js\\i18n\\pt.js",
+      "PackagePath": "staticwebassets\\lib\\select2\\js\\i18n\\pt.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\select2\\js\\i18n\\ro.js",
+      "PackagePath": "staticwebassets\\lib\\select2\\js\\i18n\\ro.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\select2\\js\\i18n\\ru.js",
+      "PackagePath": "staticwebassets\\lib\\select2\\js\\i18n\\ru.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\select2\\js\\i18n\\sk.js",
+      "PackagePath": "staticwebassets\\lib\\select2\\js\\i18n\\sk.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\select2\\js\\i18n\\sl.js",
+      "PackagePath": "staticwebassets\\lib\\select2\\js\\i18n\\sl.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\select2\\js\\i18n\\sr-Cyrl.js",
+      "PackagePath": "staticwebassets\\lib\\select2\\js\\i18n\\sr-Cyrl.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\select2\\js\\i18n\\sr.js",
+      "PackagePath": "staticwebassets\\lib\\select2\\js\\i18n\\sr.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\select2\\js\\i18n\\sv.js",
+      "PackagePath": "staticwebassets\\lib\\select2\\js\\i18n\\sv.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\select2\\js\\i18n\\th.js",
+      "PackagePath": "staticwebassets\\lib\\select2\\js\\i18n\\th.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\select2\\js\\i18n\\tk.js",
+      "PackagePath": "staticwebassets\\lib\\select2\\js\\i18n\\tk.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\select2\\js\\i18n\\tr.js",
+      "PackagePath": "staticwebassets\\lib\\select2\\js\\i18n\\tr.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\select2\\js\\i18n\\uk.js",
+      "PackagePath": "staticwebassets\\lib\\select2\\js\\i18n\\uk.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\select2\\js\\i18n\\vi.js",
+      "PackagePath": "staticwebassets\\lib\\select2\\js\\i18n\\vi.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\select2\\js\\i18n\\zh-CN.js",
+      "PackagePath": "staticwebassets\\lib\\select2\\js\\i18n\\zh-CN.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\select2\\js\\i18n\\zh-TW.js",
+      "PackagePath": "staticwebassets\\lib\\select2\\js\\i18n\\zh-TW.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\select2\\js\\select2.full.js",
+      "PackagePath": "staticwebassets\\lib\\select2\\js\\select2.full.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\select2\\js\\select2.full.min.js",
+      "PackagePath": "staticwebassets\\lib\\select2\\js\\select2.full.min.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\select2\\js\\select2.js",
+      "PackagePath": "staticwebassets\\lib\\select2\\js\\select2.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\select2\\js\\select2.min.js",
+      "PackagePath": "staticwebassets\\lib\\select2\\js\\select2.min.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\signalr\\signalr.js",
+      "PackagePath": "staticwebassets\\lib\\signalr\\signalr.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\signalr\\signalr.js.map",
+      "PackagePath": "staticwebassets\\lib\\signalr\\signalr.js.map"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\signalr\\signalr.min.js",
+      "PackagePath": "staticwebassets\\lib\\signalr\\signalr.min.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\signalr\\signalr.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\signalr\\signalr.min.js.map"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\summernote-0.8.11-dist\\font\\summernote.eot",
+      "PackagePath": "staticwebassets\\lib\\summernote-0.8.11-dist\\font\\summernote.eot"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\summernote-0.8.11-dist\\font\\summernote.ttf",
+      "PackagePath": "staticwebassets\\lib\\summernote-0.8.11-dist\\font\\summernote.ttf"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\summernote-0.8.11-dist\\font\\summernote.woff",
+      "PackagePath": "staticwebassets\\lib\\summernote-0.8.11-dist\\font\\summernote.woff"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\summernote-0.8.11-dist\\lang\\summernote-ar-AR.js",
+      "PackagePath": "staticwebassets\\lib\\summernote-0.8.11-dist\\lang\\summernote-ar-AR.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\summernote-0.8.11-dist\\lang\\summernote-bg-BG.js",
+      "PackagePath": "staticwebassets\\lib\\summernote-0.8.11-dist\\lang\\summernote-bg-BG.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\summernote-0.8.11-dist\\lang\\summernote-ca-ES.js",
+      "PackagePath": "staticwebassets\\lib\\summernote-0.8.11-dist\\lang\\summernote-ca-ES.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\summernote-0.8.11-dist\\lang\\summernote-cs-CZ.js",
+      "PackagePath": "staticwebassets\\lib\\summernote-0.8.11-dist\\lang\\summernote-cs-CZ.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\summernote-0.8.11-dist\\lang\\summernote-da-DK.js",
+      "PackagePath": "staticwebassets\\lib\\summernote-0.8.11-dist\\lang\\summernote-da-DK.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\summernote-0.8.11-dist\\lang\\summernote-de-DE.js",
+      "PackagePath": "staticwebassets\\lib\\summernote-0.8.11-dist\\lang\\summernote-de-DE.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\summernote-0.8.11-dist\\lang\\summernote-el-GR.js",
+      "PackagePath": "staticwebassets\\lib\\summernote-0.8.11-dist\\lang\\summernote-el-GR.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\summernote-0.8.11-dist\\lang\\summernote-es-ES.js",
+      "PackagePath": "staticwebassets\\lib\\summernote-0.8.11-dist\\lang\\summernote-es-ES.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\summernote-0.8.11-dist\\lang\\summernote-es-EU.js",
+      "PackagePath": "staticwebassets\\lib\\summernote-0.8.11-dist\\lang\\summernote-es-EU.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\summernote-0.8.11-dist\\lang\\summernote-fa-IR.js",
+      "PackagePath": "staticwebassets\\lib\\summernote-0.8.11-dist\\lang\\summernote-fa-IR.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\summernote-0.8.11-dist\\lang\\summernote-fi-FI.js",
+      "PackagePath": "staticwebassets\\lib\\summernote-0.8.11-dist\\lang\\summernote-fi-FI.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\summernote-0.8.11-dist\\lang\\summernote-fr-FR.js",
+      "PackagePath": "staticwebassets\\lib\\summernote-0.8.11-dist\\lang\\summernote-fr-FR.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\summernote-0.8.11-dist\\lang\\summernote-gl-ES.js",
+      "PackagePath": "staticwebassets\\lib\\summernote-0.8.11-dist\\lang\\summernote-gl-ES.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\summernote-0.8.11-dist\\lang\\summernote-he-IL.js",
+      "PackagePath": "staticwebassets\\lib\\summernote-0.8.11-dist\\lang\\summernote-he-IL.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\summernote-0.8.11-dist\\lang\\summernote-hr-HR.js",
+      "PackagePath": "staticwebassets\\lib\\summernote-0.8.11-dist\\lang\\summernote-hr-HR.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\summernote-0.8.11-dist\\lang\\summernote-hu-HU.js",
+      "PackagePath": "staticwebassets\\lib\\summernote-0.8.11-dist\\lang\\summernote-hu-HU.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\summernote-0.8.11-dist\\lang\\summernote-id-ID.js",
+      "PackagePath": "staticwebassets\\lib\\summernote-0.8.11-dist\\lang\\summernote-id-ID.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\summernote-0.8.11-dist\\lang\\summernote-it-IT.js",
+      "PackagePath": "staticwebassets\\lib\\summernote-0.8.11-dist\\lang\\summernote-it-IT.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\summernote-0.8.11-dist\\lang\\summernote-ja-JP.js",
+      "PackagePath": "staticwebassets\\lib\\summernote-0.8.11-dist\\lang\\summernote-ja-JP.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\summernote-0.8.11-dist\\lang\\summernote-ko-KR.js",
+      "PackagePath": "staticwebassets\\lib\\summernote-0.8.11-dist\\lang\\summernote-ko-KR.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\summernote-0.8.11-dist\\lang\\summernote-lt-LT.js",
+      "PackagePath": "staticwebassets\\lib\\summernote-0.8.11-dist\\lang\\summernote-lt-LT.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\summernote-0.8.11-dist\\lang\\summernote-lt-LV.js",
+      "PackagePath": "staticwebassets\\lib\\summernote-0.8.11-dist\\lang\\summernote-lt-LV.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\summernote-0.8.11-dist\\lang\\summernote-mn-MN.js",
+      "PackagePath": "staticwebassets\\lib\\summernote-0.8.11-dist\\lang\\summernote-mn-MN.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\summernote-0.8.11-dist\\lang\\summernote-nb-NO.js",
+      "PackagePath": "staticwebassets\\lib\\summernote-0.8.11-dist\\lang\\summernote-nb-NO.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\summernote-0.8.11-dist\\lang\\summernote-nl-NL.js",
+      "PackagePath": "staticwebassets\\lib\\summernote-0.8.11-dist\\lang\\summernote-nl-NL.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\summernote-0.8.11-dist\\lang\\summernote-pl-PL.js",
+      "PackagePath": "staticwebassets\\lib\\summernote-0.8.11-dist\\lang\\summernote-pl-PL.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\summernote-0.8.11-dist\\lang\\summernote-pt-BR.js",
+      "PackagePath": "staticwebassets\\lib\\summernote-0.8.11-dist\\lang\\summernote-pt-BR.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\summernote-0.8.11-dist\\lang\\summernote-pt-PT.js",
+      "PackagePath": "staticwebassets\\lib\\summernote-0.8.11-dist\\lang\\summernote-pt-PT.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\summernote-0.8.11-dist\\lang\\summernote-ro-RO.js",
+      "PackagePath": "staticwebassets\\lib\\summernote-0.8.11-dist\\lang\\summernote-ro-RO.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\summernote-0.8.11-dist\\lang\\summernote-ru-RU.js",
+      "PackagePath": "staticwebassets\\lib\\summernote-0.8.11-dist\\lang\\summernote-ru-RU.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\summernote-0.8.11-dist\\lang\\summernote-sk-SK.js",
+      "PackagePath": "staticwebassets\\lib\\summernote-0.8.11-dist\\lang\\summernote-sk-SK.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\summernote-0.8.11-dist\\lang\\summernote-sl-SI.js",
+      "PackagePath": "staticwebassets\\lib\\summernote-0.8.11-dist\\lang\\summernote-sl-SI.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\summernote-0.8.11-dist\\lang\\summernote-sr-RS-Latin.js",
+      "PackagePath": "staticwebassets\\lib\\summernote-0.8.11-dist\\lang\\summernote-sr-RS-Latin.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\summernote-0.8.11-dist\\lang\\summernote-sr-RS.js",
+      "PackagePath": "staticwebassets\\lib\\summernote-0.8.11-dist\\lang\\summernote-sr-RS.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\summernote-0.8.11-dist\\lang\\summernote-sv-SE.js",
+      "PackagePath": "staticwebassets\\lib\\summernote-0.8.11-dist\\lang\\summernote-sv-SE.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\summernote-0.8.11-dist\\lang\\summernote-ta-IN.js",
+      "PackagePath": "staticwebassets\\lib\\summernote-0.8.11-dist\\lang\\summernote-ta-IN.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\summernote-0.8.11-dist\\lang\\summernote-th-TH.js",
+      "PackagePath": "staticwebassets\\lib\\summernote-0.8.11-dist\\lang\\summernote-th-TH.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\summernote-0.8.11-dist\\lang\\summernote-tr-TR.js",
+      "PackagePath": "staticwebassets\\lib\\summernote-0.8.11-dist\\lang\\summernote-tr-TR.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\summernote-0.8.11-dist\\lang\\summernote-uk-UA.js",
+      "PackagePath": "staticwebassets\\lib\\summernote-0.8.11-dist\\lang\\summernote-uk-UA.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\summernote-0.8.11-dist\\lang\\summernote-uz-UZ.js",
+      "PackagePath": "staticwebassets\\lib\\summernote-0.8.11-dist\\lang\\summernote-uz-UZ.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\summernote-0.8.11-dist\\lang\\summernote-vi-VN.js",
+      "PackagePath": "staticwebassets\\lib\\summernote-0.8.11-dist\\lang\\summernote-vi-VN.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\summernote-0.8.11-dist\\lang\\summernote-zh-CN.js",
+      "PackagePath": "staticwebassets\\lib\\summernote-0.8.11-dist\\lang\\summernote-zh-CN.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\summernote-0.8.11-dist\\lang\\summernote-zh-TW.js",
+      "PackagePath": "staticwebassets\\lib\\summernote-0.8.11-dist\\lang\\summernote-zh-TW.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\summernote-0.8.11-dist\\plugin\\databasic\\summernote-ext-databasic.css",
+      "PackagePath": "staticwebassets\\lib\\summernote-0.8.11-dist\\plugin\\databasic\\summernote-ext-databasic.css"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\summernote-0.8.11-dist\\plugin\\databasic\\summernote-ext-databasic.js",
+      "PackagePath": "staticwebassets\\lib\\summernote-0.8.11-dist\\plugin\\databasic\\summernote-ext-databasic.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\summernote-0.8.11-dist\\plugin\\hello\\summernote-ext-hello.js",
+      "PackagePath": "staticwebassets\\lib\\summernote-0.8.11-dist\\plugin\\hello\\summernote-ext-hello.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\summernote-0.8.11-dist\\plugin\\specialchars\\summernote-ext-specialchars.js",
+      "PackagePath": "staticwebassets\\lib\\summernote-0.8.11-dist\\plugin\\specialchars\\summernote-ext-specialchars.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\summernote-0.8.11-dist\\summernote-lite.css",
+      "PackagePath": "staticwebassets\\lib\\summernote-0.8.11-dist\\summernote-lite.css"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\summernote-0.8.11-dist\\summernote-lite.js",
+      "PackagePath": "staticwebassets\\lib\\summernote-0.8.11-dist\\summernote-lite.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\summernote-0.8.11-dist\\summernote-lite.min.js",
+      "PackagePath": "staticwebassets\\lib\\summernote-0.8.11-dist\\summernote-lite.min.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\vis\\img\\network\\acceptDeleteIcon.png",
+      "PackagePath": "staticwebassets\\lib\\vis\\img\\network\\acceptDeleteIcon.png"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\vis\\img\\network\\addNodeIcon.png",
+      "PackagePath": "staticwebassets\\lib\\vis\\img\\network\\addNodeIcon.png"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\vis\\img\\network\\backIcon.png",
+      "PackagePath": "staticwebassets\\lib\\vis\\img\\network\\backIcon.png"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\vis\\img\\network\\connectIcon.png",
+      "PackagePath": "staticwebassets\\lib\\vis\\img\\network\\connectIcon.png"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\vis\\img\\network\\cross.png",
+      "PackagePath": "staticwebassets\\lib\\vis\\img\\network\\cross.png"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\vis\\img\\network\\cross2.png",
+      "PackagePath": "staticwebassets\\lib\\vis\\img\\network\\cross2.png"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\vis\\img\\network\\deleteIcon.png",
+      "PackagePath": "staticwebassets\\lib\\vis\\img\\network\\deleteIcon.png"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\vis\\img\\network\\downArrow.png",
+      "PackagePath": "staticwebassets\\lib\\vis\\img\\network\\downArrow.png"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\vis\\img\\network\\editIcon.png",
+      "PackagePath": "staticwebassets\\lib\\vis\\img\\network\\editIcon.png"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\vis\\img\\network\\leftArrow.png",
+      "PackagePath": "staticwebassets\\lib\\vis\\img\\network\\leftArrow.png"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\vis\\img\\network\\minus.png",
+      "PackagePath": "staticwebassets\\lib\\vis\\img\\network\\minus.png"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\vis\\img\\network\\plus.png",
+      "PackagePath": "staticwebassets\\lib\\vis\\img\\network\\plus.png"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\vis\\img\\network\\rightArrow.png",
+      "PackagePath": "staticwebassets\\lib\\vis\\img\\network\\rightArrow.png"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\vis\\img\\network\\upArrow.png",
+      "PackagePath": "staticwebassets\\lib\\vis\\img\\network\\upArrow.png"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\vis\\img\\network\\zoomExtends.png",
+      "PackagePath": "staticwebassets\\lib\\vis\\img\\network\\zoomExtends.png"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\vis\\vis-graph3d.min.js",
+      "PackagePath": "staticwebassets\\lib\\vis\\vis-graph3d.min.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\vis\\vis-network.min.css",
+      "PackagePath": "staticwebassets\\lib\\vis\\vis-network.min.css"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\vis\\vis-network.min.js",
+      "PackagePath": "staticwebassets\\lib\\vis\\vis-network.min.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\vis\\vis-timeline-graph2d.min.css",
+      "PackagePath": "staticwebassets\\lib\\vis\\vis-timeline-graph2d.min.css"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\vis\\vis-timeline-graph2d.min.js",
+      "PackagePath": "staticwebassets\\lib\\vis\\vis-timeline-graph2d.min.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\vis\\vis.css",
+      "PackagePath": "staticwebassets\\lib\\vis\\vis.css"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\vis\\vis.js",
+      "PackagePath": "staticwebassets\\lib\\vis\\vis.js"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\vis\\vis.js.map",
+      "PackagePath": "staticwebassets\\lib\\vis\\vis.js.map"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\vis\\vis.map",
+      "PackagePath": "staticwebassets\\lib\\vis\\vis.map"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\vis\\vis.min.css",
+      "PackagePath": "staticwebassets\\lib\\vis\\vis.min.css"
+    },
+    {
+      "Id": "E:\\Develop\\BassoLegnami\\BassoLegnami\\wwwroot\\lib\\vis\\vis.min.js",
+      "PackagePath": "staticwebassets\\lib\\vis\\vis.min.js"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.BassoLegnami.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.BassoLegnami.props",
+      "PackagePath": "build\\BassoLegnami.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.BassoLegnami.props",
+      "PackagePath": "buildMultiTargeting\\BassoLegnami.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.BassoLegnami.props",
+      "PackagePath": "buildTransitive\\BassoLegnami.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

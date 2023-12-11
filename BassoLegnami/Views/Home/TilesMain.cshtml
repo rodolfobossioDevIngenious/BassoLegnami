@@ -1,0 +1,232 @@
+﻿@inject BassoLegnami.Model.Data.IUnitOfWork unitOfWork
+
+<div class="card stacked-form" style="background-color: transparent; border: 0px;">
+    <div class="card-body">
+        <div class="row">
+            @if (unitOfWork.AuthorizationsRepository.IsAuthorized("Vehicles", "Index"))
+            {
+                <div class="col-xl-3 col-lg-4 col-sm-6">
+                    <div class="card card-stats">
+                        <div class="card-body ">
+                            <a asp-controller="Vehicles" asp-action="Index" asp-area="MotorVehicle" accesskey="V">
+                                <div class="row">
+                                    <div class="col-5">
+                                        <div class="icon-big text-center icon-success">
+                                            <i class="nc-icon nc-delivery-fast text-success"></i>
+                                        </div>
+                                    </div>
+                                    <div class="col-7">
+                                        <div class="numbers">
+                                            <p class="card-category">Veicoli</p>
+                                            <h4 class="card-title">Flotta veicoli</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            }
+
+            @if (unitOfWork.AuthorizationsRepository.IsAuthorized("SupplierSearch", "Index"))
+            {
+                <div class="col-xl-3 col-lg-4 col-sm-6">
+                    <div class="card card-stats">
+                        <div class="card-body ">
+                            <a asp-controller="SupplierSearch" asp-action="Index" asp-area="Masterdata" accesskey="R">
+                                <div class="row">
+                                    <div class="col-5">
+                                        <div class="icon-big text-center icon-info">
+                                            <i class="nc-icon nc-zoom-split text-info"></i>
+                                        </div>
+                                    </div>
+                                    <div class="col-7">
+                                        <div class="numbers">
+                                            <p class="card-category">Fornitori</p>
+                                            <h4 class="card-title">Ricerca fornitori</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            }
+
+            @if (unitOfWork.AuthorizationsRepository.IsAuthorized("Contracts", "Index"))
+            {
+                <div class="col-xl-3 col-lg-4 col-sm-6">
+                    <div class="card card-stats">
+                        <div class="card-body ">
+                            <a asp-controller="Contracts" asp-action="Index" asp-area="Contract" accesskey="C">
+                                <div class="row">
+                                    <div class="col-5">
+                                        <div class="icon-big text-center icon-danger">
+                                            <i class="nc-icon nc-single-copy-04 text-danger"></i>
+                                        </div>
+                                    </div>
+                                    <div class="col-7">
+                                        <div class="numbers">
+                                            <p class="card-category">Contratti</p>
+                                            <h4 class="card-title">Elenco contratti</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            }
+
+            @if (unitOfWork.AuthorizationsRepository.IsAuthorized("AddressBook", "Index"))
+            {
+                <div class="col-xl-3 col-lg-4 col-sm-6">
+                    <div class="card card-stats">
+                        <div class="card-body ">
+                            <a asp-controller="AddressBook" asp-action="Index" asp-area="Support" accesskey="R">
+                                <div class="row">
+                                    <div class="col-5">
+                                        <div class="icon-big text-center icon-danger">
+                                            <i class="nc-icon nc-send text-danger"></i>
+                                        </div>
+                                    </div>
+                                    <div class="col-7">
+                                        <div class="numbers">
+                                            <p class="card-category">Rubrica aziendale interna</p>
+                                            <h4 class="card-title">Rubrica interna</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            }
+
+            @if (unitOfWork.AuthorizationsRepository.IsAuthorized("AddressBook", "GetExternal"))
+            {
+                <div class="col-xl-3 col-lg-4 col-sm-6">
+                    <div class="card card-stats">
+                        <div class="card-body ">
+                            <a asp-controller="AddressBook" asp-action="GetExternal" asp-area="Support" accesskey="E">
+                                <div class="row">
+                                    <div class="col-5">
+                                        <div class="icon-big text-center icon-danger">
+                                            <i class="nc-icon nc-send text-danger"></i>
+                                        </div>
+                                    </div>
+                                    <div class="col-7">
+                                        <div class="numbers">
+                                            <p class="card-category">Rubrica aziendale esterna</p>
+                                            <h4 class="card-title">Rubrica esterna</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            }
+
+            @if (unitOfWork.AuthorizationsRepository.IsAuthorized("FringeBenefit", "FringeBenefitFromEmployee"))
+            {
+                <div class="col-xl-3 col-lg-4 col-sm-6">
+                    <div class="card card-stats">
+                        <div class="card-body ">
+                            <a asp-controller="FringeBenefit" asp-action="FringeBenefitFromEmployee" asp-area="Masterdata" accesskey="F">
+                                <div class="row">
+                                    <div class="col-5">
+                                        <div class="icon-big text-center icon-default">
+                                            <i class="nc-icon nc-money-coins text-default"></i>
+                                        </div>
+                                    </div>
+                                    <div class="col-7">
+                                        <div class="numbers">
+                                            <p class="card-category">Fringe benefit dipendenti</p>
+                                            <h4 class="card-title">Fringe benefit</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            }
+
+            @if (unitOfWork.AuthorizationsRepository.IsAuthorized("ExternalEmployee", "Index"))
+            {
+                <div class="col-xl-3 col-lg-4 col-sm-6">
+                    <div class="card card-stats">
+                        <div class="card-body ">
+                            <a asp-controller="ExternalEmployee" asp-action="Index" asp-area="ExternalLabor" accesskey="D">
+                                <div class="row">
+                                    <div class="col-5">
+                                        <div class="icon-big text-center icon-info">
+                                            <i class="nc-icon nc-badge text-info"></i>
+                                        </div>
+                                    </div>
+                                    <div class="col-7">
+                                        <div class="numbers">
+                                            <p class="card-category">Elenco dipendenti</p>
+                                            <h4 class="card-title">Dipendenti</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            }
+
+            @if (unitOfWork.AuthorizationsRepository.IsAuthorized("Project", "Index"))
+            {
+                <div class="col-xl-3 col-lg-4 col-sm-6">
+                    <div class="card card-stats">
+                        <div class="card-body ">
+                            <a asp-controller="Project" asp-action="Index" asp-area="Masterdata" accesskey="P">
+                                <div class="row">
+                                    <div class="col-5">
+                                        <div class="icon-big text-center icon-success">
+                                            <i class="nc-icon nc-ruler-pencil text-success"></i>
+                                        </div>
+                                    </div>
+                                    <div class="col-7">
+                                        <div class="numbers">
+                                            <p class="card-category">Elenco progetti</p>
+                                            <h4 class="card-title">Progetti</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            }
+
+            @if (unitOfWork.AuthorizationsRepository.IsAuthorized("BlockedSupplier", "Index"))
+            {
+                <div class="col-xl-3 col-lg-4 col-sm-6">
+                    <div class="card card-stats">
+                        <div class="card-body ">
+                            <a asp-controller="BlockedSupplier" asp-action="Index" asp-area="Support">
+                                <div class="row">
+                                    <div class="col-5">
+                                        <div class="icon-big text-center icon-warning">
+                                            <i class="nc-icon nc-tap-01 text-warning"></i>
+                                        </div>
+                                    </div>
+                                    <div class="col-7">
+                                        <div class="numbers">
+                                            <p class="card-category">Fornitori bloccati</p>
+                                            <h4 class="card-title">Fornitori bloccati</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</div>

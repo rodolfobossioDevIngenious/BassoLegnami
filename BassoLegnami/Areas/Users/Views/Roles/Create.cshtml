@@ -1,0 +1,37 @@
+﻿@model BassoLegnami.Model.Models.Users.Role
+@using Microsoft.AspNetCore.Mvc.Localization
+@inject IHtmlLocalizer<SharedResource> SR
+
+@{
+    ViewData["Title"] = string.Format("{0} {1}", SR["Create"].Value, Html.DisplayNameFor(model => model.RoleId).ToString());
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="row">
+    <div class="col-md-3"></div>
+    <div class="col-md-6">
+        <div class="card stacked-form">
+            <div class="card-header ">
+                <h4 class="card-title title">@ViewData["Title"]</h4>
+            </div>
+            <div class="card-body">
+                <form asp-action="Create">
+                    <hr />
+                    <div asp-validation-summary="ModelOnly" class="alert alert-danger"><i class="fa fa-close"></i></div>
+                    <div class="form-group">
+                        <label asp-for="Name" class="control-label"></label>
+                        <input asp-for="Name" class="form-control" />
+                        <span asp-validation-for="Name" class="text-danger"></span>
+                    </div>
+                    <hr />
+                    <div class="text-right">
+                        <button type="submit" value="Create" class="btn btn-primary"><i class="fa fa-save"></i> @SR["Save"]</button>
+                        <a asp-action="Index" class="btn btn-default"><i class="fa fa-chevron-left"></i> @SR["BackToList"]</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3"></div>
+</div>
+

@@ -1,0 +1,471 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Administration" xml:space="preserve">
+    <value>Amministrazione</value>
+  </data>
+  <data name="All" xml:space="preserve">
+    <value>Tutti</value>
+  </data>
+  <data name="Back" xml:space="preserve">
+    <value>Indietro</value>
+  </data>
+  <data name="BackToList" xml:space="preserve">
+    <value>Elenco</value>
+  </data>
+  <data name="Create" xml:space="preserve">
+    <value>Crea</value>
+  </data>
+  <data name="CreateNew" xml:space="preserve">
+    <value>Crea nuovo</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Elimina</value>
+  </data>
+  <data name="DeleteConfirm" xml:space="preserve">
+    <value>Confermi l'eliminazione del record?</value>
+  </data>
+  <data name="Details" xml:space="preserve">
+    <value>Dettagli</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>Modifica</value>
+  </data>
+  <data name="FieldAccetpInvalid" xml:space="preserve">
+    <value>Inserire il valore con estensione valida</value>
+  </data>
+  <data name="FieldCreditCardInvalid" xml:space="preserve">
+    <value>Numero di carta di credito non valido</value>
+  </data>
+  <data name="FieldDateInvalid" xml:space="preserve">
+    <value>Data non valida</value>
+  </data>
+  <data name="FieldEmailInvalid" xml:space="preserve">
+    <value>Indirizzo email non valido</value>
+  </data>
+  <data name="FieldEqualTo" xml:space="preserve">
+    <value>Inserire nuovamente lo stesso valore</value>
+  </data>
+  <data name="FieldMax" xml:space="preserve">
+    <value>Inserire un valore minore o uguale a {0}</value>
+  </data>
+  <data name="FieldMaxLength" xml:space="preserve">
+    <value>Inserire al massimo {0} caratteri</value>
+  </data>
+  <data name="FieldMin" xml:space="preserve">
+    <value>Inserire un valore maggiore o uguale a {0}</value>
+  </data>
+  <data name="FieldMinLength" xml:space="preserve">
+    <value>Inserire almeno {0} caratteri</value>
+  </data>
+  <data name="FieldNumberInvalid" xml:space="preserve">
+    <value>Numero non valido</value>
+  </data>
+  <data name="FieldOnlyDigits" xml:space="preserve">
+    <value>Inserire solo numeri</value>
+  </data>
+  <data name="FieldRange" xml:space="preserve">
+    <value>Inserire un valore compreso tra {0} e {1}</value>
+  </data>
+  <data name="FieldRangeLength" xml:space="preserve">
+    <value>Inserire un valore compreso tra {0} e {1} caratteri di lunghezza</value>
+  </data>
+  <data name="FieldRequired" xml:space="preserve">
+    <value>Campo obbligatorio</value>
+  </data>
+  <data name="FieldURLInvalid" xml:space="preserve">
+    <value>Indirizzo non valido</value>
+  </data>
+  <data name="From" xml:space="preserve">
+    <value>Da</value>
+  </data>
+  <data name="GeneralTab" xml:space="preserve">
+    <value>Dati generali</value>
+  </data>
+  <data name="Home" xml:space="preserve">
+    <value>Home</value>
+  </data>
+  <data name="InfoFiltered" xml:space="preserve">
+    <value>(filtrati su _MAX_ record)</value>
+  </data>
+  <data name="InvalidValue" xml:space="preserve">
+    <value>Valore non valido</value>
+  </data>
+  <data name="List" xml:space="preserve">
+    <value>Elenco</value>
+  </data>
+  <data name="LogOut" xml:space="preserve">
+    <value>Logout</value>
+  </data>
+  <data name="Main" xml:space="preserve">
+    <value>Anagrafiche</value>
+  </data>
+  <data name="MaxLength" xml:space="preserve">
+    <value>Il campo {0} deve avere una lunghezza massima di {1}.</value>
+  </data>
+  <data name="NoData" xml:space="preserve">
+    <value>Nessun record disponibile</value>
+  </data>
+  <data name="Note" xml:space="preserve">
+    <value>Note</value>
+  </data>
+  <data name="PaginationInfo" xml:space="preserve">
+    <value>Record _START_ / _END_ di _TOTAL_</value>
+  </data>
+  <data name="PaginationSelector" xml:space="preserve">
+    <value>Mostra _MENU_ record/pagina</value>
+  </data>
+  <data name="Range" xml:space="preserve">
+    <value>Il campo {0} deve avere un valore compreso tra {1} e {2}.</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>Salva</value>
+  </data>
+  <data name="SearchBy" xml:space="preserve">
+    <value>Ricerca:</value>
+  </data>
+  <data name="SearchRecords" xml:space="preserve">
+    <value>Ricerca</value>
+  </data>
+  <data name="SelectValue" xml:space="preserve">
+    <value>Selezionare un valore</value>
+  </data>
+  <data name="SettingsObject" xml:space="preserve">
+    <value>Impostazioni</value>
+  </data>
+  <data name="To" xml:space="preserve">
+    <value>A</value>
+  </data>
+  <data name="AddNew" xml:space="preserve">
+    <value>Aggiungi nuovo</value>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>Chiudi</value>
+  </data>
+  <data name="Confirm" xml:space="preserve">
+    <value>Conferma</value>
+  </data>
+  <data name="Add" xml:space="preserve">
+    <value>Aggiungi</value>
+  </data>
+  <data name="Remove" xml:space="preserve">
+    <value>Rimuovi</value>
+  </data>
+  <data name="Users" xml:space="preserve">
+    <value>Utenti</value>
+  </data>
+  <data name="UsersObject" xml:space="preserve">
+    <value>Utenti</value>
+  </data>
+  <data name="ExternalSystemValuesObject" xml:space="preserve">
+    <value>Valori sistemi esterni</value>
+  </data>
+  <data name="Support" xml:space="preserve">
+    <value>Supporto</value>
+  </data>
+  <data name="FestivitiesObject" xml:space="preserve">
+    <value>Festività</value>
+  </data>
+  <data name="Street" xml:space="preserve">
+    <value>Via</value>
+  </data>
+  <data name="DuplicatedValue" xml:space="preserve">
+    <value>Valore duplicato.</value>
+  </data>
+  <data name="FileFoldersObject" xml:space="preserve">
+    <value>Cartelle archiviazione</value>
+  </data>
+  <data name="AttachedFiles" xml:space="preserve">
+    <value>File collegati</value>
+  </data>
+  <data name="Browse" xml:space="preserve">
+    <value>Sfoglia...</value>
+  </data>
+  <data name="SelectFile" xml:space="preserve">
+    <value>Seleziona un file</value>
+  </data>
+  <data name="RecordFilterRuleTypesObject" xml:space="preserve">
+    <value>Tipi contesto di filtro</value>
+  </data>
+  <data name="AuthorizationsObject" xml:space="preserve">
+    <value>Autorizzazioni</value>
+  </data>
+  <data name="Print" xml:space="preserve">
+    <value>Stampa</value>
+  </data>
+  <data name="ChangePassword" xml:space="preserve">
+    <value>Modifica password</value>
+  </data>
+  <data name="ResetPassword" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="OrderBy" xml:space="preserve">
+    <value>Ordina per:</value>
+  </data>
+  <data name="ContactUsSubject" xml:space="preserve">
+    <value>Richiesta di contatto</value>
+  </data>
+  <data name="Total" xml:space="preserve">
+    <value>Totale</value>
+  </data>
+  <data name="Next" xml:space="preserve">
+    <value>Avanti</value>
+  </data>
+  <data name="InsertOneValue" xml:space="preserve">
+    <value>Inserire almeno un valore</value>
+  </data>
+  <data name="PadLeft" xml:space="preserve">
+    <value>Scorri a sinistra</value>
+  </data>
+  <data name="PadRight" xml:space="preserve">
+    <value>Scorri a destra</value>
+  </data>
+  <data name="ZoomIn" xml:space="preserve">
+    <value>Ingrandisci</value>
+  </data>
+  <data name="ZoomOut" xml:space="preserve">
+    <value>Riduci</value>
+  </data>
+  <data name="Filter" xml:space="preserve">
+    <value>Filtra</value>
+  </data>
+  <data name="Fit" xml:space="preserve">
+    <value>Adatta</value>
+  </data>
+  <data name="SetCurrentTime" xml:space="preserve">
+    <value>Vai a orario corrente</value>
+  </data>
+  <data name="Send" xml:space="preserve">
+    <value>Invia</value>
+  </data>
+  <data name="InvalidUsernameOrPassword" xml:space="preserve">
+    <value>Username o password non validi</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>Sì</value>
+  </data>
+  <data name="GoToHome" xml:space="preserve">
+    <value>Vai alla Home</value>
+  </data>
+  <data name="Allowed" xml:space="preserve">
+    <value>Consentito</value>
+  </data>
+  <data name="Denied" xml:space="preserve">
+    <value>Negato</value>
+  </data>
+  <data name="RolesObject" xml:space="preserve">
+    <value>Ruoli</value>
+  </data>
+  <data name="ResetPasswordEmailMessage" xml:space="preserve">
+    <value>Per cortesia, clicca &lt;a href='{0}'&gt;qui&lt;/a&gt; per ripristinare la tua password.</value>
+  </data>
+  <data name="ResetPasswordEmailSubject" xml:space="preserve">
+    <value>BassoLegnami - Ripristino password</value>
+  </data>
+  <data name="DocumentTypesObject" xml:space="preserve">
+    <value>Tipo documenti</value>
+  </data>
+  <data name="LastUpdateDate" xml:space="preserve">
+    <value>Data/ora ultimo aggiornamento</value>
+  </data>
+  <data name="CreatedBy" xml:space="preserve">
+    <value>Utente creazione</value>
+  </data>
+  <data name="CreatedOn" xml:space="preserve">
+    <value>Data/ora creazione</value>
+  </data>
+  <data name="UpdatedBy" xml:space="preserve">
+    <value>Utente modifica</value>
+  </data>
+  <data name="UpdatedOn" xml:space="preserve">
+    <value>Data/ora modifica</value>
+  </data>
+  <data name="Other" xml:space="preserve">
+    <value>Altro</value>
+  </data>
+  <data name="Forbidden" xml:space="preserve">
+    <value>Vietato</value>
+  </data>
+  <data name="Entrance" xml:space="preserve">
+    <value>INGRESSO </value>
+  </data>
+  <data name="Number" xml:space="preserve">
+    <value>N.ro</value>
+  </data>
+  <data name="DocumentType" xml:space="preserve">
+    <value>TIPO DOCUMENTO</value>
+  </data>
+  <data name="InvalidLoginAttempt" xml:space="preserve">
+    <value>Username o Password errati. Riprovare. </value>
+  </data>
+  <data name="StatisticsMenu" xml:space="preserve">
+    <value>Statistiche</value>
+  </data>
+  <data name="Days" xml:space="preserve">
+    <value>Giorni</value>
+  </data>
+  <data name="Months" xml:space="preserve">
+    <value>Mesi</value>
+  </data>
+  <data name="Years" xml:space="preserve">
+    <value>Anni</value>
+  </data>
+  <data name="Run" xml:space="preserve">
+    <value>Esegui</value>
+  </data>
+  <data name="Adding" xml:space="preserve">
+    <value>Aggiunta</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Annulla</value>
+  </data>
+  <data name="Sign" xml:space="preserve">
+    <value>Gianluca Brontesi</value>
+  </data>
+  <data name="DuplicateCode" xml:space="preserve">
+    <value>Codice duplicato.</value>
+  </data>
+  <data name="InvalidField" xml:space="preserve">
+    <value>Campo non valido</value>
+  </data>
+  <data name="View" xml:space="preserve">
+    <value>Visualizza</value>
+  </data>
+  <data name="File" xml:space="preserve">
+    <value>File Collegato</value>
+  </data>
+  <data name="EmployeeAccessControllsMenu" xml:space="preserve">
+    <value>Controllo Accessi</value>
+  </data>
+  <data name="DuplicateValue" xml:space="preserve">
+    <value>Attenzione! Il valore inserito è duplicato.</value>
+  </data>
+  <data name="FieldRequiredOrNotValid" xml:space="preserve">
+    <value>Campo obbligatorio o valore non valido.</value>
+  </data>
+  <data name="CopyData" xml:space="preserve">
+    <value>Copia dati</value>
+  </data>
+  <data name="ExportInExcel" xml:space="preserve">
+    <value>Esporta in Excel</value>
+  </data>
+</root>

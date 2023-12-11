@@ -1,0 +1,14 @@
+﻿@model In.Core.Models.Authorization.RecordFilterRuleValue
+@using HtmlHelpers.BeginCollectionItemCore
+@using Microsoft.AspNetCore.Mvc.Localization
+@inject IHtmlLocalizer<SharedResource> SR
+
+<tr class="editorRow">
+    @using (Html.BeginCollectionItem("RecordFilterRuleValues"))
+    {
+        <td>
+            <display asp-for="RecordID" class="form-control" />
+            <span asp-validation-for="RecordID" class="text-danger"></span>
+        </td>
+    }
+</tr>

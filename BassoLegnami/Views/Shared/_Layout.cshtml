@@ -1,0 +1,625 @@
+﻿@using In.Core.Configuration;
+@using Microsoft.Extensions.Options;
+@using Microsoft.AspNetCore.Mvc.Localization
+@inject IOptions<ApplicationConfigurations> O
+@inject IHtmlLocalizer<SharedResource> SL
+@inject BassoLegnami.Model.Data.IUnitOfWork unitOfWork
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <link rel="apple-touch-icon" sizes="76x76" href="~/lib/light-boostrap-dashboard/img/apple-icon.png">
+    <link rel="icon" type="image/png" href="~/images/favicon.ico">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <title>@O.Value.ApplicationName - @ViewData["Title"]</title>
+    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport' />
+    <!--     Fonts and icons     -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <!-- CSS Files -->
+    <link href="~/lib/light-boostrap-dashboard/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/lib/light-boostrap-dashboard/css/light-bootstrap-dashboard.css?v=2.0.1" rel="stylesheet" />
+    <link href="~/lib/select2/css/select2.css" rel="stylesheet" />
+    <link href="~/lib/jquery-minicolors-master/jquery.minicolors.css" rel="stylesheet" />
+    <link href="~/css/overlaySpinner.css" rel="stylesheet" />
+    <link href="~/lib/light-boostrap-dashboard/css/buttons.dataTables.min.css" rel="stylesheet" />
+    <link href="~/lib/jstree/themes/default/style.min.css" rel="stylesheet" />
+    <link href="~/lib/dropzone/min/dropzone.min.css" rel="stylesheet" />
+    <link href="~/lib/dropzone/min/basic.min.css" rel="stylesheet" />
+    <link href="~/lib/summernote-0.8.11-dist/summernote-lite.css" rel="stylesheet" />
+    <link href="~/lib/bootstrap-rating/bootstrap-rating.css" rel="stylesheet" />
+    <link href="~/lib/bootstrap-fileinput/css/fileinput.min.css" rel="stylesheet" />
+    <link href="~/lib/bootstrap-glyphicons/css/bootstrap.css" rel="stylesheet" />
+    <link href="~/lib/searchableOptionList/searchableOptionList.css" rel="stylesheet" />
+    <link href="~/css/jquery-jvectormap-2.0.3.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+</head>
+<body>
+    <script type="text/javascript">
+        function defer(method) {
+            if (window.jQuery) {
+                method();
+            } else {
+                setTimeout(function () { defer(method) }, 50);
+            }
+        }
+    </script>
+    <div class="wrapper">
+        <div class="sidebar" data-color="orange" data-image="/images/sidebar.jpg">
+            <!--
+                Tip 1: You can change the color of the sidebar using: data-color="purple | blue | green | orange | red"
+
+                Tip 2: you can also add an image using data-image tag
+            -->
+            <div class="sidebar-wrapper">
+                <div class="logo text-center">
+                    <a href="@Url.Action(nameof(Index), "Home", new { Area = string.Empty })" class="simple-text logo-normal" forced="true">
+                        <img src="~/images/logo_Small_Transparent.png" style="" />
+                        @*@O.Value.ApplicationName*@
+                    </a>
+                </div>
+                <div class="user">
+                    <div class="photo">
+                        <img src="~/lib/light-boostrap-dashboard/img/default-avatar.png" />
+                    </div>
+                    <div class="info ">
+                        <a data-toggle="collapse" href="#collapseExample" class="collapsed" forced="true">
+                            <span>
+                                @User.Identity.Name
+                                @*<b class="caret"></b>*@
+                            </span>
+                        </a>
+                        @*<div class="collapse" id="collapseExample">
+                        <ul class="nav">
+                        <li>
+                        <a class="profile-dropdown" href="#pablo">
+                        <span class="sidebar-mini">MP</span>
+                        <span class="sidebar-normal">My Profile</span>
+                        </a>
+                        </li>
+                        <li>
+                        <a class="profile-dropdown" href="#pablo">
+                        <span class="sidebar-mini">EP</span>
+                        <span class="sidebar-normal">Edit Profile</span>
+                        </a>
+                        </li>
+                        <li>
+                        <a class="profile-dropdown" href="#pablo">
+                        <span class="sidebar-mini">S</span>
+                        <span class="sidebar-normal">Settings</span>
+                        </a>
+                        </li>
+                        </ul>
+                        </div>*@
+                    </div>
+                </div>
+
+                <partial name="_Menu" />
+            </div>
+        </div>
+        <div class="main-panel">
+            <!-- Navbar -->
+            <nav class="navbar navbar-expand-lg ">
+                <div class="container-fluid">
+                    <div class="navbar-wrapper">
+                        <div class="navbar-minimize">
+                            <button id="minimizeSidebar" class="btn btn-default btn-fill btn-round btn-icon d-none d-lg-block">
+                                <i class="fa fa-ellipsis-v visible-on-sidebar-regular"></i>
+                                <i class="fa fa-navicon visible-on-sidebar-mini"></i>
+                            </button>
+                        </div>
+                        <a style="color:darkorange;" class="navbar-brand" href="@Url.Action(nameof(Index), "Home", new { Area = string.Empty })"> ICRI - @O.Value.ApplicationName</a>
+                    </div>
+                    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-bar burger-lines"></span>
+                        <span class="navbar-toggler-bar burger-lines"></span>
+                        <span class="navbar-toggler-bar burger-lines"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-end">
+                        <ul class="nav navbar-nav mr-auto">
+                            <form class="navbar-form navbar-left navbar-search-form" role="search">
+                                <div class="input-group">
+                                    <i id="fastSearchIcon" class="nc-icon nc-zoom-split" style="margin-top: 8px;"></i>
+                                    <input id="fastSearch" name="fastSearch" type="text" value="" class="form-control" placeholder="@SL["SearchRecords"]..." style="color:black;">
+                                </div>
+                            </form>
+
+                        </ul>
+                        <ul class="navbar-nav">
+                            @*<li class="dropdown nav-item">
+                            <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">
+                            <i class="nc-icon nc-planet"></i>
+                            </a>
+                            <ul class="dropdown-menu">
+                            <a class="dropdown-item" href="#">Create New Post</a>
+                            <a class="dropdown-item" href="#">Manage Something</a>
+                            <a class="dropdown-item" href="#">Do Nothing</a>
+                            <a class="dropdown-item" href="#">Submit to live</a>
+                            <li class="divider"></li>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            </ul>
+                            </li>
+                            <li class="dropdown nav-item">
+                            <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">
+                            <i class="nc-icon nc-bell-55"></i>
+                            <span class="notification">5</span>
+                            <span class="d-lg-none">Notification</span>
+                            </a>
+                            <ul class="dropdown-menu">
+                            <a class="dropdown-item" href="#">Notification 1</a>
+                            <a class="dropdown-item" href="#">Notification 2</a>
+                            <a class="dropdown-item" href="#">Notification 3</a>
+                            <a class="dropdown-item" href="#">Notification 4</a>
+                            <a class="dropdown-item" href="#">Notification 5</a>
+                            </ul>
+                            </li>*@
+                            <li class="nav-item dropdown">
+                                <a forced="true" href="#" class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <i class="nc-icon nc-bullet-list-67"></i>
+                                </a>
+                                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                                    <a asp-action="ChangePassword" asp-controller="Manage" asp-route-code="@(Guid.NewGuid().ToString())" asp-area="" forced="true" class="dropdown-item"><i class="nc-icon nc-key-25"></i> @SL["ResetPassword"]</a>
+                                    <div class="divider"></div>
+                                    <a asp-action="Logout" asp-controller="Account" forced="true" class="dropdown-item text-danger">
+                                        <i class="nc-icon nc-button-power"></i> @SL["LogOut"]
+                                    </a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <!-- End Navbar -->
+            <div class="content">
+                <div class="container-fluid" style="height: max(100vh, 100%) - 182px;">
+                    @RenderBody()
+                </div>
+            </div>
+            <footer class="footer">
+                <div class="container">
+                    <nav>
+                        <p class="copyright text-center">
+                            ©
+                            <script>
+                                document.write(new Date().getFullYear())
+                            </script>
+                            <a href="@O.Value.CompanyWebSite" target="_blank">@O.Value.CompanyName</a>
+                        </p>
+                    </nav>
+                </div>
+            </footer>
+        </div>
+    </div>
+    <div class="loading d-none">Loading&#8230;</div>
+    <!--   Core JS Files   -->
+    <script src="~/lib/light-boostrap-dashboard/js/core/jquery.3.2.1.min.js" type="text/javascript"></script>
+    <script src="~/lib/jquery-donetyping/jquery.donetyping.js" type="text/javascript"></script>
+    <script src="~/lib/light-boostrap-dashboard/js/core/popper.min.js" type="text/javascript"></script>
+    <script src="~/lib/light-boostrap-dashboard/js/core/bootstrap.min.js" type="text/javascript"></script>
+    <!--  Plugin for Switches, full documentation here: http://www.jque.re/plugins/version3/bootstrap.switch/ -->
+    <script src="~/lib/light-boostrap-dashboard/js/plugins/bootstrap-switch.js"></script>
+    <!--  Google Maps Plugin    -->
+    @*<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?@_unitOfWork.SettingsRepository.GetByKey("System.GoogleAPIKey").Value"></script>*@
+    <!--  Chartist Plugin  -->
+    <script src="~/lib/light-boostrap-dashboard/js/plugins/chartist.min.js"></script>
+    <!--  Notifications Plugin    -->
+    <script src="~/lib/light-boostrap-dashboard/js/plugins/bootstrap-notify.js"></script>
+    <!--  jVector Map  -->
+    @*<script src="~/lib/light-boostrap-dashboard/js/plugins/jquery-jvectormap.js" type="text/javascript"></script>*@
+    <script src="~/lib/jvectormap/jquery-jvectormap-2.0.3.min.js" type="text/javascript"></script>
+    <script src="~/lib/jvectormap/jquery-jvectormap-it-mill.js" type="text/javascript"></script>
+    <script src="~/lib/jvectormap/jquery-jvectormap-it_regions-mill.js" type="text/javascript"></script>
+    <!--  Plugin for Date Time Picker and Full Calendar Plugin-->
+    <script src="~/lib/light-boostrap-dashboard/js/plugins/moment.min.js"></script>
+    <script src="~/lib/moment/moment-with-locales.min.js"></script>
+    <!--  DatetimePicker   -->
+    <script src="~/lib/light-boostrap-dashboard/js/plugins/bootstrap-datetimepicker.js"></script>
+    <!-- InputMask -->
+    <script src="~/lib/inputmask/jquery.inputmask.bundle.min.js"></script>
+    <!--  Sweet Alert  -->
+    <script src="~/lib/light-boostrap-dashboard/js/plugins/sweetalert2.min.js" type="text/javascript"></script>
+    <!--  Tags Input  -->
+    <script src="~/lib/light-boostrap-dashboard/js/plugins/bootstrap-tagsinput.js" type="text/javascript"></script>
+    <!--  Sliders  -->
+    <script src="~/lib/light-boostrap-dashboard/js/plugins/nouislider.js" type="text/javascript"></script>
+    <!--  Bootstrap Select  -->
+    <script src="~/lib/light-boostrap-dashboard/js/plugins/bootstrap-selectpicker.js" type="text/javascript"></script>
+    <!--  jQueryValidate  -->
+    <script src="~/lib/light-boostrap-dashboard/js/plugins/jquery.validate.min.js" type="text/javascript"></script>
+    <script src="~/lib/light-boostrap-dashboard/js/plugins/messages_it.js" type="text/javascript"></script>
+    <!--  Plugin for the Wizard, full documentation here: https://github.com/VinceG/twitter-bootstrap-wizard -->
+    <script src="~/lib/light-boostrap-dashboard/js/plugins/jquery.bootstrap-wizard.js"></script>
+    <!--  Bootstrap Table Plugin -->
+    <script src="~/lib/light-boostrap-dashboard/js/plugins/bootstrap-table.js"></script>
+    <!--  DataTable Plugin -->
+    <script src="~/lib/light-boostrap-dashboard/js/plugins/jquery.dataTables.min.js"></script>
+    <script src="~/lib/light-boostrap-dashboard/js/plugins/jszip.min.js"></script>
+    <script src="~/lib/light-boostrap-dashboard/js/plugins/pdfmake.min.js"></script>
+    <script src="~/lib/light-boostrap-dashboard/js/plugins/vfs_fonts.js"></script>
+    <script src="~/lib/light-boostrap-dashboard/js/plugins/dataTables.buttons.min.js"></script>
+    <script src="~/lib/light-boostrap-dashboard/js/plugins/buttons.html5.min.js"></script>
+    <!--  Full Calendar   -->
+    <script src="~/lib/light-boostrap-dashboard/js/plugins/fullcalendar.min.js"></script>
+    <!--  Summernote   -->
+    <script src="~/lib/summernote-0.8.11-dist/summernote-lite.js"></script>
+    <script src="~/lib/summernote-0.8.11-dist/lang/summernote-it-IT.js"></script>
+    <!-- Control Center for Now Ui Dashboard: parallax effects, scripts for the example pages etc -->
+    <script src="~/lib/light-boostrap-dashboard/js/light-bootstrap-dashboard.js?v=2.0.1" type="text/javascript"></script>
+    <script src="~/lib/select2/js/select2.js" type="text/javascript"></script>
+    <script src="~/lib/select2/js/i18n/it.js" type="text/javascript"></script>
+    <script src="~/lib/jquery-minicolors-master/jquery.minicolors.js" type="text/javascript"></script>
+    <script src="~/lib/jstree/jstree.min.js" type="text/javascript"></script>
+    <script src="~/lib/dropzone/min/dropzone.min.js" type="text/javascript"></script>
+    <script src="~/lib/inputmask/jquery.inputmask.bundle.min.js" type="text/javascript"></script>
+    <script src="~/lib/bootstrap-rating/bootstrap-rating.min.js" type="text/javascript"></script>
+    <script src="~/lib/bootstrap-checkbox/bootstrap-checkbox.js" type="text/javascript"></script>
+    <script src="~/lib/bootstrap-checkbox/i18n/it.js" type="text/javascript"></script>
+    <script src="~/lib/bootstrap-fileinput/fileinput.min.js" type="text/javascript"></script>
+    <script src="~/lib/download.js" type="text/javascript"></script>
+    <script src="~/lib/searchableOptionList/searchableOptionList.js" type="text/javascript"></script>
+    <script src="~/js/site.js" type="text/javascript" asp-append-version="true"></script>
+    <script type="text/javascript">
+        function bindSelect2(parent) {
+            parent = typeof parent !== 'undefined' ? parent : $(document);
+            parent.find("select:not(.excluded,:hidden)").each(function () {
+                if (!$(this).data('select2')) {
+                    $(this).select2({
+                        language: "it",
+                        placeholder: "@SL["SelectValue"]",
+                        allowClear: true,
+                        dropdownAutoWidth: true,
+                        width: 'resolve',
+                        formatNoMatches: function () {
+                            return "@SL["SelectValue"]";
+                        },
+                    }).on("change", function (e) {
+                        $("div[id$='" + $(this).attr('id') + "']").removeClass("field-validation-error");
+                        $("div[id$='" + $(this).attr('id') + "']").parent().removeClass("has-error").removeClass("state-error");
+                        $("span[data-valmsg-for='" + $(this).attr('id') + "']").hide();
+                        $("em[for='" + $(this).attr('id') + "']").hide();
+                    });
+                }
+            });
+
+            $('a[data-toggle="tab"]').off('shown.bs.tab');
+            $('a[data-toggle="tab"]').on('shown.bs.tab', function (e) {
+                bindSelect2(parent);
+                bindDatatables();
+            });
+        }
+        var floatVal = function (i) {
+            return typeof i === 'string' ?
+                i.replace(/[\€,. ]/g, '') * 0.01 :
+                typeof i === 'number' ?
+                    i : 0;
+        };
+
+        Number.prototype.formatMoney = function (decPlaces, thouSeparator, decSeparator) {
+            var n = this,
+                decPlaces = isNaN(decPlaces = Math.abs(decPlaces)) ? 2 : decPlaces,
+                decSeparator = decSeparator == undefined ? "." : decSeparator,
+                thouSeparator = thouSeparator == undefined ? "," : thouSeparator,
+                sign = n < 0 ? "-" : "",
+                i = parseInt(n = Math.abs(+n || 0).toFixed(decPlaces)) + "",
+                j = (j = i.length) > 3 ? j % 3 : 0;
+            return sign + "€ " + (j ? i.substr(0, j) + thouSeparator : "") + i.substr(j).replace(/(\d{3})(?=\d)/g, "$1" + thouSeparator) + (decPlaces ? decSeparator + Math.abs(n - i).toFixed(decPlaces).slice(2) : "");
+        };
+
+        function bindTimePicker() {
+            $('.timepicker').datetimepicker({
+                useCurrent: false,
+                locale: 'it',
+                format: 'HH:mm',
+                icons: {
+                    time: "fa fa-clock-o",
+                    date: "fa fa-calendar",
+                    up: "fa fa-chevron-up",
+                    down: "fa fa-chevron-down",
+                    previous: 'fa fa-chevron-left',
+                    next: 'fa fa-chevron-right',
+                    today: 'fa fa-screenshot',
+                    clear: 'fa fa-trash',
+                    close: 'fa fa-remove'
+                }
+            });
+            $(".timepicker").inputmask("99:99", { "placeholder": "__:__" });
+        }
+
+        function bindDatePicker() {
+            $('.datepicker').datetimepicker({
+                useCurrent: false,
+                locale: 'it',
+                format: 'DD/MM/YYYY',
+                extraFormats: ['YYYY-MM-DD'],
+                icons: {
+                    time: "fa fa-clock-o",
+                    date: "fa fa-calendar",
+                    up: "fa fa-chevron-up",
+                    down: "fa fa-chevron-down",
+                    previous: 'fa fa-chevron-left',
+                    next: 'fa fa-chevron-right',
+                    today: 'fa fa-screenshot',
+                    clear: 'fa fa-trash',
+                    close: 'fa fa-remove'
+                }
+            });
+            $(".datepicker").inputmask("99/99/9999", { "placeholder": "__/__/____" });
+        }
+
+        function bindDatatables() {
+            $('.table:not(.excluded,:hidden,.dtr-inline)').DataTable({
+                "pagingType": "full_numbers",
+                "lengthMenu": [
+                    [10, 25, 50, -1],
+                    [10, 25, 50, "@SL["All"]"]
+                ],
+                responsive: true,
+                language: {
+                    search: "_INPUT_",
+                    searchPlaceholder: "@SL["SearchRecords"]",
+                },
+                dom: "<'row'<'col-sm-12 col-md-6'l><'col-sm-12 col-md-6'f>>rt<'row'<'col-sm-12 col-md-6'Bi><'col-sm-12 col-md-6'<'pull-right'p>>>",
+                buttons: [
+                    {
+                        extend: 'excelHtml5',
+                        text: '<i class="fa fa-file-excel-o"></i> Excel',
+                        exportOptions: {
+                            columns: ':not(:last-child)',
+                        }
+                    },
+                    {
+                        extend: 'pdfHtml5',
+                        text: '<i class="fa fa-file-pdf"></i> PDF',
+                        orientation: 'landscape',
+                        pageSize: 'A4',
+                        exportOptions: {
+                            columns: ':not(:last-child)',
+                        }
+                    }
+                ],
+                "oLanguage": {
+                    "sZeroRecords": "@SL["NoData"]",
+                    "sSearch": "@SL["SearchBy"]",
+                    "sLengthMenu": "@SL["PaginationSelector"]",
+                    "sInfo": "@SL["PaginationInfo"]",
+                    "sInfoEmpty": "@SL["NoData"]",
+                    "sInfoFiltered": "@SL["InfoFiltered"]",
+                    "oPaginate": {
+                        "sNext": '<i class="fa fa-forward"></i>',
+                        "sPrevious": '<i class="fa fa-backward"></i>',
+                        "sFirst": '<i class="fa fa-fast-backward"></i>',
+                        "sLast": '<i class="fa fa-fast-forward"></i>',
+                    }
+                },
+                "columnDefs": [
+                    { "orderable": false, "targets": -1 }
+                ],
+            });
+        }
+
+        $(function () {
+            bindSelect2();
+            bindDatatables();
+            bindDatePicker();
+            bindTimePicker();
+
+            // remove menu (if empy)
+            $.each($("a.firstLevelMenu"), function (r, i) {
+                var currentElement = $("div" + $(i).attr("href")).find("a");
+                var visibile = currentElement.length > 0
+                if (visibile == false) {
+                    currentElement.remove();
+                    $(i).remove();
+                }
+            });
+
+            $.validator.addMethod("nowhitespace", function (value, element) {
+                return this.optional(element) || /^\S+$/i.test(value);
+            }, "@SL["NoWhiteSpaceError"]");
+
+            function isIE() {
+                var myNav = navigator.userAgent.toLowerCase();
+                return (myNav.indexOf('msie') != -1) ? parseInt(myNav.split('msie')[1]) : false;
+            }
+
+            $('.datetimepicker').datetimepicker({
+                useCurrent: false,
+                sideBySide: true,
+                locale: 'it',
+                format: 'DD/MM/YYYY HH:mm',
+                extraFormats: ['YYYY-MM-DD H:mm'],
+                icons: {
+                    time: "fa fa-clock-o",
+                    date: "fa fa-calendar",
+                    up: "fa fa-chevron-up",
+                    down: "fa fa-chevron-down",
+                    previous: 'fa fa-chevron-left',
+                    next: 'fa fa-chevron-right',
+                    today: 'fa fa-screenshot',
+                    clear: 'fa fa-trash',
+                    close: 'fa fa-remove'
+                }
+            });
+            $(".datetimepicker").inputmask("99/99/9999 99:99", { "placeholder": "__/__/____ __:__" });
+
+            $('.lineardatepicker').datetimepicker({
+                useCurrent: false,
+                locale: 'it',
+                format: 'YYYY-MM-DD',
+                extraFormats: ['YYYY-MM-DD'],
+                icons: {
+                    time: "fa fa-clock-o",
+                    date: "fa fa-calendar",
+                    up: "fa fa-chevron-up",
+                    down: "fa fa-chevron-down",
+                    previous: 'fa fa-chevron-left',
+                    next: 'fa fa-chevron-right',
+                    today: 'fa fa-screenshot',
+                    clear: 'fa fa-trash',
+                    close: 'fa fa-remove'
+                }
+            });
+            $(".lineardatepicker").inputmask("9999-99-99", { "placeholder": "____/__/__" });
+
+            $("form").validate({
+                highlight: function (element) {
+                    $(element).closest('.form-group').removeClass('has-success').addClass('has-error');
+                    $(element).closest('.form-check').removeClass('has-success').addClass('has-error');
+                },
+                success: function (element) {
+                    $(element).closest('.form-group').removeClass('has-error').addClass('has-success');
+                    $(element).closest('.form-check').removeClass('has-error').addClass('has-success');
+                },
+                errorPlacement: function (error, element) {
+                    $(element).closest('.form-group').append(error).addClass('has-error');
+                },
+            });
+
+            $("#fastSearchIcon").on("click", function () {
+                window.location.replace('@Url.Action("DirectAccess", "Home", new { area = "" })?code=' + $("#fastSearch").val());
+                return false;
+            });
+
+            $("#fastSearch").on("keydown", function (e) {
+                var keyCode = e.keyCode || e.which;
+                if (keyCode == 13) {
+                    window.location.replace('@Url.Action("DirectAccess", "Home", new { area = "" })?code=' + $("#fastSearch").val());
+                    return false;
+                }
+            });
+
+            $('form').submit(function (event) {
+                if ($(this).valid()) {
+                    if (event.originalEvent == undefined || event.originalEvent.explicitOriginalTarget == undefined) {
+                        $(".loading").removeClass("d-none");
+                    }
+                    else if (!$(event.originalEvent.explicitOriginalTarget).hasClass("excluded")) {
+                        $(".loading").removeClass("d-none");
+                    }
+                    $('input[type=submit]', this).attr('disabled', 'disabled');
+                }
+            });
+
+            jQuery.extend(jQuery.validator.messages, {
+                required: "@SL["FieldRequired"].Value",
+                remote: "@SL["FieldRemote"].Value",
+                email: "@SL["FieldEmailInvalid"].Value",
+                url: "@SL["FieldURLInvalid"].Value",
+                date: "@SL["FieldDateInvalid"].Value",
+                dateISO: "@SL["FieldDateInvalid"].Value",
+                number: "@SL["FieldNumberInvalid"].Value",
+                digits: "@SL["FieldOnlyDigits"].Value",
+                creditcard: "@SL["FieldCreditCardInvalid"].Value",
+                equalTo: "@SL["FieldEqualTo"].Value",
+                accept: "@SL["FieldAccetpInvalid"].Value",
+                max: "@SL["FieldMax"].Value",
+                min: "@SL["FieldMin"].Value",
+                maxlength: "@SL["FieldMaxLength"].Value",
+                minlength: "@SL["FieldMinLength"].Value",
+                rangelength: "@SL["FieldRangeLength"].Value",
+                range: "@SL["FieldRange"].Value",
+            });
+
+            $('input.minicolors').minicolors();
+
+            $("table").on("click", ".addItem", function () {
+                var editorRows = $(this).closest("table").children(".editorRows");
+                $.ajax({
+                    url: this.href,
+                    data: {
+                        prefix: $(this).attr("data-prefix"),
+                    },
+                    cache: false,
+                    success: function (data) {
+                        editorRows.append(data);
+                        editorRows.trigger('rowAdd');
+                        bindSelect2(editorRows);
+                    },
+                    complete: function (e) {
+                        $("[data-toggle='switch']").bootstrapSwitch();
+                    }
+                });
+                return false;
+            });
+            $(".editorRows").on("click", '.deleteRow', function (e) {
+                $(this).parents("tr.editorRow:first").remove();
+                return false;
+            });
+
+            $('[data-tooltip="true"]').tooltip();
+
+            // Summernote
+            $(".small-hypertext:not(.small-hypertext-readonly)").summernote({
+                lang: 'it-IT',
+                height: 150,
+                toolbar: [
+                    // [groupName, [list of button]]
+                    ['style', ['bold', 'italic', 'underline', 'clear']],
+                    ['font', ['strikethrough', 'superscript', 'subscript']],
+                    ['fontsize', ['fontname', 'fontsize']],
+                    ['color', ['forecolor', 'backcolor']],
+                    ['para', ['ul', 'ol', 'paragraph', 'table']],
+                    ['height', ['height']],
+                    ['misc', ['undo', 'redo']],
+                ]
+            });
+            $('.small-hypertext-readonly').summernote({
+                lang: 'it-IT',
+                height: 150,
+                styleWithSpan: false,
+                disableResizeEditor: true,
+                toolbar: [
+                ]
+            });
+            $('.small-hypertext-readonly').summernote('disable');
+
+            $(".hypertext:not(.hypertext-readonly)").summernote({
+                lang: 'it-IT',
+                toolbar: [
+                    // [groupName, [list of button]]
+                    ['style', ['bold', 'italic', 'underline', 'clear']],
+                    ['font', ['strikethrough', 'superscript', 'subscript']],
+                    ['fontsize', ['fontname', 'fontsize']],
+                    ['color', ['forecolor', 'backcolor']],
+                    ['para', ['ul', 'ol', 'paragraph', 'table']],
+                    ['height', ['height']],
+                    ['misc', ['undo', 'redo']],
+                ]
+            });
+            $('.hypertext-readonly').summernote({
+                lang: 'it-IT',
+                styleWithSpan: false,
+                disableResizeEditor: true,
+                toolbar: [
+                ]
+            });
+            $('.hypertext-readonly').summernote('disable');
+            $('.note-statusbar').hide();
+
+            $("select.selectMultiTags").select2({
+                allowClear: true,
+                tags: true,
+                placeholder: '@SL["SelectValue"]',
+                width: 'resolve',
+                language: {
+                    noResults: function (term) {
+                        return "@SL["NoData"]";
+                    }
+                }
+            });
+
+            $(".modal").on("shown.bs.modal", function () {
+                bindSelect2();
+            });
+
+            $('.collapse').on('shown.bs.collapse', function () {
+                bindSelect2();
+            })
+        });
+    </script>
+    @RenderSection("Scripts", required: false)
+</body>
+</html>

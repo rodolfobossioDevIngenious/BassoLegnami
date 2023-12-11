@@ -1,0 +1,313 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\rodolfo.bossio\\OneDrive - Icri s.r.l\\Desktop\\BassoLegnami\\BassoLegnami.Model\\BassoLegnami.Model.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\rodolfo.bossio\\OneDrive - Icri s.r.l\\Desktop\\BassoLegnami\\BassoLegnami.Model\\BassoLegnami.Model.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\rodolfo.bossio\\OneDrive - Icri s.r.l\\Desktop\\BassoLegnami\\BassoLegnami.Model\\BassoLegnami.Model.csproj",
+        "projectName": "BassoLegnami.Model",
+        "projectPath": "C:\\Users\\rodolfo.bossio\\OneDrive - Icri s.r.l\\Desktop\\BassoLegnami\\BassoLegnami.Model\\BassoLegnami.Model.csproj",
+        "packagesPath": "C:\\Users\\rodolfo.bossio\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\rodolfo.bossio\\OneDrive - Icri s.r.l\\Desktop\\BassoLegnami\\BassoLegnami.Model\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\rodolfo.bossio\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\rodolfo.bossio\\OneDrive - Icri s.r.l\\Desktop\\BassoLegnami\\BassoLegnami.Reports\\BassoLegnami.Reports.csproj": {
+                "projectPath": "C:\\Users\\rodolfo.bossio\\OneDrive - Icri s.r.l\\Desktop\\BassoLegnami\\BassoLegnami.Reports\\BassoLegnami.Reports.csproj"
+              },
+              "C:\\Users\\rodolfo.bossio\\OneDrive - Icri s.r.l\\Desktop\\BassoLegnami\\In.Core\\In.Core.csproj": {
+                "projectPath": "C:\\Users\\rodolfo.bossio\\OneDrive - Icri s.r.l\\Desktop\\BassoLegnami\\In.Core\\In.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "ClosedXML": {
+              "target": "Package",
+              "version": "[0.102.0, )"
+            },
+            "Elsa": {
+              "target": "Package",
+              "version": "[2.12.0, )"
+            },
+            "Elsa.Activities.Http": {
+              "target": "Package",
+              "version": "[2.12.0, )"
+            },
+            "Elsa.Activities.Temporal.Quartz": {
+              "target": "Package",
+              "version": "[2.12.0, )"
+            },
+            "Elsa.Designer.Components.Web": {
+              "target": "Package",
+              "version": "[2.12.0, )"
+            },
+            "Elsa.Persistence.EntityFramework.Core": {
+              "target": "Package",
+              "version": "[2.12.0, )"
+            },
+            "Elsa.Persistence.EntityFramework.SqlServer": {
+              "target": "Package",
+              "version": "[2.12.0, )"
+            },
+            "Elsa.Server.Api": {
+              "target": "Package",
+              "version": "[2.12.0, )"
+            },
+            "GoogleMapsAPI.NET.Core": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.10, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.10, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[7.0.10, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
+              "target": "Package",
+              "version": "[7.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Proxies": {
+              "target": "Package",
+              "version": "[7.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.10, )"
+            },
+            "NinjaNye.SearchExtensions": {
+              "target": "Package",
+              "version": "[3.0.1, )"
+            },
+            "SqlTableDependency": {
+              "target": "Package",
+              "version": "[8.5.8, )"
+            },
+            "morelinq": {
+              "target": "Package",
+              "version": "[3.4.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\rodolfo.bossio\\OneDrive - Icri s.r.l\\Desktop\\BassoLegnami\\BassoLegnami.Reports\\BassoLegnami.Reports.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\rodolfo.bossio\\OneDrive - Icri s.r.l\\Desktop\\BassoLegnami\\BassoLegnami.Reports\\BassoLegnami.Reports.csproj",
+        "projectName": "BassoLegnami.Reports",
+        "projectPath": "C:\\Users\\rodolfo.bossio\\OneDrive - Icri s.r.l\\Desktop\\BassoLegnami\\BassoLegnami.Reports\\BassoLegnami.Reports.csproj",
+        "packagesPath": "C:\\Users\\rodolfo.bossio\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\rodolfo.bossio\\OneDrive - Icri s.r.l\\Desktop\\BassoLegnami\\BassoLegnami.Reports\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\rodolfo.bossio\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.Extensions.Hosting.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "System.Drawing.Common": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "ZXing.Net": {
+              "target": "Package",
+              "version": "[0.16.9, )"
+            },
+            "ZXing.Net.Bindings.Windows.Compatibility": {
+              "target": "Package",
+              "version": "[0.16.12, )"
+            },
+            "iTextSharp-LGPL": {
+              "target": "Package",
+              "version": "[4.1.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\rodolfo.bossio\\OneDrive - Icri s.r.l\\Desktop\\BassoLegnami\\In.Core\\In.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\rodolfo.bossio\\OneDrive - Icri s.r.l\\Desktop\\BassoLegnami\\In.Core\\In.Core.csproj",
+        "projectName": "In.Core",
+        "projectPath": "C:\\Users\\rodolfo.bossio\\OneDrive - Icri s.r.l\\Desktop\\BassoLegnami\\In.Core\\In.Core.csproj",
+        "packagesPath": "C:\\Users\\rodolfo.bossio\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\rodolfo.bossio\\OneDrive - Icri s.r.l\\Desktop\\BassoLegnami\\In.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\rodolfo.bossio\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.10, )"
+            },
+            "Microsoft.AspNetCore.Mvc.ViewFeatures": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,22 @@
+﻿@model In.Core.Models.Authorization.RecordFilterRuleValue
+@using HtmlHelpers.BeginCollectionItemCore
+@using Microsoft.AspNetCore.Mvc.Localization
+@inject IHtmlLocalizer<SharedResource> SR
+
+<tr class="editorRow">
+    @using (Html.BeginCollectionItem("RecordFilterRuleValues"))
+    {
+        <td>
+            <input type="hidden" asp-for="RecordFilterRuleValueID" />
+            <input type="hidden" asp-for="RecordFilterRuleID" />
+            <input type="hidden" asp-for="CreatedBy" />
+            <input type="hidden" asp-for="CreatedOn" />
+            <input type="hidden" asp-for="UpdatedBy" />
+            <input type="hidden" asp-for="UpdatedOn" />
+            <input type="hidden" asp-for="RowVersion" />
+            <input asp-for="RecordID" class="form-control" />
+            <span asp-validation-for="RecordID" class="text-danger"></span>
+        </td>
+        <td><a href="#" class="deleteRow btn btn-danger"><i class="fa fa-trash"></i></a></td>
+    }
+</tr>

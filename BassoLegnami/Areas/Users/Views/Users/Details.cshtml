@@ -1,0 +1,171 @@
+﻿@model BassoLegnami.Model.Models.Users.User
+@using Microsoft.AspNetCore.Mvc.Localization
+@inject IHtmlLocalizer<SharedResource> SR
+@inject IHtmlLocalizer<BassoLegnami.Model.Models.Users.Role> RR
+@inject IHtmlLocalizer<In.Core.Models.Authorization.RecordFilterRule> RF
+@inject RoleManager<IdentityRole> roleManager;
+@inject BassoLegnami.Model.Data.IUnitOfWork unitOfWork;
+
+@{
+    ViewData["Title"] = string.Format("{0} {1}", SR["Details"].Value, Html.DisplayNameFor(model => model.UserId).ToString());
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    var recordFilterRules = unitOfWork.RecordFilterRulesRepository.GetByUser(new Guid(Model.UserId)).ToList();
+}
+
+<div class="row">
+    <div class="col-md-3"></div>
+    <div class="col-md-6">
+        <div class="card stacked-form">
+            <div class="card-header">
+                <h4 class="card-title title">@ViewData["Title"]</h4>
+            </div>
+            <div class="card-body">
+                <ul role="tablist" class="nav nav-tabs">
+                    <li role="presentation" class="nav-item show active" style="display: inherit;">
+                        <a class="nav-link" id="info-tab" href="#icon-info" data-toggle="tab"><i class="fa fa-info"></i> @SR["GeneralTab"]</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="roles-tab" href="#icon-roles" data-toggle="tab"><i class="fa fa-copy"></i> @RR["ObjectDescription"]</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="filterRules-tab" href="#icon-filterRules" data-toggle="tab"><i class="fa fa-filter"></i> @RF["ObjectDescription"]</a>
+                    </li>
+                </ul>
+                <form asp-action="Details">
+                    <input type="hidden" asp-for="UserId" />
+                    <div class="tab-content">
+                        <div id="icon-info" class="tab-pane fade show active" role="tabpanel" aria-labelledby="info-tab">
+                            <div class="form-group">
+                                <label asp-for="UserName" class="control-label"></label>
+                                <display asp-for="UserName" class="form-control"></display>
+                            </div>
+                            <div class="form-group">
+                                <label asp-for="Email" class="control-label"></label>
+                                <display asp-for="Email" class="form-control"></display>
+                            </div>
+                            <div class="form-group">
+                                <label asp-for="Enabled" class="control-label"></label>
+                                <display asp-for="Enabled" class="form-control"></display>
+                            </div>
+                            <div class="form-group">
+                                <label asp-for="ChangePassword" class="control-label"></label>
+                                <display asp-for="ChangePassword" class="form-control"></display>
+                            </div>
+                        </div>
+                        <div id="icon-roles" class="tab-pane fade" role="tabpanel" aria-labelledby="roles-tab">
+                            <table class="table table-striped table-bordered table-hover excluded" cellspacing="0" width="100%" style="width:100%">
+                                <thead>
+                                    <tr>
+                                        <th><displayName asp-for="@Model.Roles.FirstOrDefault().Name" class="form-control"></displayName></th>
+                                        <th></th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @foreach (var item in roleManager.Roles.OrderBy(r => r.Name))
+                                    {
+                                        <tr>
+                                            <td>@Html.Raw(item.Name)</td>
+                                            <td class="text-right">
+                                                <a href="#add" class="btn btn-primary @(Model.Roles.Any(r => r.RoleId == item.Id) ? "d-none": "")" data-roleId="@item.Id"><i class="fa fa-plus"></i> @SR["Add"]</a>
+                                                <a href="#remove" class="btn btn-danger @(!Model.Roles.Any(r => r.RoleId == item.Id) ? "d-none": "")" data-roleId="@item.Id"><i class="fa fa-trash"></i>  @SR["Remove"]</a>
+                                                <a asp-action="Details" asp-controller="Roles" asp-route-id="@item.Id" class="btn btn-default"><i class="fa fa-list-alt"></i></a>
+                                            </td>
+                                        </tr>
+                                    }
+                                </tbody>
+                            </table>
+                        </div>
+                        <div id="icon-filterRules" class="tab-pane fade" role="tabpanel" aria-labelledby="filterRules-tab">
+                            <table class="table table-striped table-bordered table-hover excluded" cellspacing="0" width="100%" style="width:100%">
+                                <thead>
+                                    <tr>
+                                        <th><displayName asp-for="@recordFilterRules.FirstOrDefault().RecordFilterRuleID" class="form-control"></displayName></th>
+                                        <th class="text-right">
+                                            <a asp-action="Create" asp-controller="RecordFilterRules" asp-route-id="@Model.UserId" class="btn btn-primary"><i class="fa fa-plus"></i> @SR["CreateNew"]</a>
+                                        </th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @foreach (var item in recordFilterRules)
+                                    {
+                                        <tr>
+                                            <td>@Html.Raw(item.RecordFilterRuleType.Name)</td>
+                                            <td class="text-right">
+                                                <a asp-action="Details" asp-controller="RecordFilterRules" asp-route-id="@item.RecordFilterRuleID" class="btn btn-default"><i class="fa fa-list-alt"></i></a>
+                                                <a asp-action="Edit" asp-controller="RecordFilterRules" asp-route-id="@item.RecordFilterRuleID" class="btn btn-md btn-warning"><i class="fa fa-pencil-square-o"></i> </a>
+                                                <a asp-action="Delete" asp-controller="RecordFilterRules" asp-route-id="@item.RecordFilterRuleID" class="btn btn-danger"><i class="fa fa-trash"></i></a>
+                                            </td>
+                                        </tr>
+                                    }
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </form>
+                <hr />
+                <div class="text-right">
+                    <a asp-action="Edit" asp-route-id="@Model.UserId" class="btn btn-warning"><i class="fa fa-pencil-square-o"></i> @SR["Edit"]</a>
+                    <a asp-action="Index" class="btn btn-default"><i class="fa fa-chevron-left"></i> @SR["BackToList"]</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3"></div>
+</div>
+
+@section Scripts {
+    <script type="text/javascript">
+        $(function () {
+            $("a[href='#add']").on("click", function (e) {
+                var parent = $(this).parent();
+                $.ajax({
+                    url: '@Url.Action("AddToRole")',
+                    data: {
+                        userId: $("#UserId").val(),
+                        roleId: $(this).attr("data-roleId"),
+                    },
+                    beforeSend: function (data) {
+                        $(".loading").removeClass("d-none");
+                    },
+                    cache: false,
+                    success: function (data) {
+                        debugger;
+                        if (data.Result == true) {
+                            parent.find("a[href='#add']").addClass("d-none");
+                            parent.find("a[href='#remove']").removeClass("d-none");
+                        }
+                    },
+                    complete: function (data) {
+                        $(".loading").addClass("d-none");
+                    }
+                });
+                return false;
+            });
+
+            $("a[href='#remove']").on("click", function (e) {
+                var parent = $(this).parent();
+                $.ajax({
+                    url: '@Url.Action("RemoveFromRole")',
+                    data: {
+                        userId: $("#UserId").val(),
+                        roleId: $(this).attr("data-roleId"),
+                    },
+                    cache: false,
+                    beforeSend: function (data) {
+                        $(".loading").removeClass("d-none");
+                    },
+                    success: function (data) {
+                        if (data.Result == true) {
+                            parent.find("a[href='#add']").removeClass("d-none");
+                            parent.find("a[href='#remove']").addClass("d-none");
+                        }
+                    },
+                    complete: function (data) {
+                        $(".loading").addClass("d-none");
+                    }
+                });
+                return false;
+            });
+        });
+    </script>
+}

@@ -1,0 +1,43 @@
+﻿@model BassoLegnami.Model.Models.GeographicSupport.Region
+@using Microsoft.AspNetCore.Mvc.Localization
+@inject IHtmlLocalizer<SharedResource> SR
+
+@{
+    ViewData["Title"] = string.Format("{0} {1}", SR["Delete"].Value, Html.DisplayNameFor(model => model.RegionID).ToString());
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="row">
+    <div class="col-md-3"></div>
+    <div class="col-md-6">
+        <div class="card stacked-form">
+            <div class="card-header">
+                <h4 class="card-title title">@ViewData["Title"]</h4>
+            </div>
+            <div class="card-body">
+                <form asp-action="Delete">
+                    <hr />
+                    <div class="display-label">@Html.LabelFor(model => model.RegionalZoneID)</div>
+                    <div class="display-field">@Html.DisplayFor(model => model.RegionalZone.Name)</div>
+
+                    <div class="display-label">@Html.LabelFor(model => model.Name)</div>
+                    <div class="display-field">@Html.DisplayFor(model => model.Name)</div>
+
+                    <div class="display-label">@Html.LabelFor(model => model.ISTATCode)</div>
+                    <div class="display-field">@Html.DisplayFor(model => model.ISTATCode)</div>
+
+                    <div class="display-label">@Html.LabelFor(model => model.Flag1)</div>
+                    <div class="display-field">@Html.DisplayFor(model => model.Flag1)</div>
+
+                    <hr />
+                    <div class="text-right">
+                        <input type="hidden" asp-for="RegionID" />
+                        <button type="submit" value="Delete" class="btn btn-danger"><i class="fa fa-trash"></i> @SR["Delete"]</button>
+                        <a asp-action="Index" class="btn btn-default"><i class="fa fa-chevron-left"></i> @SR["BackToList"]</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="col-md-3"></div>
+    </div>
+</div>

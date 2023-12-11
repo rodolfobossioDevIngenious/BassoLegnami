@@ -1,0 +1,107 @@
+﻿@model BassoLegnami.Model.Models.LocalizableObject
+@using Microsoft.AspNetCore.Mvc.Localization
+@inject IHtmlLocalizer<SharedResource> SR
+@inject BassoLegnami.Model.Data.IUnitOfWork unitOfWork
+
+@{
+    BassoLegnami.Model.Models.GeographicSupport.City city = unitOfWork.CityRepository.Get(Model.CityID);
+}
+
+<fieldset>
+    <legend></legend>
+    <hr class="separator" />
+    <h5>@BassoLegnami.Model.Resources.Models.LocalizableObject.LocalizableObject.Address</h5>
+    <div class="row">
+        <div class="col-md-4 col-sm-12">
+            <div class="form-group">
+                <label asp-for="Address" class="control-label"></label>
+                <display asp-for="Address" class="form-control"></display>
+                <input type="hidden" asp-for="Address" class="form-control" />
+            </div>
+
+        </div>
+        <div class="col-sm-1 col-12">
+            <div class="form-group">
+                <label asp-for="CAP" class="control-label"></label>
+                <display asp-for="CAP" class="form-control"></display>
+                <input type="hidden" asp-for="CAP" class="form-control"/>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-4 col-sm-12">
+            <div class="form-group">
+                <label asp-for="CityID" class="control-label"></label>
+                <display asp-for="City.Name" class="form-control"></display>
+                <input type="hidden" id="CityName" name="CityName" value="@city.Name"/>
+            </div>
+        </div>
+        <div class="col-md-3 col-sm-12">
+            <div class="form-group">
+                <label asp-for="City.ProvinceID" class="control-label"></label>
+                <display asp-for="City.Province.Name" class="form-control"></display>
+                <input type="hidden" id="ProvinceName" name="ProvinceName" value="@city.Province.Abbreviation"/>
+            </div>
+        </div>
+        <div class="col-md-3 col-xs-12">
+            <div class="form-group">
+                <label asp-for="Country" class="control-label"></label>
+                <display asp-for="Country" class="form-control"></display>
+                <input type="hidden" asp-for="Country" class="form-control" />
+            </div>
+        </div>
+        <div class="col-md-2 col-sm-12">
+            <div class="form-group">
+                <label class="control-label">&nbsp;</label>
+                <a class="btn btn-success" data-toggle="modal" data-target="#mapModal" style="color:white"><i class="fa fa-map-marker"></i> @BassoLegnami.Model.Resources.Models.LocalizableObject.LocalizableObject.ViewMap</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="mapModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="myModalLabel">@SR["Map"]</h5>
+                    <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                </div>
+                <div class="modal-body">
+                    <div id="map-canvas" style="width:100%;height:600px;"></div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-close"></i>&nbsp;@BassoLegnami.Resources.Models.SharedResource.Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    @Html.HiddenFor(model => model.RowVersion)
+</fieldset>
+
+<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&key=@unitOfWork.SettingsRepository.GetByKey("System.GoogleAPIKey").Value"></script>
+@*<script src='/Scripts/markerwithlabel.js'></script>*@
+<script type="text/javascript">
+    var defaultPosition = new google.maps.LatLng(@(Model.Latitude.ToString().Replace(",", ".")), @(Model.Longitude.ToString().Replace(",", ".")));
+    var mapOptions = {
+        zoom: 16,
+        center: defaultPosition,
+        mapTypeId: google.maps.MapTypeId.ROADMAP
+    };
+    var map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
+    var marker = new google.maps.Marker({
+        position: defaultPosition,
+    });
+
+    marker.setMap(map);
+
+    window.addEventListener("load", function () {
+        $(document).ready(function () {
+            $('#mapModal').on('shown.bs.modal', function () {
+                google.maps.event.trigger(map, "resize");
+                map.setCenter(defaultPosition);
+            });
+        });
+    });
+</script>
