@@ -1,0 +1,344 @@
+﻿/* Wrapping element */
+/* Set some basic padding to keep content from hitting the edges */
+body {
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+    color: black;
+}
+h5 {
+    color: darkorange;
+    font-weight: bold;
+}
+
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Carousel */
+.carousel-caption p {
+    font-size: 20px;
+    line-height: 1.4;
+}
+
+/* Make .svg files in the carousel display properly in older browsers */
+.carousel-inner .item img[src$=".svg"] {
+    width: 100%;
+}
+
+/* QR code generator */
+#qrCode {
+    margin: 15px;
+}
+
+/* Hide/rearrange for smaller screens */
+@media screen and (max-width: 767px) {
+    /* Hide captions */
+    .carousel-caption {
+        display: none;
+    }
+}
+
+.control-label {
+    display: table;
+    color: black !important;
+}
+
+.card .card-body .control-label {
+    padding-top: unset;
+    font-weight: bold;
+}
+
+.input-validation-error {
+    color: #FB404B;
+    border-color: #FB404B;
+}
+
+.toolbar {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.card .table tbody td:last-child, .card .table thead th:last-child {
+    display: table-cell;
+}
+
+textarea {
+    min-height: 120px !important;
+}
+
+select.select2 {
+    position: static !important;
+    outline: none !important;
+    width: 0px !important;
+    height: 0px !important;
+}
+
+.select2-container--default .select2-selection--single {
+    border: 1px solid #E3E3E3;
+}
+
+    .select2-selection:not(.select2-selection--multiple), .form-control, .select2-container--default .select2-selection--single .select2-selection__rendered {
+        height: 35px !important;
+        line-height: 35px !important;
+    }
+
+.select2, .select2-results {
+    font-size: .875rem;
+}
+
+.required:after {
+    content: " *";
+}
+
+.minicolors-theme-default.minicolors {
+    display: inherit;
+}
+
+.dataTables_info {
+    font-size: 0.875em;
+}
+
+.addItem, .rowButton {
+    width: 100% !important;
+    text-align: center;
+    display: block;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.commandColumn {
+    width: 1%;
+}
+
+.deleteRow {
+    padding: 2px 4px !important;
+    font-size: 16px !important;
+}
+
+span.select2.select2-container.select2-container--bootstrap {
+    width: 100% !important;
+}
+
+.field-validation-error {
+    font-size: 0.75em;
+}
+
+.data-tables table tbody .btn, table tbody .btn, .data-tables table tfoot .btn, table tfoot .btn {
+    padding: 1px 4px !important;
+    font-size: 0.875rem !important;
+}
+
+.validation-summary-errors {
+    margin-top: 10px;
+}
+
+    .validation-summary-errors ul {
+        margin-bottom: 0px;
+    }
+
+    .validation-summary-errors i {
+        padding-top: 3px;
+        float: left;
+    }
+
+.title {
+    text-transform: lowercase;
+}
+
+    .title::first-letter {
+        text-transform: uppercase;
+    }
+
+.btn-file {
+    position: relative;
+    overflow: hidden;
+}
+
+    .btn-file input[type=file] {
+        position: absolute;
+        top: 0;
+        right: 0;
+        min-width: 100%;
+        min-height: 100%;
+        font-size: 100px;
+        text-align: right;
+        filter: alpha(opacity=0);
+        opacity: 0;
+        outline: none;
+        background: white;
+        cursor: inherit;
+        display: block;
+    }
+
+.modal .modal-content .modal-body + .modal-footer {
+    padding-top: 10px;
+    border-top: 1px lightgrey solid;
+}
+
+.modal .modal-content .modal-header {
+    padding-bottom: 10px;
+    padding-top: 14px;
+    border-bottom: 1px lightgrey solid;
+    background-color: #447DF7 !important;
+    -moz-border-radius-topleft: 10px;
+    -moz-border-radius-topright: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    color: white;
+}
+
+    .modal .modal-content .modal-header.danger {
+        padding-bottom: 10px;
+        padding-top: 14px;
+        border-bottom: 1px lightgrey solid;
+        background-color: #FB404B !important;
+        -moz-border-radius-topleft: 10px;
+        -moz-border-radius-topright: 10px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        color: white;
+    }
+
+    .modal .modal-content .modal-header.warning {
+        padding-bottom: 10px;
+        padding-top: 14px;
+        border-bottom: 1px lightgrey solid;
+        background-color: #FF9510 !important;
+        -moz-border-radius-topleft: 10px;
+        -moz-border-radius-topright: 10px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        color: white;
+    }
+
+    .modal .modal-content .modal-header.success {
+        padding-bottom: 10px;
+        padding-top: 14px;
+        border-bottom: 1px lightgrey solid;
+        background-color: #87CB16 !important;
+        -moz-border-radius-topleft: 10px;
+        -moz-border-radius-topright: 10px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        color: white;
+    }
+
+.modal-xl {
+    max-width: 1280px;
+}
+
+/* Summernote */
+.note-editor.note-frame {
+    border: 1px solid #E3E3E3;
+    background-clip: padding-box;
+    border-bottom-color: rgb(227, 227, 227);
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-image-outset: 0;
+    border-image-repeat: stretch;
+    border-image-slice: 100%;
+    border-image-source: none;
+    border-image-width: 1;
+    border-left-color: rgb(227, 227, 227);
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-right-color: rgb(227, 227, 227);
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-top-color: rgb(227, 227, 227);
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border-top-style: solid;
+    border-top-width: 1px;
+    box-shadow: none;
+    box-sizing: border-box;
+}
+
+    .note-editor.note-frame .note-editing-area .note-editable {
+        padding: 10px;
+        overflow: auto;
+        word-wrap: break-word;
+        background-color: #fff;
+        border-radius: 4px;
+    }
+
+        .note-editor.note-frame .note-editing-area .note-editable[contenteditable="false"] {
+            background-color: #F5F5F5;
+            cursor: not-allowed;
+            opacity: 1;
+            border-radius: 4px;
+        }
+
+.note-popover .note-popover-content, .note-toolbar {
+    padding: 0 0 5px 5px;
+    margin: 0;
+    background-color: #fff;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+.note-editable {
+    height: 50vh;
+}
+
+.logo {
+    background-color: white;
+}
+
+.hidden {
+    display: none !important;
+}
+
+.nav-tabs .badge {
+    position: relative;
+    top: -10px;
+    right: -10px;
+    background: #d9534f;
+}
+
+#fastSearchIcon:hover {
+    cursor: pointer;
+}
+
+table thead th, table thead th label {
+    color: black !important;
+    font-weight: bold !important;
+    font-size: 12px !important;
+}
+
+label {
+    color: black !important;
+}
+
+table.dataTable .sorting::after, table.dataTable .sorting_asc::after, table.dataTable .sorting_desc::after {
+    float: right !important;
+}
+
+.accordions .card {
+    border: 1px solid #ddd !important;
+    border-bottom: 1px solid #ddd !important;
+}
+
+    .accordions .card .card-header {
+        border-bottom: none !important;
+    }
+
+        .accordions .card .card-header .card-title a {
+            background-color: #f5f5f5 !important;
+            padding-left: 10px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+
+.form-control[disabled], .form-control[readonly], fieldset[disabled] {
+    background-color: white;
+    border: none;
+    color: black;
+    margin-left: -12px;
+    margin-top: -12px;
+    margin-bottom: -12px;
+    resize: none;
+}

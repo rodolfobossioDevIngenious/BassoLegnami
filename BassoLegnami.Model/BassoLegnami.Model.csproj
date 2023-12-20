@@ -58,6 +58,10 @@
     <EmbeddedResource Update="Resources\Models\SharedResource.it.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
     </EmbeddedResource>
+    <EmbeddedResource Update="Resources\Models\Support\AgentiGiacenze\AgentiGiacenze.resx">
+      <LastGenOutput>AgentiGiacenze.Designer.cs</LastGenOutput>
+      <Generator>PublicResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
     <EmbeddedResource Update="Resources\Models\Support\Festivity\Festivity.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
       <LastGenOutput>Festivity.Designer.cs</LastGenOutput>
@@ -105,6 +109,11 @@
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
       <DependentUpon>Region.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Resources\Models\Support\AgentiGiacenze\AgentiGiacenze.Designer.cs">
+      <DependentUpon>AgentiGiacenze.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
     </Compile>
     <Compile Update="Resources\Models\Support\Festivity\Festivity.Designer.cs">
       <DesignTime>True</DesignTime>

@@ -10,3 +10,15 @@ E:\Develop\BassoLegnami\BassoLegnami.Reports\obj\Debug\net7.0\BassoLegnami.Repor
 E:\Develop\BassoLegnami\BassoLegnami.Reports\obj\Debug\net7.0\refint\BassoLegnami.Reports.dll
 E:\Develop\BassoLegnami\BassoLegnami.Reports\obj\Debug\net7.0\BassoLegnami.Reports.pdb
 E:\Develop\BassoLegnami\BassoLegnami.Reports\obj\Debug\net7.0\ref\BassoLegnami.Reports.dll
+E:\Develop\DTB\BassoLegnami\BassoLegnami\BassoLegnami.Reports\bin\Debug\net7.0\BassoLegnami.Reports.deps.json
+E:\Develop\DTB\BassoLegnami\BassoLegnami\BassoLegnami.Reports\bin\Debug\net7.0\BassoLegnami.Reports.dll
+E:\Develop\DTB\BassoLegnami\BassoLegnami\BassoLegnami.Reports\bin\Debug\net7.0\BassoLegnami.Reports.pdb
+E:\Develop\DTB\BassoLegnami\BassoLegnami\BassoLegnami.Reports\obj\Debug\net7.0\BassoLegnami.Reports.csproj.AssemblyReference.cache
+E:\Develop\DTB\BassoLegnami\BassoLegnami\BassoLegnami.Reports\obj\Debug\net7.0\BassoLegnami.Reports.GeneratedMSBuildEditorConfig.editorconfig
+E:\Develop\DTB\BassoLegnami\BassoLegnami\BassoLegnami.Reports\obj\Debug\net7.0\BassoLegnami.Reports.AssemblyInfoInputs.cache
+E:\Develop\DTB\BassoLegnami\BassoLegnami\BassoLegnami.Reports\obj\Debug\net7.0\BassoLegnami.Reports.AssemblyInfo.cs
+E:\Develop\DTB\BassoLegnami\BassoLegnami\BassoLegnami.Reports\obj\Debug\net7.0\BassoLegnami.Reports.csproj.CoreCompileInputs.cache
+E:\Develop\DTB\BassoLegnami\BassoLegnami\BassoLegnami.Reports\obj\Debug\net7.0\BassoLegnami.Reports.dll
+E:\Develop\DTB\BassoLegnami\BassoLegnami\BassoLegnami.Reports\obj\Debug\net7.0\refint\BassoLegnami.Reports.dll
+E:\Develop\DTB\BassoLegnami\BassoLegnami\BassoLegnami.Reports\obj\Debug\net7.0\BassoLegnami.Reports.pdb
+E:\Develop\DTB\BassoLegnami\BassoLegnami\BassoLegnami.Reports\obj\Debug\net7.0\ref\BassoLegnami.Reports.dll
