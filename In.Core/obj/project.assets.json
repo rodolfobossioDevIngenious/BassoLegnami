@@ -7103,11 +7103,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\rodolfo.bossio\\OneDrive - Icri s.r.l\\Desktop\\BassoLegnami\\In.Core\\In.Core.csproj",
+      "projectUniqueName": "E:\\Develop\\DTB\\BassoLegnami\\BassoLegnami\\In.Core\\In.Core.csproj",
       "projectName": "In.Core",
-      "projectPath": "C:\\Users\\rodolfo.bossio\\OneDrive - Icri s.r.l\\Desktop\\BassoLegnami\\In.Core\\In.Core.csproj",
+      "projectPath": "E:\\Develop\\DTB\\BassoLegnami\\BassoLegnami\\In.Core\\In.Core.csproj",
       "packagesPath": "C:\\Users\\rodolfo.bossio\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\rodolfo.bossio\\OneDrive - Icri s.r.l\\Desktop\\BassoLegnami\\In.Core\\obj\\",
+      "outputPath": "E:\\Develop\\DTB\\BassoLegnami\\BassoLegnami\\In.Core\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

@@ -24,6 +24,9 @@ using Microsoft.EntityFrameworkCore;
 using In.Core.Models.Authorization;
 using DocumentFormat.OpenXml.Office2010.Excel;
 using BassoLegnami.Model.Models.Users;
+using System.Data;
+using System.Data.SqlClient;
+using System.util;
 
 namespace BassoLegnami.Controllers
 {
@@ -168,7 +171,7 @@ namespace BassoLegnami.Controllers
                             _unitOfWork.EmailMessagesRepository.Add(new Model.Models.EmailMessage()
                             {
                                 RecipientEmail = applicationUser.Email,
-                                Subject = "ICRI BassoLegnami si aggiorna alla versione 2.0",
+                                Subject = "BassoLegnami si aggiorna alla versione 2.0",
                                 Message = emailTemplate
                                     .Replace("{{username}}", applicationUser.Email)
                                     .Replace("{{password}}", passwword),
@@ -306,6 +309,138 @@ namespace BassoLegnami.Controllers
             return View(model);
         }
 
+        //[HttpPost]
+        //[AllowAnonymous]
+        //[ValidateAntiForgeryToken]
+        //public async Task<IActionResult> Login(LoginViewModel model, string returnUrl = null)
+        //{
+        //    string user = string.Empty;
+        //    string password = string.Empty;
+
+        //    ViewData["ReturnUrl"] = returnUrl;
+
+        //    if (ModelState.IsValid)
+        //    {
+        //        using (SqlConnection connection = new("Server=192.168.0.17;Database=Magazzino;User Id=magazzino;Password=magazzino$;"))
+        //        {
+        //            // Create a SqlCommand
+        //            using (SqlCommand sqlCommand = new
+        //                    ($"SELECT * FROM [Magazzino].[dbo].[Utenti] WHERE [Utente] = '" + model.Email + $"' AND [Password] = '" + model.Password + "'", connection))
+        //            {
+        //                // Treat command as a text sql command
+        //                sqlCommand.CommandType = CommandType.Text;
+
+        //                try
+        //                {
+        //                    // Open connection
+        //                    connection.Open();
+
+        //                    // Run the sql command
+        //                    SqlDataReader reader = sqlCommand.ExecuteReader();
+
+        //                    // Read records
+        //                    if (reader.HasRows)
+        //                    {
+        //                        while (reader.Read())
+        //                        {
+        //                            user = reader.IsDBNull(reader.GetOrdinal("Utente")) ? string.Empty : reader.GetString(reader.GetOrdinal("Utente")).Trim();
+        //                            password = reader.IsDBNull(reader.GetOrdinal("Password")) ? string.Empty : reader.GetString(reader.GetOrdinal("Password")).Trim();
+        //                        }
+        //                    }
+        //                }
+        //                catch (Exception ex)
+        //                {
+        //                    ModelState.AddModelError(string.Empty, _localizer["InvalidLoginAttempt"]);
+        //                    return View(model);
+        //                }
+        //                finally
+        //                {
+        //                    connection.Close();
+        //                }
+        //            }
+
+        //            try
+        //            {
+        //                if (!string.IsNullOrEmpty(user) || !string.IsNullOrEmpty(password))
+        //                {
+        //                    //Microsoft.AspNetCore.Identity.SignInResult result = await _signInManager.PasswordSignInAsync(user, password, model.RememberMe, lockoutOnFailure: false).ConfigureAwait(false);
+        //                    //if (result.Succeeded)
+        //                    //{
+        //                    //    _logger.LogInformation("User logged in.");
+        //                    //    return RedirectToAction(nameof(HomeController.Index), "Home");
+        //                    //}
+        //                    //if (result.RequiresTwoFactor)
+        //                    //{
+        //                    //    return RedirectToAction(nameof(LoginWith2fa), new { returnUrl, model.RememberMe });
+        //                    //}
+        //                    //if (result.IsLockedOut)
+        //                    //{
+        //                    //    _logger.LogWarning("User account locked out.");
+        //                    //    return RedirectToAction(nameof(Lockout));
+        //                    //}
+        //                    //else
+        //                    //{
+        //                    //    Microsoft.AspNetCore.Identity.SignInResult result = await _signInManager.PasswordSignInAsync(user, password, model.RememberMe, lockoutOnFailure: false).ConfigureAwait(false);
+        //                    //    if (result.Succeeded)
+        //                    //    {
+        //                    //        _logger.LogInformation("User logged in.");
+        //                    //        return RedirectToAction(nameof(HomeController.Index), "Home");
+        //                    //    }
+        //                    //    if (result.RequiresTwoFactor)
+        //                    //    {
+        //                    //        return RedirectToAction(nameof(LoginWith2fa), new { returnUrl, model.RememberMe });
+        //                    //    }
+        //                    //    if (result.IsLockedOut)
+        //                    //    {
+        //                    //        _logger.LogWarning("User account locked out.");
+        //                    //        return RedirectToAction(nameof(Lockout));
+        //                    //    }
+        //                    //    else
+        //                    //    {
+        //                    //        ModelState.AddModelError(string.Empty, _localizer["InvalidLoginAttempt"]);
+        //                    //        return View(model);
+        //                    //    }
+        //                    //}
+        //                }
+        //                else
+        //                {
+        //                    Microsoft.AspNetCore.Identity.SignInResult result = await _signInManager.PasswordSignInAsync(model.Email, model.Password, model.RememberMe, lockoutOnFailure: false).ConfigureAwait(false);
+        //                    if (result.Succeeded)
+        //                    {
+        //                        _logger.LogInformation("User logged in.");
+        //                        return RedirectToAction(nameof(HomeController.Index), "Home");
+        //                    }
+        //                    if (result.RequiresTwoFactor)
+        //                    {
+        //                        return RedirectToAction(nameof(LoginWith2fa), new { returnUrl, model.RememberMe });
+        //                    }
+        //                    if (result.IsLockedOut)
+        //                    {
+        //                        _logger.LogWarning("User account locked out.");
+        //                        return RedirectToAction(nameof(Lockout));
+        //                    }
+        //                    else
+        //                    {
+        //                        ModelState.AddModelError(string.Empty, _localizer["InvalidLoginAttempt"]);
+        //                        return View(model);
+        //                    }
+        //                }
+
+        //                ModelState.AddModelError(string.Empty, _localizer["InvalidLoginAttempt"]);
+        //                return View(model);
+        //            }
+        //            catch (Exception ex)
+        //            {
+        //                ModelState.AddModelError(string.Empty, _localizer["InvalidLoginAttempt"]);
+        //                return View(model);
+        //            }
+        //        }
+        //    }
+
+        //    return RedirectToAction(nameof(HomeController.Index), "Home");
+        //}
+
+
         [HttpGet]
         [AllowAnonymous]
         public async Task<IActionResult> LoginWith2fa(bool rememberMe, string returnUrl = null)
@@ -347,7 +482,7 @@ namespace BassoLegnami.Controllers
             if (result.Succeeded)
             {
                 _logger.LogInformation("User with ID {UserId} logged in with 2fa.", user.Id);
-                return RedirectToLocal(returnUrl);
+                return RedirectToAction(nameof(HomeController.Index), "Home");
             }
             else if (result.IsLockedOut)
             {
@@ -401,7 +536,7 @@ namespace BassoLegnami.Controllers
             if (result.Succeeded)
             {
                 _logger.LogInformation("User with ID {UserId} logged in with a recovery code.", user.Id);
-                return RedirectToLocal(returnUrl);
+                return RedirectToAction(nameof(HomeController.Index), "Home");
             }
             if (result.IsLockedOut)
             {
@@ -450,7 +585,7 @@ namespace BassoLegnami.Controllers
 
                     await _signInManager.SignInAsync(user, isPersistent: false).ConfigureAwait(false);
                     _logger.LogInformation("User created a new account with password.");
-                    return RedirectToLocal(returnUrl);
+                    return RedirectToAction(nameof(HomeController.Index), "Home");
                 }
                 AddErrors(result);
             }
@@ -497,7 +632,7 @@ namespace BassoLegnami.Controllers
             if (result.Succeeded)
             {
                 _logger.LogInformation("User logged in with {Name} provider.", info.LoginProvider);
-                return RedirectToLocal(returnUrl);
+                return RedirectToAction(nameof(HomeController.Index), "Home");
             }
             if (result.IsLockedOut)
             {
@@ -535,7 +670,7 @@ namespace BassoLegnami.Controllers
                     {
                         await _signInManager.SignInAsync(user, isPersistent: false).ConfigureAwait(false);
                         _logger.LogInformation("User created an account using {Name} provider.", info.LoginProvider);
-                        return RedirectToLocal(returnUrl);
+                        return RedirectToAction(nameof(HomeController.Index), "Home");
                     }
                 }
                 AddErrors(result);
@@ -754,7 +889,6 @@ namespace BassoLegnami.Controllers
                 return RedirectToAction(nameof(HomeController.Index), "Home");
             }
         }
-
         #endregion
     }
 }

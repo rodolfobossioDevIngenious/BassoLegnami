@@ -14673,11 +14673,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\rodolfo.bossio\\OneDrive - Icri s.r.l\\Desktop\\BassoLegnami\\BassoLegnami.Model\\BassoLegnami.Model.csproj",
+      "projectUniqueName": "E:\\Develop\\DTB\\BassoLegnami\\BassoLegnami\\BassoLegnami.Model\\BassoLegnami.Model.csproj",
       "projectName": "BassoLegnami.Model",
-      "projectPath": "C:\\Users\\rodolfo.bossio\\OneDrive - Icri s.r.l\\Desktop\\BassoLegnami\\BassoLegnami.Model\\BassoLegnami.Model.csproj",
+      "projectPath": "E:\\Develop\\DTB\\BassoLegnami\\BassoLegnami\\BassoLegnami.Model\\BassoLegnami.Model.csproj",
       "packagesPath": "C:\\Users\\rodolfo.bossio\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\rodolfo.bossio\\OneDrive - Icri s.r.l\\Desktop\\BassoLegnami\\BassoLegnami.Model\\obj\\",
+      "outputPath": "E:\\Develop\\DTB\\BassoLegnami\\BassoLegnami\\BassoLegnami.Model\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -14700,11 +14700,11 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\rodolfo.bossio\\OneDrive - Icri s.r.l\\Desktop\\BassoLegnami\\BassoLegnami.Reports\\BassoLegnami.Reports.csproj": {
-              "projectPath": "C:\\Users\\rodolfo.bossio\\OneDrive - Icri s.r.l\\Desktop\\BassoLegnami\\BassoLegnami.Reports\\BassoLegnami.Reports.csproj"
+            "E:\\Develop\\DTB\\BassoLegnami\\BassoLegnami\\BassoLegnami.Reports\\BassoLegnami.Reports.csproj": {
+              "projectPath": "E:\\Develop\\DTB\\BassoLegnami\\BassoLegnami\\BassoLegnami.Reports\\BassoLegnami.Reports.csproj"
             },
-            "C:\\Users\\rodolfo.bossio\\OneDrive - Icri s.r.l\\Desktop\\BassoLegnami\\In.Core\\In.Core.csproj": {
-              "projectPath": "C:\\Users\\rodolfo.bossio\\OneDrive - Icri s.r.l\\Desktop\\BassoLegnami\\In.Core\\In.Core.csproj"
+            "E:\\Develop\\DTB\\BassoLegnami\\BassoLegnami\\In.Core\\In.Core.csproj": {
+              "projectPath": "E:\\Develop\\DTB\\BassoLegnami\\BassoLegnami\\In.Core\\In.Core.csproj"
             }
           }
         }

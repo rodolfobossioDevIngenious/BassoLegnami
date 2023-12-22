@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ZwmfawYqTHMq9xBq97RaP1BP27yJ7YLef0gmiflzH7sQry7xL4eVQMQa/hQOTC1ITt+j0bo5Pqzso3tB4j+6zw==",
+  "dgSpecHash": "XpGhszH2VBfLAO+mNb+wWgMNsV0sJv1ly4PIGJ+W19uli/DgCgbgsWqw+wJCY3ikl64GUDkzeXtMmSxnqYGesQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\rodolfo.bossio\\OneDrive - Icri s.r.l\\Desktop\\BassoLegnami\\BassoLegnami\\BassoLegnami.csproj",
+  "projectFilePath": "E:\\Develop\\DTB\\BassoLegnami\\BassoLegnami\\BassoLegnami\\BassoLegnami.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\rodolfo.bossio\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
     "C:\\Users\\rodolfo.bossio\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",
