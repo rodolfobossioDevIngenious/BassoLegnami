@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Develop\\DTB\\BassoLegnami\\BassoLegnami\\BassoLegnami.Reports\\BassoLegnami.Reports.csproj": {}
+    "E:\\Develop\\DTB\\Sphinx2_dotnet\\BassoLegnami\\BassoLegnami.Reports\\BassoLegnami.Reports.csproj": {}
   },
   "projects": {
-    "E:\\Develop\\DTB\\BassoLegnami\\BassoLegnami\\BassoLegnami.Reports\\BassoLegnami.Reports.csproj": {
+    "E:\\Develop\\DTB\\Sphinx2_dotnet\\BassoLegnami\\BassoLegnami.Reports\\BassoLegnami.Reports.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Develop\\DTB\\BassoLegnami\\BassoLegnami\\BassoLegnami.Reports\\BassoLegnami.Reports.csproj",
+        "projectUniqueName": "E:\\Develop\\DTB\\Sphinx2_dotnet\\BassoLegnami\\BassoLegnami.Reports\\BassoLegnami.Reports.csproj",
         "projectName": "BassoLegnami.Reports",
-        "projectPath": "E:\\Develop\\DTB\\BassoLegnami\\BassoLegnami\\BassoLegnami.Reports\\BassoLegnami.Reports.csproj",
+        "projectPath": "E:\\Develop\\DTB\\Sphinx2_dotnet\\BassoLegnami\\BassoLegnami.Reports\\BassoLegnami.Reports.csproj",
         "packagesPath": "C:\\Users\\rodolfo.bossio\\.nuget\\packages\\",
-        "outputPath": "E:\\Develop\\DTB\\BassoLegnami\\BassoLegnami\\BassoLegnami.Reports\\obj\\",
+        "outputPath": "E:\\Develop\\DTB\\Sphinx2_dotnet\\BassoLegnami\\BassoLegnami.Reports\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -83,7 +83,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

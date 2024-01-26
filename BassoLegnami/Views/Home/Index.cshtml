@@ -7,3 +7,79 @@
 @{
     ViewData["Title"] = "Home Page";
 }
+
+<style type="text/css">
+    a.productHistoryLink:hover {
+        cursor: pointer;
+    }
+
+    .carousel-item {
+        padding: 10px 0;
+    }
+</style>
+
+<div class="card stacked-form" style="background-color: transparent; border: 0px;">
+    <div class="card-body">
+        <div class="row">
+            <div class="col-xl-3 col-lg-4 col-sm-6">
+                <div class="card card-stats">
+                    <div class="card-body ">
+                        <a asp-controller="AgentiGiacenzes" asp-action="Index" asp-area="Support" accesskey="A">
+                            <div class="row">
+                                <div class="col-5">
+                                    <div class="icon-big text-center icon-warning">
+                                        <i class="nc-icon nc-app text-warning"></i>
+                                    </div>
+                                </div>
+                                <div class="col-7">
+                                    <div class="numbers">
+                                        <p class="card-category">Giacenze</p>
+                                        <h4 class="card-title">Elenco Giacenze</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="card-footer ">
+                        <hr>
+                        <div class="stats">
+                            <i class="fa fa-clock-o"></i> Visualizza giacenze
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-4 col-sm-6">
+                <div class="card card-stats">
+                    <div class="card-body ">
+                        <a asp-controller="Clientis" asp-action="Index" asp-area="Support" accesskey="C">
+                            <div class="row">
+                                <div class="col-5">
+                                    <div class="icon-big text-center icon-warning">
+                                        <i class="nc-icon nc-circle-09 text-warning"></i>
+                                    </div>
+                                </div>
+                                <div class="col-7">
+                                    <div class="numbers">
+                                        <p class="card-category">Clienti</p>
+                                        <h4 class="card-title">Elenco Clienti</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="card-footer ">
+                        <hr>
+                        <div class="stats">
+                            <i class="fa fa-clock-o"></i> Visualizza Clienti
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="card-body">
+        <div class="row">
+            
+        </div>
+    </div>
+</div>

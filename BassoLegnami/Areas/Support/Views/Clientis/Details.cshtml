@@ -1,0 +1,137 @@
+﻿@model BassoLegnami.Model.Models.Support.Clienti
+@using Microsoft.AspNetCore.Mvc.Localization
+@inject IHtmlLocalizer<SharedResource> SR
+
+@{
+    ViewData["Title"] = "Dettaglio cliente";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="card stacked-form">
+    <div class="card-header">
+        <h4 class="card-title title">@ViewData["Title"]</h4>
+    </div>
+    <div class="card-body">
+        <form asp-action="Details">
+            <ul role="tablist" class="nav nav-tabs">
+                <li role="presentation" class="nav-item">
+                    <a class="nav-link show active" id="contact-tab" href="#icon-info" data-toggle="tab"><i class="fa fa-info"></i> @SR["GeneralTab"]</a>
+                </li>
+                <li role="presentation">
+                    <a class="nav-link" id="files-tab" href="#icon-files" data-toggle="tab"><i class="fa fa-address-book"></i> Contatti</a>
+                </li>
+                <li role="presentation">
+                    <a class="nav-link" id="acquisti-tab" href="#icon-acquisti" data-toggle="tab"><i class="fa fa-signal"></i> Analisi acquisti</a>
+                </li>
+            </ul>
+            <div class="tab-content">
+                <div id="icon-info" class="tab-pane fade show active" role="tabpanel" aria-labelledby="info-tab">
+                    <div class="row">
+                        <div class="col-lg-3">
+                            <div class="form-group">
+                                <label asp-for="Codice" class="control-label"></label>
+                                <display asp-for="Codice" class="form-control"></display>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="form-group">
+                                <label asp-for="RagioneSociale" class="control-label"></label>
+                                <display asp-for="RagioneSociale" class="form-control"></display>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-3">
+                            <div class="form-group">
+                                <label asp-for="Indirizzo" class="control-label"></label>
+                                <display asp-for="Indirizzo" class="form-control"></display>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="form-group">
+                                <label asp-for="CAP" class="control-label"></label>
+                                <display asp-for="CAP" class="form-control"></display>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="form-group">
+                                <label asp-for="Citta" class="control-label"></label>
+                                <display asp-for="Citta" class="form-control"></display>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-3">
+                            <div class="form-group">
+                                <label asp-for="PartitaIva" class="control-label"></label>
+                                <display asp-for="PartitaIva" class="form-control"></display>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="form-group">
+                                <label asp-for="Pagamento" class="control-label"></label>
+                                <display asp-for="Pagamento" class="form-control"></display>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-3">
+                            <div class="form-group">
+                                <label asp-for="Incarico1" class="control-label"></label>
+                                <display asp-for="Incarico1" class="form-control"></display>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="form-group">
+                                <label asp-for="Categoria" class="control-label"></label>
+                                <display asp-for="Categoria" class="form-control"></display>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="icon-files" class="tab-pane fade" role="tabpanel" aria-labelledby="files-tab">
+                    <div class="row">
+                        <div class="col-lg-3">
+                            <div class="form-group">
+                                <label asp-for="Telefono1" class="control-label"></label>
+                                <display asp-for="Telefono1" class="form-control"></display>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="form-group">
+                                <label asp-for="Telefono2" class="control-label"></label>
+                                <display asp-for="Telefono2" class="form-control"></display>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="form-group">
+                                <label asp-for="Fax" class="control-label"></label>
+                                <display asp-for="Fax" class="form-control"></display>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-3">
+                            <div class="form-group">
+                                <label asp-for="Cellulare" class="control-label"></label>
+                                <display asp-for="Cellulare" class="form-control"></display>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="form-group">
+                                <label asp-for="Email" class="control-label"></label>
+                                <display asp-for="Email" class="form-control"></display>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="icon-acquisti" class="tab-pane fade" role="tabpanel" aria-labelledby="acquisti-tab">
+                </div>
+            </div>
+        </form>
+        <hr />
+        <div class="text-right">
+            <a asp-action="Index" class="btn btn-default"><i class="fa fa-chevron-left"></i> @SR["BackToList"]</a>
+        </div>
+    </div>
+</div>

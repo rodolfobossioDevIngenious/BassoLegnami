@@ -150,6 +150,9 @@
   <data name="Fornitore" xml:space="preserve">
     <value>Fornitore</value>
   </data>
+  <data name="Id" xml:space="preserve">
+    <value>Id</value>
+  </data>
   <data name="LunghezzaDescr" xml:space="preserve">
     <value>Lunghezza Descrizione</value>
   </data>

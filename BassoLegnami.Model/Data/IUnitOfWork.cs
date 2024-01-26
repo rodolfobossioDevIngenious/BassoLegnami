@@ -38,5 +38,7 @@ namespace BassoLegnami.Model.Data
 		public IGenericRepository<Models.GeographicSupport.Region> RegionRepository { get; }
 		public IGenericRepository<Models.GeographicSupport.RegionalZone> RegionalZoneRepository { get; }
 		public IGenericRepository<UnitOfMeasurement> UnitOfMeasurementRepository { get; }
+        public IAgentiGiacenzeRepository AgentiGiacenzeRepository { get; }
+        public IClientiRepository ClientiRepository { get; }
     }
 }

@@ -1,0 +1,227 @@
+﻿@model BassoLegnami.Model.Models.Support.AgentiGiacenze
+@using Microsoft.AspNetCore.Mvc.Localization
+@inject IHtmlLocalizer<SharedResource> SR
+
+@{
+    ViewData["Title"] = string.Format("{0} {1}", SR["List"].Value, Html.DescriptionFor(model => model.Tipo).ToString());
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="card stacked-form">
+    <div class="card-header">
+        <h4 class="card-title title">@ViewData["Title"]</h4>
+    </div>
+    <div class="card-body">
+        <form asp-action="Details">
+            <ul role="tablist" class="nav nav-tabs">
+                <li role="presentation" class="nav-item">
+                    <a class="nav-link show active" id="info-tab" href="#icon-info" data-toggle="tab"><i class="fa fa-info"></i> @SR["GeneralTab"]</a>
+                </li>
+            </ul>
+            <div class="tab-content">
+                <div id="icon-info" class="tab-pane fade show active" role="tabpanel" aria-labelledby="info-tab">
+                    <div class="row">
+                        <div class="col-lg-3">
+                            <div class="form-group">
+                                <label asp-for="TipoPacco" class="control-label"></label>
+                                <display asp-for="TipoPacco" class="form-control"></display>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="form-group">
+                                <label asp-for="Essenza" class="control-label"></label>
+                                <display asp-for="Essenza" class="form-control"></display>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="form-group">
+                                <label asp-for="Classifica" class="control-label"></label>
+                                <display asp-for="Classifica" class="form-control"></display>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="form-group">
+                                <label asp-for="StatoLegno" class="control-label"></label>
+                                <display asp-for="StatoLegno" class="form-control"></display>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-3">
+                            <div class="form-group">
+                                <label asp-for="Stagionatura" class="control-label"></label>
+                                <display asp-for="Stagionatura" class="form-control"></display>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="form-group">
+                                <label asp-for="Deposito" class="control-label"></label>
+                                <display asp-for="Deposito" class="form-control"></display>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="form-group">
+                                <label asp-for="Provenienza" class="control-label"></label>
+                                <display asp-for="Provenienza" class="form-control"></display>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="form-group">
+                                <label asp-for="Fornitore" class="control-label"></label>
+                                <display asp-for="Fornitore" class="form-control"></display>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-3">
+                            <div class="form-group">
+                                <label asp-for="UnitaMisuraPrezzoAcquisto" class="control-label"></label>
+                                <display asp-for="UnitaMisuraPrezzoAcquisto" class="form-control"></display>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="form-group">
+                                <label asp-for="Misura" class="control-label"></label>
+                                <display asp-for="Misura" class="form-control"></display>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="form-group">
+                                <label asp-for="Dim1" class="control-label"></label>
+                                <display asp-for="Dim1" class="form-control"></display>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="form-group">
+                                <label asp-for="Dim2" class="control-label"></label>
+                                <display asp-for="Dim2" class="form-control"></display>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-3">
+                            <div class="form-group">
+                                <label asp-for="Dim3" class="control-label"></label>
+                                <display asp-for="Dim3" class="form-control"></display>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="form-group">
+                                <label asp-for="Quantita" class="control-label"></label>
+                                <display asp-for="Quantita" class="form-control"></display>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="form-group">
+                                <label asp-for="Pacco" class="control-label"></label>
+                                <display asp-for="Pacco" class="form-control"></display>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="form-group">
+                                <label asp-for="Tipo" class="control-label"></label>
+                                <display asp-for="Tipo" class="form-control"></display>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-3">
+                            <div class="form-group">
+                                <label asp-for="Volume" class="control-label"></label>
+                                <display asp-for="Volume" class="form-control"></display>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="form-group">
+                                <label asp-for="NPackList" class="control-label"></label>
+                                <display asp-for="NPackList" class="form-control"></display>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="form-group">
+                                <label asp-for="Marchio" class="control-label"></label>
+                                <display asp-for="Marchio" class="form-control"></display>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="form-group">
+                                <label asp-for="PrezzoAcquisto" class="control-label"></label>
+                                <display asp-for="PrezzoAcquisto" class="form-control"></display>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-3">
+                            <div class="form-group">
+                                <label asp-for="QuantitaVenduta" class="control-label"></label>
+                                <display asp-for="QuantitaVenduta" class="form-control"></display>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="form-group">
+                                <label asp-for="DataImpegno" class="control-label"></label>
+                                <display asp-for="DataImpegno" class="form-control"></display>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="form-group">
+                                <label asp-for="DataVendita" class="control-label"></label>
+                                <display asp-for="DataVendita" class="form-control"></display>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="form-group">
+                                <label asp-for="ClienteImpegno" class="control-label"></label>
+                                <display asp-for="ClienteImpegno" class="form-control"></display>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-3">
+                            <div class="form-group">
+                                <label asp-for="Certificazione" class="control-label"></label>
+                                <display asp-for="Certificazione" class="form-control"></display>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="form-group">
+                                <label asp-for="Qualita" class="control-label"></label>
+                                <display asp-for="Qualita" class="form-control"></display>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="form-group">
+                                <label asp-for="LunghezzaDescr" class="control-label"></label>
+                                <display asp-for="LunghezzaDescr" class="form-control"></display>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="form-group">
+                                <label asp-for="Strati" class="control-label"></label>
+                                <display asp-for="Strati" class="form-control"></display>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-3">
+                            <div class="form-group">
+                                <label asp-for="NumeroCarico" class="control-label"></label>
+                                <display asp-for="NumeroCarico" class="form-control"></display>
+                            </div>
+                        </div>
+                        <div class="col-lg-9">
+                            <div class="form-group">
+                                <label asp-for="Note" class="control-label"></label>
+                                <display asp-for="Note" class="form-control"></display>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+        <hr />
+        <div class="text-right">
+            <a asp-action="Index" class="btn btn-default"><i class="fa fa-chevron-left"></i> @SR["BackToList"]</a>
+        </div>
+    </div>
+</div>

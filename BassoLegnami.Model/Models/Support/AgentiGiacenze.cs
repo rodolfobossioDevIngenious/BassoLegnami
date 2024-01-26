@@ -8,6 +8,9 @@ namespace BassoLegnami.Model.Models.Support
 {
 	public class AgentiGiacenze : In.Core.Models.Auditable
     {
+        [Display(ResourceType = typeof(Resources.Models.Support.AgentiGiacenze.AgentiGiacenze), Name = "Id", Description = "Id")]
+        public int Id { get; set; }
+
         [Display(ResourceType = typeof(Resources.Models.Support.AgentiGiacenze.AgentiGiacenze), Name = "TipoPacco", Description = "TipoPacco")]
         public string TipoPacco { get; set; }
 

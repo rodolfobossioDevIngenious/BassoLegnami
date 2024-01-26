@@ -57,8 +57,8 @@
             <div class="sidebar-wrapper">
                 <div class="logo text-center">
                     <a href="@Url.Action(nameof(Index), "Home", new { Area = string.Empty })" class="simple-text logo-normal" forced="true">
-                        @* <img src="~/images/logo_Small_Transparent.png" style="" /> *@
-                        @*@O.Value.ApplicationName*@
+                        <img src="~/images/logo_Small_Transparent.png" style="" />
+                        @O.Value.ApplicationName
                     </a>
                 </div>
                 <div class="user">
@@ -111,7 +111,7 @@
                                 <i class="fa fa-navicon visible-on-sidebar-mini"></i>
                             </button>
                         </div>
-                        <a style="color:green;" class="navbar-brand" href="@Url.Action(nameof(Index), "Home", new { Area = string.Empty })"> Basso Legnami - @O.Value.ApplicationName</a>
+                        <a style="color:green;" class="navbar-brand" href="@Url.Action(nameof(Index), "Home", new { Area = string.Empty })"> @* @O.Value.ApplicationName *@</a>
                     </div>
                     <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-bar burger-lines"></span>

@@ -16,7 +16,7 @@ namespace BassoLegnami.Model.Data.Repositories
 {
     public interface IAgentiGiacenzeRepository : IGenericRepository<AgentiGiacenze>
     {
-        List<AgentiGiacenze> GetData();
+        List<AgentiGiacenze> GetData(int? id);
     }
 
     public class AgentiGiacenzeRepository : GenericRepository<AgentiGiacenze>, IAgentiGiacenzeRepository
@@ -25,18 +25,19 @@ namespace BassoLegnami.Model.Data.Repositories
         {
         }
 
-        public List<AgentiGiacenze> GetData()
+        public List<AgentiGiacenze> GetData(int? id)
         {
             List<AgentiGiacenze> Giacenze = new();
+            List<AgentiGiacenze> EstrazioneGiacenze = new();
             // Create the connection.
             using (SqlConnection connection = new("Server=192.168.0.17;Database=Magazzino;User Id=magazzino;Password=magazzino$;"))
             {
                 // Create a SqlCommand
                 using (SqlCommand sqlCommand = new
-                        ($"SELECT [TipoPacco]" +
+                        ($"SELECT TOP 1000 [TipoPacco]" +
                         $", [Essenza] , [Classifica], [StatoLegno], [Stagionatura], [Deposito], [Provenienza], [Fornitore], [UnitaMisuraPrezzoAcquisto], [Misura], [DIM1], [DIM2]" +
                         $", [DIM3], [Quantità], [Pacco], [Tipo], [Volume], [NPackList], [Marchio], [PrezzoAcquisto], [QuantitàVenduta], [DataImpegno], [DataVendita], [ClienteImpegno]," +
-                        $" [Certificazione], [Qualita], [Note], [LunghezzaDescr], [Strati], [NumeroCarico]  FROM [Magazzino].[dbo].[AgentiGiacenza]", connection))
+                        $" [Certificazione], [Qualita], [Note], [LunghezzaDescr], [Strati], [NumeroCarico], [Id] FROM [Magazzino].[dbo].[AgentiGiacenza]", connection))
                 {
                     // Treat command as a text sql command
                     sqlCommand.CommandType = CommandType.Text;
@@ -56,6 +57,7 @@ namespace BassoLegnami.Model.Data.Repositories
                             {
                                 Giacenze.Add(new AgentiGiacenze()
                                 {
+                                    Id = reader.GetInt32("Id"),
                                     TipoPacco = reader.IsDBNull(reader.GetOrdinal("TipoPacco")) ? null : reader.GetString(reader.GetOrdinal("TipoPacco")).Trim(),
                                     Essenza = reader.IsDBNull(reader.GetOrdinal("Essenza")) ? null : reader.GetString(reader.GetOrdinal("Essenza")).Trim(),
                                     Classifica = reader.IsDBNull(reader.GetOrdinal("Classifica")) ? null : reader.GetString(reader.GetOrdinal("Classifica")).Trim(),
@@ -66,33 +68,33 @@ namespace BassoLegnami.Model.Data.Repositories
                                     Fornitore = reader.IsDBNull(reader.GetOrdinal("Fornitore")) ? null : reader.GetString(reader.GetOrdinal("Fornitore")).Trim(),
                                     UnitaMisuraPrezzoAcquisto = reader.IsDBNull(reader.GetOrdinal("UnitaMisuraPrezzoAcquisto")) ? null : reader.GetString(reader.GetOrdinal("UnitaMisuraPrezzoAcquisto")).Trim(),
                                     Misura = reader.IsDBNull(reader.GetOrdinal("Misura")) ? null : reader.GetString(reader.GetOrdinal("Misura")).Trim(),
-                                    Dim1 = reader.IsDBNull(reader.GetOrdinal("DIM1")) ? null : reader.GetString(reader.GetOrdinal("DIM1")).Trim(),
-                                    Dim2 = reader.IsDBNull(reader.GetOrdinal("DIM2")) ? null : reader.GetString(reader.GetOrdinal("DIM2")).Trim(),
-                                    Dim3 = reader.IsDBNull(reader.GetOrdinal("DIM3")) ? null : reader.GetString(reader.GetOrdinal("DIM3")).Trim(),
-                                    Quantita = reader.IsDBNull(reader.GetOrdinal("Quantità")) ? null : reader.GetString(reader.GetOrdinal("Quantità")).Trim(),
+                                    //Dim1 = reader.IsDBNull(reader.GetOrdinal("DIM1")) ? null : reader.GetString(reader.GetOrdinal("DIM1")).Trim(),
+                                    //Dim2 = reader.IsDBNull(reader.GetOrdinal("DIM2")) ? null : reader.GetString(reader.GetOrdinal("DIM2")).Trim(),
+                                    //Dim3 = reader.IsDBNull(reader.GetOrdinal("DIM3")) ? null : reader.GetString(reader.GetOrdinal("DIM3")).Trim(),
+                                    //Quantita = reader.IsDBNull(reader.GetOrdinal("Quantità")) ? null : reader.GetString(reader.GetOrdinal("Quantità")).Trim(),
                                     Pacco = reader.IsDBNull(reader.GetOrdinal("Pacco")) ? null : reader.GetString(reader.GetOrdinal("Pacco")).Trim(),
-                                    Tipo = reader.IsDBNull(reader.GetOrdinal("Tipo")) ? null : reader.GetString(reader.GetOrdinal("Tipo")).Trim(),
-                                    Volume = reader.IsDBNull(reader.GetOrdinal("Volume")) ? null : reader.GetString(reader.GetOrdinal("Volume")).Trim(),
-                                    NPackList = reader.IsDBNull(reader.GetOrdinal("NPackList")) ? null : reader.GetString(reader.GetOrdinal("NPackList")).Trim(),
+                                    //Tipo = reader.IsDBNull(reader.GetOrdinal("Tipo")) ? null : reader.GetString(reader.GetOrdinal("Tipo")).Trim(),
+                                    //Volume = reader.IsDBNull(reader.GetOrdinal("Volume")) ? null : reader.GetString(reader.GetOrdinal("Volume")).Trim(),
+                                    //NPackList = reader.IsDBNull(reader.GetOrdinal("NPackList")) ? null : reader.GetString(reader.GetOrdinal("NPackList")).Trim(),
                                     Marchio = reader.IsDBNull(reader.GetOrdinal("Marchio")) ? null : reader.GetString(reader.GetOrdinal("Marchio")).Trim(),
-                                    PrezzoAcquisto = reader.IsDBNull(reader.GetOrdinal("PrezzoAcquisto")) ? null : reader.GetString(reader.GetOrdinal("PrezzoAcquisto")).Trim(),
-                                    QuantitaVenduta = reader.IsDBNull(reader.GetOrdinal("QuantitàVenduta")) ? null : reader.GetString(reader.GetOrdinal("QuantitàVenduta")).Trim(),
-                                    DataImpegno = reader.IsDBNull(reader.GetOrdinal("DataImpegno")) ? null : reader.GetString(reader.GetOrdinal("DataImpegno")).Trim(),
-                                    DataVendita = reader.IsDBNull(reader.GetOrdinal("DataVendita")) ? null : reader.GetString(reader.GetOrdinal("DataVendita")).Trim(),
+                                    //PrezzoAcquisto = reader.IsDBNull(reader.GetOrdinal("PrezzoAcquisto")) ? null : reader.GetString(reader.GetOrdinal("PrezzoAcquisto")).Trim(),
+                                    //QuantitaVenduta = reader.IsDBNull(reader.GetOrdinal("QuantitàVenduta")) ? null : reader.GetString(reader.GetOrdinal("QuantitàVenduta")).Trim(),
+                                    //DataImpegno = reader.IsDBNull(reader.GetDateTime("DataImpegno")) ? null : reader.GetDateTime("DataImpegno")),
+                                    //DataVendita = reader.IsDBNull(reader.GetOrdinal("DataVendita")) ? null : reader.GetString(reader.GetOrdinal("DataVendita")).Trim(),
                                     ClienteImpegno = reader.IsDBNull(reader.GetOrdinal("ClienteImpegno")) ? null : reader.GetString(reader.GetOrdinal("ClienteImpegno")).Trim(),
                                     Certificazione = reader.IsDBNull(reader.GetOrdinal("Certificazione")) ? null : reader.GetString(reader.GetOrdinal("Certificazione")).Trim(),
                                     Qualita = reader.IsDBNull(reader.GetOrdinal("Qualita")) ? null : reader.GetString(reader.GetOrdinal("Qualita")).Trim(),
                                     Note = reader.IsDBNull(reader.GetOrdinal("Note")) ? null : reader.GetString(reader.GetOrdinal("Note")).Trim(),
                                     LunghezzaDescr = reader.IsDBNull(reader.GetOrdinal("LunghezzaDescr")) ? null : reader.GetString(reader.GetOrdinal("LunghezzaDescr")).Trim(),
-                                    Strati = reader.IsDBNull(reader.GetInt32("Strati")) ? null : reader.GetString(reader.GetInt32("Strati")).Trim(),
-                                    NumeroCarico = reader.IsDBNull(reader.GetInt32("NumeroCarico")) ? null : reader.GetString(reader.GetInt32("NumeroCarico")).Trim(),
+                                    //Strati = reader.IsDBNull(reader.GetInt32("Strati")) ? null : reader.GetString(reader.GetInt32("Strati")).Trim(),
+                                    //NumeroCarico = reader.IsDBNull(reader.GetInt32("NumeroCarico")) ? null : reader.GetString(reader.GetInt32("NumeroCarico")).Trim(),
                                 });
                             }
                         }
                     }
                     catch (Exception ex)
                     {
-                        //TODO
+                        Giacenze.Clear();
                     }
                     finally
                     {
@@ -104,10 +106,15 @@ namespace BassoLegnami.Model.Data.Repositories
                 {
                     if (Giacenze != null)
                     {
+                        if (id.HasValue)
+                            Giacenze = Giacenze.Where(r => r.Id == id).ToList();
+
                         foreach (AgentiGiacenze item in Giacenze)
                         {
                             AgentiGiacenze agentiGiancenza = new()
-                            {                                TipoPacco = item.TipoPacco,
+                            {
+                                Id = item.Id,
+                                TipoPacco = item.TipoPacco,
                                 Essenza = item.Essenza,
                                 Classifica = item.Classifica,
                                 StatoLegno = item.StatoLegno,
@@ -138,17 +145,16 @@ namespace BassoLegnami.Model.Data.Repositories
                                 Strati = item.Strati,
                                 NumeroCarico = item.NumeroCarico
                             };
-                            Giacenze.Add(agentiGiancenza);
+                            EstrazioneGiacenze.Add(agentiGiancenza);
                         }
                     }
                 }
                 catch (Exception ex)
                 {
-                    //TODO
+                    EstrazioneGiacenze.Clear();
                 }
             }
-
-            return Giacenze;
+            return EstrazioneGiacenze;
         }
     }
 }

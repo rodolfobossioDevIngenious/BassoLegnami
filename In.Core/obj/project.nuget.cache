@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "RAaaROYNm/LiOkZ8xujDoXy3HV3kx/Tep52IeXz2j/TFzqlPfRxzX/e1KMcMXdM+a/Oslvw4VGU6+rhM3349LA==",
+  "dgSpecHash": "sxdr+uNsQyGic3zg6qfIIQaXvpf9aLevK0Mtlu+jF2vdtD0y9hsrS3dTCOTLIzbF3PAEA53DdtBs18eB62TfjA==",
   "success": true,
-  "projectFilePath": "E:\\Develop\\DTB\\BassoLegnami\\BassoLegnami\\In.Core\\In.Core.csproj",
+  "projectFilePath": "E:\\Develop\\DTB\\Sphinx2_dotnet\\BassoLegnami\\In.Core\\In.Core.csproj",
   "expectedPackageFiles": [
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.aspnetcore.antiforgery\\2.2.0\\microsoft.aspnetcore.antiforgery.2.2.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",

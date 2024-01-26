@@ -160,6 +160,15 @@ namespace BassoLegnami.Model.Resources.Models.Support.AgentiGiacenze {
         }
         
         /// <summary>
+        ///   Cerca una stringa localizzata simile a Id.
+        /// </summary>
+        public static string Id {
+            get {
+                return ResourceManager.GetString("Id", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Cerca una stringa localizzata simile a Lunghezza Descrizione.
         /// </summary>
         public static string LunghezzaDescr {
