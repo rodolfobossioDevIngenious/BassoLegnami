@@ -48,7 +48,7 @@ namespace BassoLegnami.Model.Models.Support
         public string Dim3 { get; set; }
 
         [Display(ResourceType = typeof(Resources.Models.Support.AgentiGiacenze.AgentiGiacenze), Name = "Quantita", Description = "Quantita")]
-        public string Quantita { get; set; }
+        public int? Quantita { get; set; }
 
         [Display(ResourceType = typeof(Resources.Models.Support.AgentiGiacenze.AgentiGiacenze), Name = "Pacco", Description = "Pacco")]
         public string Pacco { get; set; }
@@ -57,7 +57,7 @@ namespace BassoLegnami.Model.Models.Support
         public string Tipo { get; set; }
 
         [Display(ResourceType = typeof(Resources.Models.Support.AgentiGiacenze.AgentiGiacenze), Name = "Volume", Description = "Volume")]
-        public string Volume { get; set; }
+        public decimal? Volume { get; set; }
 
         [Display(ResourceType = typeof(Resources.Models.Support.AgentiGiacenze.AgentiGiacenze), Name = "NPackList", Description = "NPackList")]
         public string NPackList { get; set; }
@@ -100,6 +100,7 @@ namespace BassoLegnami.Model.Models.Support
 
         [Display(ResourceType = typeof(Resources.Models.Support.AgentiGiacenze.AgentiGiacenze), Name = "Classifica", Description = "Classifica")]
         public string Classifica { get; set; }
+        public long? RankID { get; set; }
 
         public override IEnumerable<ValidationResult> Validate(ValidationContext validationContext)
         {

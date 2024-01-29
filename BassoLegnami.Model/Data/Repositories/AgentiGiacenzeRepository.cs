@@ -1,11 +1,8 @@
 ﻿using BassoLegnami.Model.Models.Support;
-using BassoLegnami.Model.Models;
-using DocumentFormat.OpenXml.ExtendedProperties;
 using In.Core.Data;
 using In.Core.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
-using Microsoft.Extensions.DependencyInjection;
 using System;
 using System.Collections.Generic;
 using System.Data;
@@ -17,6 +14,7 @@ namespace BassoLegnami.Model.Data.Repositories
     public interface IAgentiGiacenzeRepository : IGenericRepository<AgentiGiacenze>
     {
         List<AgentiGiacenze> GetData(int? id);
+        List<AgentiGiacenze> GetDataRank(int? id);
     }
 
     public class AgentiGiacenzeRepository : GenericRepository<AgentiGiacenze>, IAgentiGiacenzeRepository
@@ -37,7 +35,7 @@ namespace BassoLegnami.Model.Data.Repositories
                         ($"SELECT TOP 1000 [TipoPacco]" +
                         $", [Essenza] , [Classifica], [StatoLegno], [Stagionatura], [Deposito], [Provenienza], [Fornitore], [UnitaMisuraPrezzoAcquisto], [Misura], [DIM1], [DIM2]" +
                         $", [DIM3], [Quantità], [Pacco], [Tipo], [Volume], [NPackList], [Marchio], [PrezzoAcquisto], [QuantitàVenduta], [DataImpegno], [DataVendita], [ClienteImpegno]," +
-                        $" [Certificazione], [Qualita], [Note], [LunghezzaDescr], [Strati], [NumeroCarico], [Id] FROM [Magazzino].[dbo].[AgentiGiacenza]", connection))
+                        $" [Certificazione], [Qualita], [Note], [LunghezzaDescr], [Strati], [NumeroCarico], [Id] FROM [Magazzino].[dbo].[AgentiGiacenza] ORDER BY [Id] DESC", connection))
                 {
                     // Treat command as a text sql command
                     sqlCommand.CommandType = CommandType.Text;
@@ -71,10 +69,10 @@ namespace BassoLegnami.Model.Data.Repositories
                                     //Dim1 = reader.IsDBNull(reader.GetOrdinal("DIM1")) ? null : reader.GetString(reader.GetOrdinal("DIM1")).Trim(),
                                     //Dim2 = reader.IsDBNull(reader.GetOrdinal("DIM2")) ? null : reader.GetString(reader.GetOrdinal("DIM2")).Trim(),
                                     //Dim3 = reader.IsDBNull(reader.GetOrdinal("DIM3")) ? null : reader.GetString(reader.GetOrdinal("DIM3")).Trim(),
-                                    //Quantita = reader.IsDBNull(reader.GetOrdinal("Quantità")) ? null : reader.GetString(reader.GetOrdinal("Quantità")).Trim(),
+                                    Quantita = reader.IsDBNull(reader.GetOrdinal("Quantità")) ? 0 : reader.GetInt16("Quantità"),
                                     Pacco = reader.IsDBNull(reader.GetOrdinal("Pacco")) ? null : reader.GetString(reader.GetOrdinal("Pacco")).Trim(),
                                     //Tipo = reader.IsDBNull(reader.GetOrdinal("Tipo")) ? null : reader.GetString(reader.GetOrdinal("Tipo")).Trim(),
-                                    //Volume = reader.IsDBNull(reader.GetOrdinal("Volume")) ? null : reader.GetString(reader.GetOrdinal("Volume")).Trim(),
+                                    Volume = reader.IsDBNull(reader.GetOrdinal("Volume")) ? null : reader.GetDecimal("Volume"),
                                     //NPackList = reader.IsDBNull(reader.GetOrdinal("NPackList")) ? null : reader.GetString(reader.GetOrdinal("NPackList")).Trim(),
                                     Marchio = reader.IsDBNull(reader.GetOrdinal("Marchio")) ? null : reader.GetString(reader.GetOrdinal("Marchio")).Trim(),
                                     //PrezzoAcquisto = reader.IsDBNull(reader.GetOrdinal("PrezzoAcquisto")) ? null : reader.GetString(reader.GetOrdinal("PrezzoAcquisto")).Trim(),
@@ -144,6 +142,96 @@ namespace BassoLegnami.Model.Data.Repositories
                                 LunghezzaDescr = item.LunghezzaDescr,
                                 Strati = item.Strati,
                                 NumeroCarico = item.NumeroCarico
+                            };
+                            EstrazioneGiacenze.Add(agentiGiancenza);
+                        }
+                    }
+                }
+                catch (Exception ex)
+                {
+                    EstrazioneGiacenze.Clear();
+                }
+            }
+            return EstrazioneGiacenze;
+        }
+
+
+        public List<AgentiGiacenze> GetDataRank(int? id)
+        {
+            List<AgentiGiacenze> Giacenze = new();
+            List<AgentiGiacenze> EstrazioneGiacenze = new();
+            // Create the connection.
+            using (SqlConnection connection = new("Server=192.168.0.17;Database=Magazzino;User Id=magazzino;Password=magazzino$;"))
+            {
+                // Create a SqlCommand
+                using (SqlCommand sqlCommand = new
+                        ($"SELECT TOP 1000 RANK() OVER (ORDER BY TipoPacco, Essenza, Classifica, StatoLegno, Stagionatura, Deposito) AS [Rank], * " +
+                        $"FROM[Magazzino].[dbo].[AgentiGiacenza]" +
+                        $"ORDER BY TipoPacco, Essenza, Classifica, StatoLegno, Stagionatura, Deposito", connection))
+                {
+                    // Treat command as a text sql command
+                    sqlCommand.CommandType = CommandType.Text;
+
+                    try
+                    {
+                        // Open connection
+                        connection.Open();
+
+                        // Run the sql command
+                        SqlDataReader reader = sqlCommand.ExecuteReader();
+
+                        // Read records
+                        if (reader.HasRows)
+                        {
+                            while (reader.Read())
+                            {
+                                Giacenze.Add(new AgentiGiacenze()
+                                {
+                                    Id = reader.GetInt32("Id"),
+                                    Volume = reader.IsDBNull(reader.GetOrdinal("Volume")) ? null : reader.GetDecimal("Volume"),
+                                    TipoPacco = reader.IsDBNull(reader.GetOrdinal("TipoPacco")) ? null : reader.GetString(reader.GetOrdinal("TipoPacco")).Trim(),
+                                    Essenza = reader.IsDBNull(reader.GetOrdinal("Essenza")) ? null : reader.GetString(reader.GetOrdinal("Essenza")).Trim(),
+                                    Classifica = reader.IsDBNull(reader.GetOrdinal("Classifica")) ? null : reader.GetString(reader.GetOrdinal("Classifica")).Trim(),
+                                    StatoLegno = reader.IsDBNull(reader.GetOrdinal("StatoLegno")) ? null : reader.GetString(reader.GetOrdinal("StatoLegno")).Trim(),
+                                    Stagionatura = reader.IsDBNull(reader.GetOrdinal("Stagionatura")) ? null : reader.GetString(reader.GetOrdinal("Stagionatura")).Trim(),
+                                    Deposito = reader.IsDBNull(reader.GetOrdinal("Deposito")) ? null : reader.GetString(reader.GetOrdinal("Deposito")).Trim(),
+                                    RankID = reader.GetInt64("Rank"),
+                                    Quantita = reader.IsDBNull(reader.GetOrdinal("Quantità")) ? 0 : reader.GetInt16("Quantità"),
+                                });
+                            }
+                        }
+                    }
+                    catch (Exception ex)
+                    {
+                        Giacenze.Clear();
+                    }
+                    finally
+                    {
+                        connection.Close();
+                    }
+                }
+
+                try
+                {
+                    if (Giacenze != null)
+                    {
+                        if (id.HasValue)
+                            Giacenze = Giacenze.Where(r => r.Id == id).ToList();
+
+                        foreach (AgentiGiacenze item in Giacenze)
+                        {
+                            AgentiGiacenze agentiGiancenza = new()
+                            {
+                                Id = item.Id,
+                                TipoPacco = item.TipoPacco,
+                                Essenza = item.Essenza,
+                                Classifica = item.Classifica,
+                                StatoLegno = item.StatoLegno,
+                                Stagionatura = item.Stagionatura,
+                                Deposito = item.Deposito,
+                                Quantita = item.Quantita,
+                                Volume = item.Volume,
+                                RankID = item.RankID
                             };
                             EstrazioneGiacenze.Add(agentiGiancenza);
                         }

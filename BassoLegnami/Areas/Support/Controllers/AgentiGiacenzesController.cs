@@ -62,5 +62,18 @@ namespace BassoLegnami.Areas.Support.Controllers
 
             return View(giacenze);
         }
+
+        public JsonResult GetIndexTable()
+        {
+            return Json(_unitOfWork.AgentiGiacenzeRepository.GetData(null)
+                        .Select(r => new { r.Id, r.TipoPacco, r.Essenza, r.Classifica, r.StatoLegno, r.Stagionatura, r.Deposito, r.Quantita, r.Volume, r.RankID })
+                        .OrderBy(r => r.TipoPacco)
+                        .ThenBy(r => r.Essenza)
+                        .ThenBy(r => r.Classifica)
+                        .ThenBy(r => r.StatoLegno)
+                        .ThenBy(r => r.Stagionatura)
+                        .ThenBy(r => r.Deposito)
+                        .ToList());
+        }
     }
 }

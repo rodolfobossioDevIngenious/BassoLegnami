@@ -33,7 +33,7 @@ namespace BassoLegnami.Model.Data.Repositories
                 // Create a SqlCommand
                 using (SqlCommand sqlCommand = new
                         ($"SELECT TOP 1000 [Id], [Codice],[RagioneSociale],[Indirizzo],[CAP],[Citta],[Provincia],[PartitaIva],[Pagamento]," +
-                        $"[Incarico1],[Telefono1],[Telefono2],[Fax],[Cellulare],[Email],[id_Agente],[Categoria] FROM [dbo].[Clienti]", connection))
+                        $"[Incarico1],[Telefono1],[Telefono2],[Fax],[Cellulare],[Email],[id_Agente],[Categoria] FROM [dbo].[Clienti] ORDER BY [Id] DESC", connection))
                 {
                     // Treat command as a text sql command
                     sqlCommand.CommandType = CommandType.Text;

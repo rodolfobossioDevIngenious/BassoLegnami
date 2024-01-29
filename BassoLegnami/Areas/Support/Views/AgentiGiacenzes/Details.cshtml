@@ -3,7 +3,7 @@
 @inject IHtmlLocalizer<SharedResource> SR
 
 @{
-    ViewData["Title"] = string.Format("{0} {1}", SR["List"].Value, Html.DescriptionFor(model => model.Tipo).ToString());
+    ViewData["Title"] = string.Format("{0} {1}", SR["Details"].Value, Html.DescriptionFor(model => model.Essenza).ToString());
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
@@ -17,6 +17,9 @@
                 <li role="presentation" class="nav-item">
                     <a class="nav-link show active" id="info-tab" href="#icon-info" data-toggle="tab"><i class="fa fa-info"></i> @SR["GeneralTab"]</a>
                 </li>
+                <li role="presentation">
+                    <a class="nav-link" id="dettagli_Tab" href="#icon-dettagli" data-toggle="tab"><i class="fa fa-store"></i> Dettagli Acquisto/Vendita</a>
+                </li>
             </ul>
             <div class="tab-content">
                 <div id="icon-info" class="tab-pane fade show active" role="tabpanel" aria-labelledby="info-tab">
@@ -27,6 +30,8 @@
                                 <display asp-for="TipoPacco" class="form-control"></display>
                             </div>
                         </div>
+                    </div>
+                    <div class="row">
                         <div class="col-lg-3">
                             <div class="form-group">
                                 <label asp-for="Essenza" class="control-label"></label>
@@ -45,14 +50,15 @@
                                 <display asp-for="StatoLegno" class="form-control"></display>
                             </div>
                         </div>
-                    </div>
-                    <div class="row">
                         <div class="col-lg-3">
                             <div class="form-group">
                                 <label asp-for="Stagionatura" class="control-label"></label>
                                 <display asp-for="Stagionatura" class="form-control"></display>
                             </div>
                         </div>
+                    </div>
+                    <hr class="separator" />
+                    <div class="row">
                         <div class="col-lg-3">
                             <div class="form-group">
                                 <label asp-for="Deposito" class="control-label"></label>
@@ -65,14 +71,14 @@
                                 <display asp-for="Provenienza" class="form-control"></display>
                             </div>
                         </div>
+                    </div>
+                    <div class="row">
                         <div class="col-lg-3">
                             <div class="form-group">
                                 <label asp-for="Fornitore" class="control-label"></label>
                                 <display asp-for="Fornitore" class="form-control"></display>
                             </div>
                         </div>
-                    </div>
-                    <div class="row">
                         <div class="col-lg-3">
                             <div class="form-group">
                                 <label asp-for="UnitaMisuraPrezzoAcquisto" class="control-label"></label>
@@ -85,26 +91,8 @@
                                 <display asp-for="Misura" class="form-control"></display>
                             </div>
                         </div>
-                        <div class="col-lg-3">
-                            <div class="form-group">
-                                <label asp-for="Dim1" class="control-label"></label>
-                                <display asp-for="Dim1" class="form-control"></display>
-                            </div>
-                        </div>
-                        <div class="col-lg-3">
-                            <div class="form-group">
-                                <label asp-for="Dim2" class="control-label"></label>
-                                <display asp-for="Dim2" class="form-control"></display>
-                            </div>
-                        </div>
                     </div>
                     <div class="row">
-                        <div class="col-lg-3">
-                            <div class="form-group">
-                                <label asp-for="Dim3" class="control-label"></label>
-                                <display asp-for="Dim3" class="form-control"></display>
-                            </div>
-                        </div>
                         <div class="col-lg-3">
                             <div class="form-group">
                                 <label asp-for="Quantita" class="control-label"></label>
@@ -143,39 +131,8 @@
                                 <display asp-for="Marchio" class="form-control"></display>
                             </div>
                         </div>
-                        <div class="col-lg-3">
-                            <div class="form-group">
-                                <label asp-for="PrezzoAcquisto" class="control-label"></label>
-                                <display asp-for="PrezzoAcquisto" class="form-control"></display>
-                            </div>
-                        </div>
                     </div>
-                    <div class="row">
-                        <div class="col-lg-3">
-                            <div class="form-group">
-                                <label asp-for="QuantitaVenduta" class="control-label"></label>
-                                <display asp-for="QuantitaVenduta" class="form-control"></display>
-                            </div>
-                        </div>
-                        <div class="col-lg-3">
-                            <div class="form-group">
-                                <label asp-for="DataImpegno" class="control-label"></label>
-                                <display asp-for="DataImpegno" class="form-control"></display>
-                            </div>
-                        </div>
-                        <div class="col-lg-3">
-                            <div class="form-group">
-                                <label asp-for="DataVendita" class="control-label"></label>
-                                <display asp-for="DataVendita" class="form-control"></display>
-                            </div>
-                        </div>
-                        <div class="col-lg-3">
-                            <div class="form-group">
-                                <label asp-for="ClienteImpegno" class="control-label"></label>
-                                <display asp-for="ClienteImpegno" class="form-control"></display>
-                            </div>
-                        </div>
-                    </div>
+
                     <div class="row">
                         <div class="col-lg-3">
                             <div class="form-group">
@@ -209,10 +166,71 @@
                                 <display asp-for="NumeroCarico" class="form-control"></display>
                             </div>
                         </div>
-                        <div class="col-lg-9">
+                    </div>
+                    <hr class="separator" />
+                    <div class="row">
+                        <div class="col-lg-3">
+                            <div class="form-group">
+                                <label asp-for="Dim1" class="control-label"></label>
+                                <display asp-for="Dim1" class="form-control"></display>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="form-group">
+                                <label asp-for="Dim2" class="control-label"></label>
+                                <display asp-for="Dim2" class="form-control"></display>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="form-group">
+                                <label asp-for="Dim3" class="control-label"></label>
+                                <display asp-for="Dim3" class="form-control"></display>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-12">
                             <div class="form-group">
                                 <label asp-for="Note" class="control-label"></label>
                                 <display asp-for="Note" class="form-control"></display>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="icon-dettagli" class="tab-pane fade" role="tabpanel" aria-labelledby="dettagli_Tab">
+                    <div class="row">
+                        <div class="col-lg-3">
+                            <div class="form-group">
+                                <label asp-for="PrezzoAcquisto" class="control-label"></label>
+                                <display asp-for="PrezzoAcquisto" class="form-control"></display>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-3">
+                            <div class="form-group">
+                                <label asp-for="QuantitaVenduta" class="control-label"></label>
+                                <display asp-for="QuantitaVenduta" class="form-control"></display>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="form-group">
+                                <label asp-for="DataVendita" class="control-label"></label>
+                                <display asp-for="DataVendita" class="form-control"></display>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-3">
+                            <div class="form-group">
+                                <label asp-for="ClienteImpegno" class="control-label"></label>
+                                <display asp-for="ClienteImpegno" class="form-control"></display>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="form-group">
+                                <label asp-for="DataImpegno" class="control-label"></label>
+                                <display asp-for="DataImpegno" class="form-control"></display>
                             </div>
                         </div>
                     </div>
