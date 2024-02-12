@@ -67,8 +67,10 @@
                                     <th><displayName asp-for="@Model.FirstOrDefault().StatoLegno" class="control-label"></displayName></th>
                                     <th><displayName asp-for="@Model.FirstOrDefault().Stagionatura" class="control-label"></displayName></th>
                                     <th><displayName asp-for="@Model.FirstOrDefault().Deposito" class="control-label"></displayName></th>
-                                    <th><displayName asp-for="@Model.FirstOrDefault().Quantita" class="control-label"></displayName></th>
-                                    <th><displayName asp-for="@Model.FirstOrDefault().Volume" class="control-label"></displayName></th>
+                                    <th></th>
+                                    <th></th>
+                                    @* <th><displayName asp-for="@Model.FirstOrDefault().Quantita" class="control-label"></displayName></th>
+                                    <th><displayName asp-for="@Model.FirstOrDefault().Volume" class="control-label"></displayName></th> *@
                                     <th class="text-right col-1">
                                     </th>
                                 </tr>
@@ -96,15 +98,19 @@
                     var currentGiacenzaID = e.RankID;
                     if (currentGiacenzaID != lastGiacenzaID) {
                         var row = "";
-                        row += '<tr class="parent">';
+                        row += '<tr class="parent" style="background-color:palegreen;">';
                         row += '<td>' + e.TipoPacco + '</td>';
                         row += '<td>' + e.Essenza + '</td>';
                         row += '<td>' + e.Classifica + '</td>';
                         row += '<td>' + e.StatoLegno + '</td>';
                         row += '<td>' + e.Stagionatura + '</td>';
                         row += '<td>' + e.Deposito + '</td>';
-                        row += '<td class="text-right">' + e.Quantita + '</td>';
-                        row += '<td class="text-right">' + e.Volume + '</td>';
+                        // row += '<td class="text-right">' + e.Quantita + '</td>';
+                        // row += '<td class="text-right">' + e.Volume + '</td>';
+
+                        row += '<td class="text-right">' + '</td>';
+                        row += '<td class="text-right">' + '</td>';
+
                         row += '<td class="text-right">';
                         // row += '<a asp-action="Details" href=/support/agentigiacenzes/details/' + e.Id + ' class="btn btn-primary"><i class="fa fa-list-alt"></i></a>&nbsp;';
                         row += '<a class="OpenDetails btn btn-primary" data-toggle="collapse" data-giacenzaRowID="' + e.RankID + '" role="button" aria-expanded="false" aria-controls="collapse" style="color:white;"><i class="fa fa-expand"></i></a>&nbsp;';

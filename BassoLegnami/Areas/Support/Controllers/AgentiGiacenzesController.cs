@@ -53,7 +53,7 @@ namespace BassoLegnami.Areas.Support.Controllers
                 return NotFound();
             }
 
-            AgentiGiacenze giacenze = _unitOfWork.AgentiGiacenzeRepository.GetData(id).FirstOrDefault();
+            AgentiGiacenze giacenze = _unitOfWork.AgentiGiacenzeRepository.GetAllData(id).FirstOrDefault();
 
             if (giacenze == null)
             {
