@@ -40,16 +40,13 @@ namespace BassoLegnami.Areas.Support.Controllers
                 {
                     expression = expression.And(r => r.RagioneSociale.Contains(ragioneSociale));
                 }
-                //TODO: Continua con i filtri
 
-                //TODO: qui è necessario chiamare il GetData() passando i filtri che servono per l'esportazione dei record. Gli stessi filtri devono essere utilizzati per la stampa PDF.
-                //Problema 1: Performance, non ottimali, molto lento in fase di impaginazione. 
                 return View(await _unitOfWork.ClientiRepository
                     .FindBy(expression)
                     .ToListAsync()
                     .ConfigureAwait(false));
             }
-            return View(_unitOfWork.ClientiRepository.GetData(null).ToList());
+            return View(await _unitOfWork.ClientiRepository.GetAllAsync().ConfigureAwait(false));
         }
 
         public IActionResult Details(int? id)
@@ -59,7 +56,7 @@ namespace BassoLegnami.Areas.Support.Controllers
                 return NotFound();
             }
 
-            Clienti clienti = _unitOfWork.ClientiRepository.GetData(id).FirstOrDefault();
+            Clienti clienti = _unitOfWork.ClientiRepository.FirstOrDefault();
 
             if (clienti == null)
             {

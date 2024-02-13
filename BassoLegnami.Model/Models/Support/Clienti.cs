@@ -65,10 +65,10 @@ namespace BassoLegnami.Model.Models.Support
         
         [NotMapped]
         public string Phones => string.Join(" - ", Telefono1, Telefono2, Cellulare);
-        
+
         public override IEnumerable<ValidationResult> Validate(ValidationContext validationContext)
         {
-            throw new NotImplementedException();
+            return Enumerable.Empty<ValidationResult>();
         }
     }
 }

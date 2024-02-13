@@ -59,7 +59,8 @@ namespace BassoLegnami.Model.Data
         private ISettingsRepository _settingsRepository;
         private IFestivitiesRepository _festivitiesRepository;
         private IAgentiGiacenzeRepository _agentiGiacenzeRepository;
-        private IClientiRepository _clientiRepository;
+        //private IClientiRepository _clientiRepository;
+        private IGenericRepository<Clienti> _clientiRepository;
 
         private ICityRepository _cityRepository;
         private GenericRepository<Models.GeographicSupport.Province> _provinceRepository;
@@ -115,7 +116,7 @@ namespace BassoLegnami.Model.Data
         public IGenericRepository<Models.GeographicSupport.RegionalZone> RegionalZoneRepository => _regionalZoneRepository ??= new GenericRepository<Models.GeographicSupport.RegionalZone>(_httpContext, _context, User);
         public IGenericRepository<UnitOfMeasurement> UnitOfMeasurementRepository => _unitOfMeasurementRepository ??= new GenericRepository<UnitOfMeasurement>(_httpContext, _context, User);
         public IAgentiGiacenzeRepository AgentiGiacenzeRepository => _agentiGiacenzeRepository ??= new AgentiGiacenzeRepository(_httpContext, _context, User);
-        public IClientiRepository ClientiRepository => _clientiRepository ??= new ClientiRepository(_httpContext, _context, User);
+        public IGenericRepository<Clienti> ClientiRepository => _clientiRepository ??= new GenericRepository<Clienti>(_httpContext, _context, User);
 
         private void _ManageFiles()
         {

@@ -138,6 +138,26 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcU3VwcG9ydFxWaWV3c1xGaWxlRm9sZGVyc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[E:/Develop/DTB/Sphinx2_dotnet/BassoLegnami/BassoLegnami/Areas/Support/Views/Settings/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcU3VwcG9ydFxWaWV3c1xTZXR0aW5nc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Develop/DTB/Sphinx2_dotnet/BassoLegnami/BassoLegnami/Areas/Support/Views/Settings/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcU3VwcG9ydFxWaWV3c1xTZXR0aW5nc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Develop/DTB/Sphinx2_dotnet/BassoLegnami/BassoLegnami/Areas/Support/Views/Settings/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcU3VwcG9ydFxWaWV3c1xTZXR0aW5nc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Develop/DTB/Sphinx2_dotnet/BassoLegnami/BassoLegnami/Areas/Support/Views/Settings/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcU3VwcG9ydFxWaWV3c1xTZXR0aW5nc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Develop/DTB/Sphinx2_dotnet/BassoLegnami/BassoLegnami/Areas/Support/Views/Settings/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcU3VwcG9ydFxWaWV3c1xTZXR0aW5nc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [E:/Develop/DTB/Sphinx2_dotnet/BassoLegnami/BassoLegnami/Areas/Support/Views/UnitsOfMeasurement/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcU3VwcG9ydFxWaWV3c1xVbml0c09mTWVhc3VyZW1lbnRcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -156,6 +176,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [E:/Develop/DTB/Sphinx2_dotnet/BassoLegnami/BassoLegnami/Areas/Support/Views/UnitsOfMeasurement/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcU3VwcG9ydFxWaWV3c1xVbml0c09mTWVhc3VyZW1lbnRcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Develop/DTB/Sphinx2_dotnet/BassoLegnami/BassoLegnami/Areas/Support/Views/Workflows/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcU3VwcG9ydFxWaWV3c1xXb3JrZmxvd3NcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [E:/Develop/DTB/Sphinx2_dotnet/BassoLegnami/BassoLegnami/Areas/Support/Views/_ViewImports.cshtml]

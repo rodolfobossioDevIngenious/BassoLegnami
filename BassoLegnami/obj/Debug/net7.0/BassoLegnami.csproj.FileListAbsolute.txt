@@ -2788,7 +2788,6 @@ E:\Develop\DTB\Sphinx2_dotnet\BassoLegnami\BassoLegnami\obj\Debug\net7.0\BassoLe
 E:\Develop\DTB\Sphinx2_dotnet\BassoLegnami\BassoLegnami\obj\Debug\net7.0\BassoLegnami.AssemblyInfoInputs.cache
 E:\Develop\DTB\Sphinx2_dotnet\BassoLegnami\BassoLegnami\obj\Debug\net7.0\BassoLegnami.AssemblyInfo.cs
 E:\Develop\DTB\Sphinx2_dotnet\BassoLegnami\BassoLegnami\obj\Debug\net7.0\BassoLegnami.csproj.CoreCompileInputs.cache
-E:\Develop\DTB\Sphinx2_dotnet\BassoLegnami\BassoLegnami\obj\Debug\net7.0\BassoLegnami.MvcApplicationPartsAssemblyInfo.cs
 E:\Develop\DTB\Sphinx2_dotnet\BassoLegnami\BassoLegnami\obj\Debug\net7.0\BassoLegnami.MvcApplicationPartsAssemblyInfo.cache
 E:\Develop\DTB\Sphinx2_dotnet\BassoLegnami\BassoLegnami\obj\Debug\net7.0\BassoLegnami.RazorAssemblyInfo.cache
 E:\Develop\DTB\Sphinx2_dotnet\BassoLegnami\BassoLegnami\obj\Debug\net7.0\BassoLegnami.RazorAssemblyInfo.cs

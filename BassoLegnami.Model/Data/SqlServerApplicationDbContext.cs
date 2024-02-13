@@ -142,5 +142,7 @@ namespace BassoLegnami.Model.Data
         public DbSet<Models.GeographicSupport.Region> Regions { get; set; }
         public DbSet<Models.GeographicSupport.RegionalZone> RegionalZones { get; set; }
         public DbSet<UnitOfMeasurement> UnitOfMeasurements { get; set; }
+        public DbSet<Clienti> Clienti { get; set; }
+        public DbSet<AgentiGiacenze> AgentiGiacenze { get; set; }
     }
 }

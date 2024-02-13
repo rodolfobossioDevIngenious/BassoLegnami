@@ -41,76 +41,12 @@
       "PackagePath": "staticwebassets\\images\\banner4.svg"
     },
     {
-      "Id": "E:\\Develop\\DTB\\Sphinx2_dotnet\\BassoLegnami\\BassoLegnami\\wwwroot\\images\\buon_natale_icri_ceti.png",
-      "PackagePath": "staticwebassets\\images\\buon_natale_icri_ceti.png"
-    },
-    {
-      "Id": "E:\\Develop\\DTB\\Sphinx2_dotnet\\BassoLegnami\\BassoLegnami\\wwwroot\\images\\ddt_logo.png",
-      "PackagePath": "staticwebassets\\images\\ddt_logo.png"
-    },
-    {
-      "Id": "E:\\Develop\\DTB\\Sphinx2_dotnet\\BassoLegnami\\BassoLegnami\\wwwroot\\images\\document_1.png",
-      "PackagePath": "staticwebassets\\images\\document_1.png"
-    },
-    {
-      "Id": "E:\\Develop\\DTB\\Sphinx2_dotnet\\BassoLegnami\\BassoLegnami\\wwwroot\\images\\document_2.png",
-      "PackagePath": "staticwebassets\\images\\document_2.png"
-    },
-    {
-      "Id": "E:\\Develop\\DTB\\Sphinx2_dotnet\\BassoLegnami\\BassoLegnami\\wwwroot\\images\\document_3.png",
-      "PackagePath": "staticwebassets\\images\\document_3.png"
-    },
-    {
-      "Id": "E:\\Develop\\DTB\\Sphinx2_dotnet\\BassoLegnami\\BassoLegnami\\wwwroot\\images\\document_4.png",
-      "PackagePath": "staticwebassets\\images\\document_4.png"
-    },
-    {
-      "Id": "E:\\Develop\\DTB\\Sphinx2_dotnet\\BassoLegnami\\BassoLegnami\\wwwroot\\images\\document_5.png",
-      "PackagePath": "staticwebassets\\images\\document_5.png"
-    },
-    {
-      "Id": "E:\\Develop\\DTB\\Sphinx2_dotnet\\BassoLegnami\\BassoLegnami\\wwwroot\\images\\document_6.png",
-      "PackagePath": "staticwebassets\\images\\document_6.png"
-    },
-    {
-      "Id": "E:\\Develop\\DTB\\Sphinx2_dotnet\\BassoLegnami\\BassoLegnami\\wwwroot\\images\\end_of_page.png",
-      "PackagePath": "staticwebassets\\images\\end_of_page.png"
-    },
-    {
-      "Id": "E:\\Develop\\DTB\\Sphinx2_dotnet\\BassoLegnami\\BassoLegnami\\wwwroot\\images\\header_logo.png",
-      "PackagePath": "staticwebassets\\images\\header_logo.png"
-    },
-    {
       "Id": "E:\\Develop\\DTB\\Sphinx2_dotnet\\BassoLegnami\\BassoLegnami\\wwwroot\\images\\loginBackground.jpg",
       "PackagePath": "staticwebassets\\images\\loginBackground.jpg"
     },
     {
-      "Id": "E:\\Develop\\DTB\\Sphinx2_dotnet\\BassoLegnami\\BassoLegnami\\wwwroot\\images\\logo-ceti.png",
-      "PackagePath": "staticwebassets\\images\\logo-ceti.png"
-    },
-    {
-      "Id": "E:\\Develop\\DTB\\Sphinx2_dotnet\\BassoLegnami\\BassoLegnami\\wwwroot\\images\\logo-icri.png",
-      "PackagePath": "staticwebassets\\images\\logo-icri.png"
-    },
-    {
-      "Id": "E:\\Develop\\DTB\\Sphinx2_dotnet\\BassoLegnami\\BassoLegnami\\wwwroot\\images\\logo.png",
-      "PackagePath": "staticwebassets\\images\\logo.png"
-    },
-    {
-      "Id": "E:\\Develop\\DTB\\Sphinx2_dotnet\\BassoLegnami\\BassoLegnami\\wwwroot\\images\\logoCeti.png",
-      "PackagePath": "staticwebassets\\images\\logoCeti.png"
-    },
-    {
-      "Id": "E:\\Develop\\DTB\\Sphinx2_dotnet\\BassoLegnami\\BassoLegnami\\wwwroot\\images\\logoCetiPrint.png",
-      "PackagePath": "staticwebassets\\images\\logoCetiPrint.png"
-    },
-    {
       "Id": "E:\\Develop\\DTB\\Sphinx2_dotnet\\BassoLegnami\\BassoLegnami\\wwwroot\\images\\logo_Small_Transparent.png",
       "PackagePath": "staticwebassets\\images\\logo_Small_Transparent.png"
-    },
-    {
-      "Id": "E:\\Develop\\DTB\\Sphinx2_dotnet\\BassoLegnami\\BassoLegnami\\wwwroot\\images\\logo_icri_ceti.png",
-      "PackagePath": "staticwebassets\\images\\logo_icri_ceti.png"
     },
     {
       "Id": "E:\\Develop\\DTB\\Sphinx2_dotnet\\BassoLegnami\\BassoLegnami\\wwwroot\\images\\logo_ko.png",
@@ -125,52 +61,8 @@
       "PackagePath": "staticwebassets\\images\\options.png"
     },
     {
-      "Id": "E:\\Develop\\DTB\\Sphinx2_dotnet\\BassoLegnami\\BassoLegnami\\wwwroot\\images\\orders_header_logo.png",
-      "PackagePath": "staticwebassets\\images\\orders_header_logo.png"
-    },
-    {
       "Id": "E:\\Develop\\DTB\\Sphinx2_dotnet\\BassoLegnami\\BassoLegnami\\wwwroot\\images\\print.png",
       "PackagePath": "staticwebassets\\images\\print.png"
-    },
-    {
-      "Id": "E:\\Develop\\DTB\\Sphinx2_dotnet\\BassoLegnami\\BassoLegnami\\wwwroot\\images\\registration.png",
-      "PackagePath": "staticwebassets\\images\\registration.png"
-    },
-    {
-      "Id": "E:\\Develop\\DTB\\Sphinx2_dotnet\\BassoLegnami\\BassoLegnami\\wwwroot\\images\\registration_1.png",
-      "PackagePath": "staticwebassets\\images\\registration_1.png"
-    },
-    {
-      "Id": "E:\\Develop\\DTB\\Sphinx2_dotnet\\BassoLegnami\\BassoLegnami\\wwwroot\\images\\registration_2.png",
-      "PackagePath": "staticwebassets\\images\\registration_2.png"
-    },
-    {
-      "Id": "E:\\Develop\\DTB\\Sphinx2_dotnet\\BassoLegnami\\BassoLegnami\\wwwroot\\images\\registration_3 .png",
-      "PackagePath": "staticwebassets\\images\\registration_3 .png"
-    },
-    {
-      "Id": "E:\\Develop\\DTB\\Sphinx2_dotnet\\BassoLegnami\\BassoLegnami\\wwwroot\\images\\registration_4.png",
-      "PackagePath": "staticwebassets\\images\\registration_4.png"
-    },
-    {
-      "Id": "E:\\Develop\\DTB\\Sphinx2_dotnet\\BassoLegnami\\BassoLegnami\\wwwroot\\images\\resetPassword.png",
-      "PackagePath": "staticwebassets\\images\\resetPassword.png"
-    },
-    {
-      "Id": "E:\\Develop\\DTB\\Sphinx2_dotnet\\BassoLegnami\\BassoLegnami\\wwwroot\\images\\resetPassword_1.png",
-      "PackagePath": "staticwebassets\\images\\resetPassword_1.png"
-    },
-    {
-      "Id": "E:\\Develop\\DTB\\Sphinx2_dotnet\\BassoLegnami\\BassoLegnami\\wwwroot\\images\\resetPassword_2.png",
-      "PackagePath": "staticwebassets\\images\\resetPassword_2.png"
-    },
-    {
-      "Id": "E:\\Develop\\DTB\\Sphinx2_dotnet\\BassoLegnami\\BassoLegnami\\wwwroot\\images\\resetPassword_3.png",
-      "PackagePath": "staticwebassets\\images\\resetPassword_3.png"
-    },
-    {
-      "Id": "E:\\Develop\\DTB\\Sphinx2_dotnet\\BassoLegnami\\BassoLegnami\\wwwroot\\images\\resetPassword_4.png",
-      "PackagePath": "staticwebassets\\images\\resetPassword_4.png"
     },
     {
       "Id": "E:\\Develop\\DTB\\Sphinx2_dotnet\\BassoLegnami\\BassoLegnami\\wwwroot\\images\\sidebar.jpg",
