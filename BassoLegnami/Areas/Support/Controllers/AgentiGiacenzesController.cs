@@ -12,6 +12,7 @@ using DocumentFormat.OpenXml.ExtendedProperties;
 using System.Linq;
 using Microsoft.EntityFrameworkCore;
 using System.Linq.Expressions;
+using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace BassoLegnami.Areas.Support.Controllers
 {
@@ -24,17 +25,51 @@ namespace BassoLegnami.Areas.Support.Controllers
             _unitOfWork = unitOfWork;
         }
 
-        public async Task<IActionResult> Index(string essenza)
+        public async Task<IActionResult> Index(int? IdEssenza, int? IdClassifica, int? IdStatoLegno, int? IdStagionatura, int? IdDeposito, int? IdProvenienza)
         {
-            ViewData["Essenza"] = essenza;
-            if (!string.IsNullOrEmpty(essenza))
+            List<Tabelle> data = (await _unitOfWork.TabelleRepository
+                                        .GetAll()
+                                        .AsNoTracking()
+                                        .Where(r => r.TipoTabella == "ESS" || r.TipoTabella == "CLA" || r.TipoTabella == "SLA" || r.TipoTabella == "STG" || r.TipoTabella == "DEP" || r.TipoTabella == "PRO")
+                                        .ToListAsync()
+                                )
+                                .OrderBy(r => r.Descrizione)
+                                .ToList();
+
+            ViewData["IdEssenza"] = new SelectList(data.Where(r => r.TipoTabella == "ESS"), "Id", "Descrizione", IdEssenza);
+            ViewData["IdClassifica"] = new SelectList(data.Where(r => r.TipoTabella == "CLA"), "Id", "Descrizione", IdClassifica);
+            ViewData["IdStatoLegno"] = new SelectList(data.Where(r => r.TipoTabella == "SLA"), "Id", "Descrizione", IdStatoLegno);
+            ViewData["IdStagionatura"] = new SelectList(data.Where(r => r.TipoTabella == "STG"), "Id", "Descrizione", IdStagionatura);
+            ViewData["IdDeposito"] = new SelectList(data.Where(r => r.TipoTabella == "DEP"), "Id", "Descrizione", IdDeposito);
+            ViewData["IdProvenienza"] = new SelectList(data.Where(r => r.TipoTabella == "PRO"), "Id", "Descrizione", IdProvenienza);
+
+            if (IdEssenza.HasValue || IdClassifica.HasValue || IdStatoLegno.HasValue || IdStagionatura.HasValue)
             {
                 Expression<Func<AgentiGiacenze, bool>> expression = _ => true;
-                if (!string.IsNullOrEmpty(essenza))
+                if (IdEssenza.HasValue)
                 {
-                    expression = expression.And(r => r.Essenza == essenza);
+                    expression = expression.And(r => r.Essenza == data.FirstOrDefault(r => r.Id == IdEssenza).Descrizione);
                 }
-                //TODO: Continua con i filtri
+                if (IdClassifica.HasValue)
+                {
+                    expression = expression.And(r => r.Classifica == data.FirstOrDefault(r => r.Id == IdClassifica).Descrizione);
+                }
+                if (IdStatoLegno.HasValue)
+                {
+                    expression = expression.And(r => r.Classifica == data.FirstOrDefault(r => r.Id == IdStatoLegno).Descrizione);
+                }
+                if (IdStagionatura.HasValue)
+                {
+                    expression = expression.And(r => r.Classifica == data.FirstOrDefault(r => r.Id == IdStagionatura).Descrizione);
+                }
+                if (IdDeposito.HasValue)
+                {
+                    expression = expression.And(r => r.Classifica == data.FirstOrDefault(r => r.Id == IdDeposito).Descrizione);
+                }
+                if (IdProvenienza.HasValue)
+                {
+                    expression = expression.And(r => r.Classifica == data.FirstOrDefault(r => r.Id == IdProvenienza).Descrizione);
+                }
 
                 //TODO: qui è necessario chiamare il GetData() passando i filtri che servono per l'esportazione dei record. Gli stessi filtri devono essere utilizzati per la stampa PDF.
                 //Problema 1: Performance, non ottimali, molto lento in fase di impaginazione. 

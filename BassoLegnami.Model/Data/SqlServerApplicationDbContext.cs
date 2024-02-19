@@ -144,5 +144,6 @@ namespace BassoLegnami.Model.Data
         public DbSet<UnitOfMeasurement> UnitOfMeasurements { get; set; }
         public DbSet<Clienti> Clienti { get; set; }
         public DbSet<AgentiGiacenze> AgentiGiacenze { get; set; }
+        public DbSet<Tabelle> Tabelle { get; set; }
     }
 }

@@ -17,10 +17,54 @@
                 </div>
                 <div class="card-body">
                     <div class="row">
-                        <div class="col-md-3">
+                        <div class="col-md-3 col-lg-3">
                             <div class="form-group">
                                 <label class="control-label">Essenza</label>
-                                <input id="essenza" name="essenza" class="form-control" value="@ViewData["Essenza"]" />
+                                <select id="IdEssenza" name="IdEssenza" class="form-control" asp-items="ViewBag.IdEssenza">
+                                    <option value=""></option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-lg-3">
+                            <div class="form-group">
+                                <label class="control-label">Classifica</label>
+                                <select id="IdClassifica" name="IdClassifica" class="form-control" asp-items="ViewBag.IdClassifica">
+                                    <option value=""></option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-lg-3">
+                            <div class="form-group">
+                                <label class="control-label">Stato Legno</label>
+                                <select id="IdStatoLegno" name="IdStatoLegno" class="form-control" asp-items="ViewBag.IdStatoLegno">
+                                    <option value=""></option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-3">
+                            <div class="form-group">
+                                <label class="control-label">Stagionatura</label>
+                                <select id="IdStagionatura" name="IdStagionatura" class="form-control" asp-items="ViewBag.IdStagionatura">
+                                    <option value=""></option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="form-group">
+                                <label class="control-label">Deposito</label>
+                                <select id="IdDeposito" name="IdDeposito" class="form-control" asp-items="ViewBag.IdDeposito">
+                                    <option value=""></option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="form-group">
+                                <label class="control-label">Provenienza</label>
+                                <select id="IdProvenienza" name="IdProvenienza" class="form-control" asp-items="ViewBag.IdProvenienza">
+                                    <option value=""></option>
+                                </select>
                             </div>
                         </div>
                     </div>
@@ -30,18 +74,18 @@
                             <a asp-action="PrintPDF" class="btn btn-success"><i class="fa fa-print"></i> Stampa PDF</a>
                         </div>
                     </div>
-                    @if (Model != null && Model.Count() == 0)
-                    {
-                        <div class="row">
-                            <div class="col-lg-12">
-                                <hr />
-                                <div class="alert alert-warning">
-                                    <span><i class="fa fa-warning"></i> @SR["NoData"]</span>
-                                </div>
+                </div>
+                @if (Model != null && Model.Count() == 0)
+                {
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <hr />
+                            <div class="alert alert-warning">
+                                <span><i class="fa fa-warning"></i> @SR["NoData"]</span>
                             </div>
                         </div>
-                    }
-                </div>
+                    </div>
+                }
             </div>
         </form>
     </div>
@@ -66,11 +110,9 @@
                                     <th><displayName asp-for="@Model.FirstOrDefault().Classifica" class="control-label"></displayName></th>
                                     <th><displayName asp-for="@Model.FirstOrDefault().StatoLegno" class="control-label"></displayName></th>
                                     <th><displayName asp-for="@Model.FirstOrDefault().Stagionatura" class="control-label"></displayName></th>
-                                    <th><displayName asp-for="@Model.FirstOrDefault().Deposito" class="control-label"></displayName></th>
-                                    <th></th>
-                                    <th></th>
-                                    @* <th><displayName asp-for="@Model.FirstOrDefault().Quantita" class="control-label"></displayName></th>
-                                    <th><displayName asp-for="@Model.FirstOrDefault().Volume" class="control-label"></displayName></th> *@
+                                    <th class="col-1"><displayName asp-for="@Model.FirstOrDefault().Deposito" class="control-label"></displayName></th>
+                                    <th class="col-1"><displayName asp-for="@Model.FirstOrDefault().Quantita" class="control-label"></displayName></th>
+                                    <th class="col-1"><displayName asp-for="@Model.FirstOrDefault().Volume" class="control-label"></displayName></th>
                                     <th class="text-right col-1">
                                     </th>
                                 </tr>

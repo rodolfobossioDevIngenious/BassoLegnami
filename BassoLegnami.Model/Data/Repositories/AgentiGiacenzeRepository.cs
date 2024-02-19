@@ -33,7 +33,7 @@ namespace BassoLegnami.Model.Data.Repositories
             {
                 // Create a SqlCommand
                 using (SqlCommand sqlCommand = new
-                        ($"SELECT TOP 1500 [TipoPacco]" +
+                        ($"SELECT TOP 500 [TipoPacco]" +
                         $", [Essenza] , [Classifica], [StatoLegno], [Stagionatura], [Deposito], [Provenienza], [Fornitore], [UnitaMisuraPrezzoAcquisto], [Misura], [DIM1], [DIM2]" +
                         $", [DIM3], [Quantità], [Pacco], [Tipo], [Volume], [NPackList], [Marchio], [PrezzoAcquisto], [QuantitàVenduta], [DataImpegno], [DataVendita], [ClienteImpegno]," +
                         $" [Certificazione], [Qualita], [Note], [LunghezzaDescr], [Strati], [NumeroCarico], [Id] FROM [Magazzino].[dbo].[AgentiGiacenza] ORDER BY [Id] DESC", connection))

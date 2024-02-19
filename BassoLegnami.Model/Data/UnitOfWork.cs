@@ -69,6 +69,8 @@ namespace BassoLegnami.Model.Data
 
         private GenericRepository<UnitOfMeasurement> _unitOfMeasurementRepository;
 
+        private IGenericRepository<Tabelle> _tabelleRepository;
+
         public UnitOfWork(IServiceProvider serviceProvider, IWebHostEnvironment env, IHttpContextAccessor httpContext, IOptions<ApplicationConfigurations> applicationConfigurations, UserManager<ApplicationUser> userManager, RoleManager<IdentityRole> roleManager, IHtmlLocalizer<Models.SharedResource> sharedLocalizer, ISignaler signaler, IConfiguration configuration)
         {
             _serviceProvider = serviceProvider;
@@ -117,6 +119,7 @@ namespace BassoLegnami.Model.Data
         public IGenericRepository<UnitOfMeasurement> UnitOfMeasurementRepository => _unitOfMeasurementRepository ??= new GenericRepository<UnitOfMeasurement>(_httpContext, _context, User);
         public IAgentiGiacenzeRepository AgentiGiacenzeRepository => _agentiGiacenzeRepository ??= new AgentiGiacenzeRepository(_httpContext, _context, User);
         public IGenericRepository<Clienti> ClientiRepository => _clientiRepository ??= new GenericRepository<Clienti>(_httpContext, _context, User);
+        public IGenericRepository<Tabelle> TabelleRepository => _tabelleRepository ??= new GenericRepository<Tabelle>(_httpContext, _context, User);
 
         private void _ManageFiles()
         {

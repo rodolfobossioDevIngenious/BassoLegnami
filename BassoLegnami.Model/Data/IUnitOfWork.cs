@@ -40,6 +40,6 @@ namespace BassoLegnami.Model.Data
 		public IGenericRepository<UnitOfMeasurement> UnitOfMeasurementRepository { get; }
         public IAgentiGiacenzeRepository AgentiGiacenzeRepository { get; }
         IGenericRepository<Clienti> ClientiRepository { get; }
-        //public IClientiRepository ClientiRepository { get; }
+        IGenericRepository<Tabelle> TabelleRepository { get; }
     }
 }

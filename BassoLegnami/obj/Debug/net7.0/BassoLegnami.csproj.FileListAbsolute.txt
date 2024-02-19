@@ -2807,3 +2807,4 @@ E:\Develop\DTB\Sphinx2_dotnet\BassoLegnami\BassoLegnami\obj\Debug\net7.0\refint\
 E:\Develop\DTB\Sphinx2_dotnet\BassoLegnami\BassoLegnami\obj\Debug\net7.0\BassoLegnami.pdb
 E:\Develop\DTB\Sphinx2_dotnet\BassoLegnami\BassoLegnami\obj\Debug\net7.0\BassoLegnami.genruntimeconfig.cache
 E:\Develop\DTB\Sphinx2_dotnet\BassoLegnami\BassoLegnami\obj\Debug\net7.0\ref\BassoLegnami.dll
+E:\Develop\DTB\Sphinx2_dotnet\BassoLegnami\BassoLegnami\obj\Debug\net7.0\BassoLegnami.MvcApplicationPartsAssemblyInfo.cs
