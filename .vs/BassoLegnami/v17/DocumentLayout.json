@@ -1,0 +1,133 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Develop\\DTB\\Sphinx2_dotnet\\BassoLegnami\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8C2E03D0-644A-4798-BD89-3FE1F1F0CAA3}|BassoLegnami.Reports\\BassoLegnami.Reports.csproj|e:\\develop\\dtb\\sphinx2_dotnet\\bassolegnami\\bassolegnami.reports\\stampatavolenormailufficio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C2E03D0-644A-4798-BD89-3FE1F1F0CAA3}|BassoLegnami.Reports\\BassoLegnami.Reports.csproj|solutionrelative:bassolegnami.reports\\stampatavolenormailufficio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC84117D-0373-40CA-A0EC-2542C064E779}|BassoLegnami.Model\\BassoLegnami.Model.csproj|e:\\develop\\dtb\\sphinx2_dotnet\\bassolegnami\\bassolegnami.model\\data\\repositories\\agentigiacenzerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC84117D-0373-40CA-A0EC-2542C064E779}|BassoLegnami.Model\\BassoLegnami.Model.csproj|solutionrelative:bassolegnami.model\\data\\repositories\\agentigiacenzerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC84117D-0373-40CA-A0EC-2542C064E779}|BassoLegnami.Model\\BassoLegnami.Model.csproj|e:\\develop\\dtb\\sphinx2_dotnet\\bassolegnami\\bassolegnami.model\\models\\support\\agentigiacenze.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC84117D-0373-40CA-A0EC-2542C064E779}|BassoLegnami.Model\\BassoLegnami.Model.csproj|solutionrelative:bassolegnami.model\\models\\support\\agentigiacenze.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50575AD8-9519-4453-B4B7-694B15F226D9}|BassoLegnami\\BassoLegnami.csproj|e:\\develop\\dtb\\sphinx2_dotnet\\bassolegnami\\bassolegnami\\areas\\support\\controllers\\agentigiacenzescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50575AD8-9519-4453-B4B7-694B15F226D9}|BassoLegnami\\BassoLegnami.csproj|solutionrelative:bassolegnami\\areas\\support\\controllers\\agentigiacenzescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AgentiGiacenzesController.cs",
+              "DocumentMoniker": "E:\\Develop\\DTB\\Sphinx2_dotnet\\BassoLegnami\\BassoLegnami\\Areas\\Support\\Controllers\\AgentiGiacenzesController.cs",
+              "RelativeDocumentMoniker": "BassoLegnami\\Areas\\Support\\Controllers\\AgentiGiacenzesController.cs",
+              "ToolTip": "E:\\Develop\\DTB\\Sphinx2_dotnet\\BassoLegnami\\BassoLegnami\\Areas\\Support\\Controllers\\AgentiGiacenzesController.cs",
+              "RelativeToolTip": "BassoLegnami\\Areas\\Support\\Controllers\\AgentiGiacenzesController.cs",
+              "ViewState": "AQIAAF4AAAAAAAAAAAAwwHkAAABOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-19T15:27:11.068Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AgentiGiacenze.cs",
+              "DocumentMoniker": "E:\\Develop\\DTB\\Sphinx2_dotnet\\BassoLegnami\\BassoLegnami.Model\\Models\\Support\\AgentiGiacenze.cs",
+              "RelativeDocumentMoniker": "BassoLegnami.Model\\Models\\Support\\AgentiGiacenze.cs",
+              "ToolTip": "E:\\Develop\\DTB\\Sphinx2_dotnet\\BassoLegnami\\BassoLegnami.Model\\Models\\Support\\AgentiGiacenze.cs",
+              "RelativeToolTip": "BassoLegnami.Model\\Models\\Support\\AgentiGiacenze.cs",
+              "ViewState": "AQIAAFUAAAAAAAAAAAAAwGYAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-19T14:39:34.068Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "StampaTavoleNormailUfficio.cs",
+              "DocumentMoniker": "E:\\Develop\\DTB\\Sphinx2_dotnet\\BassoLegnami\\BassoLegnami.Reports\\StampaTavoleNormailUfficio.cs",
+              "RelativeDocumentMoniker": "BassoLegnami.Reports\\StampaTavoleNormailUfficio.cs",
+              "ToolTip": "E:\\Develop\\DTB\\Sphinx2_dotnet\\BassoLegnami\\BassoLegnami.Reports\\StampaTavoleNormailUfficio.cs",
+              "RelativeToolTip": "BassoLegnami.Reports\\StampaTavoleNormailUfficio.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAgwBoAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-19T14:19:58.917Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:12:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{65ddf8c3-8f89-4077-a6c6-dbb8853aab13}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:13:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "FloatingWindowState": {
+        "Id": "20dd78bf-7590-49a7-9f2d-9b8ca600ca02",
+        "Display": 0,
+        "X": 0,
+        "Y": 0,
+        "Width": 1439,
+        "Height": 851,
+        "WindowState": 2
+      },
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AgentiGiacenzeRepository.cs",
+              "DocumentMoniker": "E:\\Develop\\DTB\\Sphinx2_dotnet\\BassoLegnami\\BassoLegnami.Model\\Data\\Repositories\\AgentiGiacenzeRepository.cs",
+              "RelativeDocumentMoniker": "BassoLegnami.Model\\Data\\Repositories\\AgentiGiacenzeRepository.cs",
+              "ToolTip": "E:\\Develop\\DTB\\Sphinx2_dotnet\\BassoLegnami\\BassoLegnami.Model\\Data\\Repositories\\AgentiGiacenzeRepository.cs",
+              "RelativeToolTip": "BassoLegnami.Model\\Data\\Repositories\\AgentiGiacenzeRepository.cs",
+              "ViewState": "AQIAACEBAAAAAAAAAAAAwIcBAACJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-19T11:09:45.551Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

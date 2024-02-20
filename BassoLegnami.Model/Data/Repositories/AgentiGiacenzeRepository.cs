@@ -8,6 +8,7 @@ using System.Collections.Generic;
 using System.Data;
 using System.Linq;
 using System.Data.SqlClient;
+using Microsoft.AspNetCore.Mvc.Localization;
 
 namespace BassoLegnami.Model.Data.Repositories
 {
@@ -16,6 +17,7 @@ namespace BassoLegnami.Model.Data.Repositories
         List<AgentiGiacenze> GetData(int? id);
         List<AgentiGiacenze> GetAllData(int? id);
         List<AgentiGiacenze> GetDataRank(int? id);
+        System.IO.MemoryStream Print(long? id);
     }
 
     public class AgentiGiacenzeRepository : GenericRepository<AgentiGiacenze>, IAgentiGiacenzeRepository
@@ -373,5 +375,32 @@ namespace BassoLegnami.Model.Data.Repositories
             }
             return EstrazioneGiacenze;
         }
+
+        public System.IO.MemoryStream Print(long? id)
+        {
+            Microsoft.Extensions.Options.IOptions<Microsoft.Extensions.Localization.LocalizationOptions> options = Microsoft.Extensions.Options.Options.Create(new Microsoft.Extensions.Localization.LocalizationOptions() { ResourcesPath = "Resources" });
+            Microsoft.Extensions.Localization.ResourceManagerStringLocalizerFactory factory = new Microsoft.Extensions.Localization.ResourceManagerStringLocalizerFactory(options, Microsoft.Extensions.Logging.Abstractions.NullLoggerFactory.Instance);
+
+            List<AgentiGiacenze> giacenze = GetData(null).ToList();
+
+            if (giacenze == null)
+            {
+                throw new ArgumentException();
+            }
+
+            //string standardSurveyRiskDescriptionTemplate = _sharedLocalizer["StandardSurveyRiskDescriptionTemplate"].Value;
+            //string plantSurveyDocumentsRiskDescriptionTemplate = _sharedLocalizer["PlantSurveyDocumentsRiskDescriptionTemplate"].Value;
+            //string plantSurveyAnomaliesRiskDescriptionTemplate = _sharedLocalizer["PlantSurveyAnomaliesRiskDescriptionTemplate"].Value;
+
+            IFilesRepository filesRepository = new FilesRepository(_httpContext, _context, User);
+            IAgentiGiacenzeRepository giacenzeRepository = new AgentiGiacenzeRepository(_httpContext, _context, User);
+
+            Reports.StampaTavoleNormailUfficio report = new Reports.StampaTavoleNormailUfficio(_env);
+            Reports.StampaTavoleNormailUfficio.GiacenzeDATA input = new Reports.StampaTavoleNormailUfficio.GiacenzeDATA()
+            {
+            };
+            return report.Print(input);
+        }
+
     }
 }

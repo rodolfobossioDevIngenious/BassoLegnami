@@ -122,6 +122,7 @@
     <Folder Include="Hub\" />
     <Folder Include="Jobs\Rx\" />
     <Folder Include="Jobs\Sys\" />
+    <Folder Include="Reports\" />
     <Folder Include="Plugins\" />
     <Folder Include="Resources\Jobs\" />
     <Folder Include="Services\" />

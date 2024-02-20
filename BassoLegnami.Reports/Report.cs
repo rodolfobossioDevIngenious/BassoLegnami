@@ -28,27 +28,12 @@ namespace BassoLegnami.Reports
             Right = 2,
             Justify = 3,
         }
-        public enum PDFScaleMode
-        {
-            Centimeters = 1,
-            Millimeters = 2,
-            Twips = 3,
-        }
         #region Constants
         protected const float DEFAULT_BORDER_WIDTH = 10F;
         protected const float DEFAULT_LINE_WIDTH = 0.4F;
         protected const float DOUBLE_LINE_WIDTH = 0.8F;
+        protected const int DEFAULT_LINE_HEIGHT = 5;
         protected const string IMAGE_PATH_KEY = "ImageFilePath";
-        public const string DATA = "Data";
-        public const int RECAP_COLUMNS = 4;
-        public const int DEFAULT_LINE_HEIGHT = 5;
-        public const int DEFAULT_W_POS = 190;
-        public const string TRUE = "SI";
-        public const string FALSE = "NO";
-        public const string EmptyDescription = " ";
-        public const string BULLET = "\u2022";
-
-        public const int LEFT_MARGIN = 10;
         #endregion
         #region Properties
         public System.Collections.Specialized.OrderedDictionary Variables { get; private set; }
@@ -97,7 +82,7 @@ namespace BassoLegnami.Reports
             }
             public PageEventHelper(Report report)
             {
-                _report = report;   
+                _report = report;
             }
         }
         #endregion
@@ -122,7 +107,6 @@ namespace BassoLegnami.Reports
             PdfDoc = null;
             PdfWriter = null;
         }
-        public abstract string ModuleName { get; }
         //public void PrintReport(System.Web.HttpResponse response)
         //{
         //    //prepare response session

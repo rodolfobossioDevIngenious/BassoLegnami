@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Vch14NSXpL2e/5q0YfYn7TPts0zqX44FrPe/0X7mpI78aM+DhWunBlpjeUDMyWTXMQOY5O3M2rROWUrusAgiDw==",
+  "dgSpecHash": "RQvAh8tXwyvOt6hj05EGSaRQt2TZrCp+vmya4S4E2gl1Y7bKnBG31Eew2ewjr5UBm76nFrLbukIycIlUtb7Ppw==",
   "success": true,
   "projectFilePath": "E:\\Develop\\DTB\\Sphinx2_dotnet\\BassoLegnami\\BassoLegnami.Model\\BassoLegnami.Model.csproj",
   "expectedPackageFiles": [
@@ -153,7 +153,7 @@
     "C:\\Users\\rodolfo.bossio\\.nuget\\packages\\microsoft.sqlserver.server\\1.0.0\\microsoft.sqlserver.server.1.0.0.nupkg.sha512",
     "C:\\Users\\rodolfo.bossio\\.nuget\\packages\\microsoft.win32.primitives\\4.3.0\\microsoft.win32.primitives.4.3.0.nupkg.sha512",
     "C:\\Users\\rodolfo.bossio\\.nuget\\packages\\microsoft.win32.registry\\5.0.0\\microsoft.win32.registry.5.0.0.nupkg.sha512",
-    "C:\\Users\\rodolfo.bossio\\.nuget\\packages\\microsoft.win32.systemevents\\7.0.0\\microsoft.win32.systemevents.7.0.0.nupkg.sha512",
+    "C:\\Users\\rodolfo.bossio\\.nuget\\packages\\microsoft.win32.systemevents\\8.0.0\\microsoft.win32.systemevents.8.0.0.nupkg.sha512",
     "C:\\Users\\rodolfo.bossio\\.nuget\\packages\\mono.texttemplating\\2.2.1\\mono.texttemplating.2.2.1.nupkg.sha512",
     "C:\\Users\\rodolfo.bossio\\.nuget\\packages\\morelinq\\3.4.2\\morelinq.3.4.2.nupkg.sha512",
     "C:\\Users\\rodolfo.bossio\\.nuget\\packages\\namotion.reflection\\2.0.3\\namotion.reflection.2.0.3.nupkg.sha512",
@@ -226,7 +226,7 @@
     "C:\\Users\\rodolfo.bossio\\.nuget\\packages\\system.diagnostics.eventlog\\7.0.0\\system.diagnostics.eventlog.7.0.0.nupkg.sha512",
     "C:\\Users\\rodolfo.bossio\\.nuget\\packages\\system.diagnostics.tools\\4.3.0\\system.diagnostics.tools.4.3.0.nupkg.sha512",
     "C:\\Users\\rodolfo.bossio\\.nuget\\packages\\system.diagnostics.tracing\\4.3.0\\system.diagnostics.tracing.4.3.0.nupkg.sha512",
-    "C:\\Users\\rodolfo.bossio\\.nuget\\packages\\system.drawing.common\\7.0.0\\system.drawing.common.7.0.0.nupkg.sha512",
+    "C:\\Users\\rodolfo.bossio\\.nuget\\packages\\system.drawing.common\\8.0.2\\system.drawing.common.8.0.2.nupkg.sha512",
     "C:\\Users\\rodolfo.bossio\\.nuget\\packages\\system.formats.asn1\\7.0.0\\system.formats.asn1.7.0.0.nupkg.sha512",
     "C:\\Users\\rodolfo.bossio\\.nuget\\packages\\system.globalization\\4.3.0\\system.globalization.4.3.0.nupkg.sha512",
     "C:\\Users\\rodolfo.bossio\\.nuget\\packages\\system.globalization.calendars\\4.3.0\\system.globalization.calendars.4.3.0.nupkg.sha512",

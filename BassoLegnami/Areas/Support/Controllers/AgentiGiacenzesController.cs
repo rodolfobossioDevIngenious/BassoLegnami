@@ -103,5 +103,24 @@ namespace BassoLegnami.Areas.Support.Controllers
             return Json(_unitOfWork.AgentiGiacenzeRepository.GetDataRank(null)
                         .Select(r => new { r.Id, r.TipoPacco, r.Essenza, r.Classifica, r.StatoLegno, r.Stagionatura, r.Deposito, r.Quantita, r.Volume, r.RankID }).ToList());
         }
+
+        public async Task<ActionResult> Print(string id)
+        {
+            if (id == null)
+            {
+                throw new ArgumentException();
+            }
+
+            long[] giacenzeID = id.Split("|").Select(r => Convert.ToInt64(r)).ToArray();
+            if (await _unitOfWork.AgentiGiacenzeRepository.FindBy(r => giacenzeID.Contains(r.Id)).CountAsync().ConfigureAwait(false) != giacenzeID.Length)
+            {
+                throw new ArgumentException();
+            }
+
+            // print delivery notes
+            List<System.IO.MemoryStream> condominium = new List<System.IO.MemoryStream>();
+            giacenzeID.ToList().ForEach(r => condominium.Add(_unitOfWork.AgentiGiacenzeRepository.Print(r)));
+            return File(Reports.PDFUtils.MergePDF(condominium), "application/pdf");
+        }
     }
 }

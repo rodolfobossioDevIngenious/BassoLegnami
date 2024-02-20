@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BassoLegnami.Reports")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cd49d5fb25c485bfaf04f854e3018481dc3c1ab3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e3f9aa2aff20b8507aca36ca7042a290182ded42")]
 [assembly: System.Reflection.AssemblyProductAttribute("BassoLegnami.Reports")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BassoLegnami.Reports")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
