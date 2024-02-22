@@ -362,7 +362,7 @@ namespace BassoLegnami.Model.Data.Repositories
                 using (SqlCommand sqlCommand = new
                         ($"SELECT RANK() OVER (ORDER BY TipoPacco, Essenza, Classifica, StatoLegno, Stagionatura, Deposito) AS [Rank], * " +
                         $"FROM [AgentiGiacenza]" +
-                        $" {sqlWhere} "+
+                        $" {sqlWhere} " +
                         $"ORDER BY TipoPacco, Essenza, Classifica, StatoLegno, Stagionatura, Deposito", connection))
                 {
                     // Treat command as a text sql command
@@ -459,7 +459,34 @@ namespace BassoLegnami.Model.Data.Repositories
             {
                 Reports.StampaTavoleNormailUfficio.GiacenzeDATA.GiacenzeDATAList giacenzeList = new()
                 {
-
+                    Certificazione = item.Certificazione,
+                    ClienteImpegno = item.ClienteImpegno,
+                    DataImpegno = item.DataImpegno,
+                    DataVendita = item.DataVendita,
+                    Deposito = item.Deposito,
+                    Dim1 = item.Dim1,
+                    Dim2 = item.Dim2,
+                    Dim3 = item.Dim3,
+                    Fornitore = item.Fornitore,
+                    Id = item.Id,
+                    LunghezzaDescr = item.LunghezzaDescr,
+                    Marchio = item.Marchio,
+                    Misura = item.Misura,
+                    Note = item.Note,
+                    NPackList = item.NPackList,
+                    NumeroCarico = item.NumeroCarico,
+                    Pacco = item.Pacco,
+                    PrezzoAcquisto = item.PrezzoAcquisto,
+                    Provenienza = item.Provenienza,
+                    Qualita = item.Qualita,
+                    Quantita = item.Quantita,
+                    QuantitaVenduta = item.QuantitaVenduta,
+                    RankID = item.RankID,
+                    Strati = item.Strati,
+                    Tipo = item.Tipo,
+                    TipoPacco = item.TipoPacco,
+                    UnitaMisuraPrezzoAcquisto = item.UnitaMisuraPrezzoAcquisto,
+                    Volume = item.Volume
                 };
                 data.GiacenzeList.Add(giacenzeList);
             }

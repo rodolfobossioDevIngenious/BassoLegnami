@@ -3,24 +3,8 @@
   "WorkspaceRootPath": "E:\\Develop\\DTB\\Sphinx2_dotnet\\BassoLegnami\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EC84117D-0373-40CA-A0EC-2542C064E779}|BassoLegnami.Model\\BassoLegnami.Model.csproj|e:\\develop\\dtb\\sphinx2_dotnet\\bassolegnami\\bassolegnami.model\\data\\repositories\\agentigiacenzerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EC84117D-0373-40CA-A0EC-2542C064E779}|BassoLegnami.Model\\BassoLegnami.Model.csproj|solutionrelative:bassolegnami.model\\data\\repositories\\agentigiacenzerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{50575AD8-9519-4453-B4B7-694B15F226D9}|BassoLegnami\\BassoLegnami.csproj|e:\\develop\\dtb\\sphinx2_dotnet\\bassolegnami\\bassolegnami\\areas\\support\\controllers\\agentigiacenzescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{50575AD8-9519-4453-B4B7-694B15F226D9}|BassoLegnami\\BassoLegnami.csproj|solutionrelative:bassolegnami\\areas\\support\\controllers\\agentigiacenzescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{50575AD8-9519-4453-B4B7-694B15F226D9}|BassoLegnami\\BassoLegnami.csproj|e:\\develop\\dtb\\sphinx2_dotnet\\bassolegnami\\bassolegnami\\areas\\support\\views\\agentigiacenzes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{50575AD8-9519-4453-B4B7-694B15F226D9}|BassoLegnami\\BassoLegnami.csproj|solutionrelative:bassolegnami\\areas\\support\\views\\agentigiacenzes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8C2E03D0-644A-4798-BD89-3FE1F1F0CAA3}|BassoLegnami.Reports\\BassoLegnami.Reports.csproj|e:\\develop\\dtb\\sphinx2_dotnet\\bassolegnami\\bassolegnami.reports\\stampatavolenormailufficio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8C2E03D0-644A-4798-BD89-3FE1F1F0CAA3}|BassoLegnami.Reports\\BassoLegnami.Reports.csproj|solutionrelative:bassolegnami.reports\\stampatavolenormailufficio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{50575AD8-9519-4453-B4B7-694B15F226D9}|BassoLegnami\\BassoLegnami.csproj|e:\\develop\\dtb\\sphinx2_dotnet\\bassolegnami\\bassolegnami\\areas\\support\\models\\giacenzefilterviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{50575AD8-9519-4453-B4B7-694B15F226D9}|BassoLegnami\\BassoLegnami.csproj|solutionrelative:bassolegnami\\areas\\support\\models\\giacenzefilterviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +14,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -53,89 +37,20 @@
               "Name": "ST:13:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "E:\\Develop\\DTB\\Sphinx2_dotnet\\BassoLegnami\\BassoLegnami\\Areas\\Support\\Views\\AgentiGiacenzes\\Index.cshtml",
-              "RelativeDocumentMoniker": "BassoLegnami\\Areas\\Support\\Views\\AgentiGiacenzes\\Index.cshtml",
-              "ToolTip": "E:\\Develop\\DTB\\Sphinx2_dotnet\\BassoLegnami\\BassoLegnami\\Areas\\Support\\Views\\AgentiGiacenzes\\Index.cshtml",
-              "RelativeToolTip": "BassoLegnami\\Areas\\Support\\Views\\AgentiGiacenzes\\Index.cshtml",
-              "ViewState": "AQIAAFsAAAAAAAAAAAAYwHwAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-02-22T15:53:32.548Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "AgentiGiacenzeRepository.cs",
-              "DocumentMoniker": "E:\\Develop\\DTB\\Sphinx2_dotnet\\BassoLegnami\\BassoLegnami.Model\\Data\\Repositories\\AgentiGiacenzeRepository.cs",
-              "RelativeDocumentMoniker": "BassoLegnami.Model\\Data\\Repositories\\AgentiGiacenzeRepository.cs",
-              "ToolTip": "E:\\Develop\\DTB\\Sphinx2_dotnet\\BassoLegnami\\BassoLegnami.Model\\Data\\Repositories\\AgentiGiacenzeRepository.cs",
-              "RelativeToolTip": "BassoLegnami.Model\\Data\\Repositories\\AgentiGiacenzeRepository.cs",
-              "ViewState": "AQIAAJcBAAAAAAAAAAAqwJ4BAABSAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-20T18:02:34.409Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "StampaTavoleNormailUfficio.cs",
-              "DocumentMoniker": "E:\\Develop\\DTB\\Sphinx2_dotnet\\BassoLegnami\\BassoLegnami.Reports\\StampaTavoleNormailUfficio.cs",
-              "RelativeDocumentMoniker": "BassoLegnami.Reports\\StampaTavoleNormailUfficio.cs",
-              "ToolTip": "E:\\Develop\\DTB\\Sphinx2_dotnet\\BassoLegnami\\BassoLegnami.Reports\\StampaTavoleNormailUfficio.cs",
-              "RelativeToolTip": "BassoLegnami.Reports\\StampaTavoleNormailUfficio.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAAAB8AAAA/AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-20T15:35:16.083Z",
-              "EditorCaption": ""
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "Orientation": 0,
-      "VerticalTabListWidth": 256,
-      "FloatingWindowState": {
-        "Id": "5aecd6e3-e9d0-4839-9c55-ea17b092559b",
-        "Display": 0,
-        "X": -5,
-        "Y": 81,
-        "Width": 1882,
-        "Height": 956,
-        "WindowState": 2
-      },
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "AgentiGiacenzesController.cs",
               "DocumentMoniker": "E:\\Develop\\DTB\\Sphinx2_dotnet\\BassoLegnami\\BassoLegnami\\Areas\\Support\\Controllers\\AgentiGiacenzesController.cs",
               "RelativeDocumentMoniker": "BassoLegnami\\Areas\\Support\\Controllers\\AgentiGiacenzesController.cs",
               "ToolTip": "E:\\Develop\\DTB\\Sphinx2_dotnet\\BassoLegnami\\BassoLegnami\\Areas\\Support\\Controllers\\AgentiGiacenzesController.cs",
               "RelativeToolTip": "BassoLegnami\\Areas\\Support\\Controllers\\AgentiGiacenzesController.cs",
-              "ViewState": "AQIAACkAAAAAAAAAAAAAwEIAAAAAAAAA",
+              "ViewState": "AQIAACQAAAAAAAAAAAAowEgAAAA/AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-22T14:46:44.846Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "GiacenzeFilterViewModel.cs",
-              "DocumentMoniker": "E:\\Develop\\DTB\\Sphinx2_dotnet\\BassoLegnami\\BassoLegnami\\Areas\\Support\\Models\\GiacenzeFilterViewModel.cs",
-              "RelativeDocumentMoniker": "BassoLegnami\\Areas\\Support\\Models\\GiacenzeFilterViewModel.cs",
-              "ToolTip": "E:\\Develop\\DTB\\Sphinx2_dotnet\\BassoLegnami\\BassoLegnami\\Areas\\Support\\Models\\GiacenzeFilterViewModel.cs",
-              "RelativeToolTip": "BassoLegnami\\Areas\\Support\\Models\\GiacenzeFilterViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAvAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-22T15:16:10.865Z",
+              "WhenOpened": "2024-02-22T16:41:13.764Z",
               "EditorCaption": ""
             }
           ]
