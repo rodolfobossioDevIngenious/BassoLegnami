@@ -8,16 +8,18 @@ using System.Collections.Generic;
 using System.Data;
 using System.Linq;
 using System.Data.SqlClient;
-using Microsoft.AspNetCore.Mvc.Localization;
+using System.IO;
+using System.Linq.Expressions;
+using Microsoft.EntityFrameworkCore;
 
 namespace BassoLegnami.Model.Data.Repositories
 {
     public interface IAgentiGiacenzeRepository : IGenericRepository<AgentiGiacenze>
     {
-        List<AgentiGiacenze> GetData(int? id);
+        List<AgentiGiacenze> GetData(int? IdEssenza, int? IdClassifica, int? IdStatoLegno, int? IdStagionatura, int? IdDeposito, int? IdProvenienza);
         List<AgentiGiacenze> GetAllData(int? id);
-        List<AgentiGiacenze> GetDataRank(int? id);
-        System.IO.MemoryStream Print(long? id);
+        List<AgentiGiacenze> GetDataRank(int? IdEssenza, int? IdClassifica, int? IdStatoLegno, int? IdStagionatura, int? IdDeposito, int? IdProvenienza);
+        public byte[] Print(List<AgentiGiacenze> giacenze, int? filterTipoStampa, int? filterTipoTavola);
     }
 
     public class AgentiGiacenzeRepository : GenericRepository<AgentiGiacenze>, IAgentiGiacenzeRepository
@@ -26,19 +28,52 @@ namespace BassoLegnami.Model.Data.Repositories
         {
         }
 
-        public List<AgentiGiacenze> GetData(int? id)
+        public List<AgentiGiacenze> GetData(int? IdEssenza, int? IdClassifica, int? IdStatoLegno, int? IdStagionatura, int? IdDeposito, int? IdProvenienza)
         {
             List<AgentiGiacenze> Giacenze = new();
             List<AgentiGiacenze> EstrazioneGiacenze = new();
-            // Create the connection.
-            using (SqlConnection connection = new("Server=192.168.0.17;Database=Magazzino;User Id=magazzino;Password=magazzino$;"))
+            string sqlWhere = string.Empty;
+
+            if (IdEssenza.HasValue || IdClassifica.HasValue || IdStatoLegno.HasValue || IdStagionatura.HasValue || IdDeposito.HasValue || IdProvenienza.HasValue)
             {
-                // Create a SqlCommand
-                using (SqlCommand sqlCommand = new
-                        ($"SELECT TOP 500 [TipoPacco]" +
+                sqlWhere += " WHERE ";
+                if (IdEssenza.HasValue)
+                {
+                    sqlWhere += $"[IdEssenza] = {IdEssenza} AND ";
+                }
+                if (IdClassifica.HasValue)
+                {
+                    sqlWhere += $"[IdClassifiche] = {IdClassifica} AND ";
+                }
+                if (IdStatoLegno.HasValue)
+                {
+                    sqlWhere += $"[IdStatoLegno] = {IdStatoLegno} AND ";
+                }
+                if (IdStagionatura.HasValue)
+                {
+                    sqlWhere += $"[IdStagionatura] = {IdStagionatura} AND ";
+                }
+                if (IdDeposito.HasValue)
+                {
+                    sqlWhere += $"[IdDeposito] = {IdDeposito} AND ";
+                }
+                if (IdProvenienza.HasValue)
+                {
+                    sqlWhere += $"[IdProvenienza] = {IdProvenienza} AND ";
+                }
+                sqlWhere = sqlWhere[..^5];
+            }
+
+            string sql = ($"SELECT [TipoPacco]" +
                         $", [Essenza] , [Classifica], [StatoLegno], [Stagionatura], [Deposito], [Provenienza], [Fornitore], [UnitaMisuraPrezzoAcquisto], [Misura], [DIM1], [DIM2]" +
                         $", [DIM3], [Quantità], [Pacco], [Tipo], [Volume], [NPackList], [Marchio], [PrezzoAcquisto], [QuantitàVenduta], [DataImpegno], [DataVendita], [ClienteImpegno]," +
-                        $" [Certificazione], [Qualita], [Note], [LunghezzaDescr], [Strati], [NumeroCarico], [Id] FROM [Magazzino].[dbo].[AgentiGiacenza] ORDER BY [Id] DESC", connection))
+                        $" [Certificazione], [Qualita], [Note], [LunghezzaDescr], [Strati], [NumeroCarico], [Id] FROM [AgentiGiacenza] {sqlWhere} ORDER BY [Id] DESC");
+
+            // Create the connection.
+            using (SqlConnection connection = new(_context.Database.GetConnectionString()))
+            {
+                // Create a SqlCommand
+                using (SqlCommand sqlCommand = new(sql, connection))
                 {
                     // Treat command as a text sql command
                     sqlCommand.CommandType = CommandType.Text;
@@ -107,9 +142,6 @@ namespace BassoLegnami.Model.Data.Repositories
                 {
                     if (Giacenze != null)
                     {
-                        if (id.HasValue)
-                            Giacenze = Giacenze.Where(r => r.Id == id).ToList();
-
                         foreach (AgentiGiacenze item in Giacenze)
                         {
                             AgentiGiacenze agentiGiancenza = new()
@@ -163,7 +195,7 @@ namespace BassoLegnami.Model.Data.Repositories
             List<AgentiGiacenze> Giacenze = new();
             List<AgentiGiacenze> EstrazioneGiacenze = new();
             // Create the connection.
-            using (SqlConnection connection = new("Server=192.168.0.17;Database=Magazzino;User Id=magazzino;Password=magazzino$;"))
+            using (SqlConnection connection = new(_context.Database.GetConnectionString()))
             {
                 // Create a SqlCommand
                 using (SqlCommand sqlCommand = new
@@ -287,17 +319,50 @@ namespace BassoLegnami.Model.Data.Repositories
             return EstrazioneGiacenze;
         }
 
-        public List<AgentiGiacenze> GetDataRank(int? id)
+        public List<AgentiGiacenze> GetDataRank(int? IdEssenza, int? IdClassifica, int? IdStatoLegno, int? IdStagionatura, int? IdDeposito, int? IdProvenienza)
         {
             List<AgentiGiacenze> Giacenze = new();
             List<AgentiGiacenze> EstrazioneGiacenze = new();
+            string sqlWhere = string.Empty;
+
+            if (IdEssenza.HasValue || IdClassifica.HasValue || IdStatoLegno.HasValue || IdStagionatura.HasValue || IdDeposito.HasValue || IdProvenienza.HasValue)
+            {
+                sqlWhere += " WHERE ";
+                if (IdEssenza.HasValue)
+                {
+                    sqlWhere += $"[IdEssenza] = {IdEssenza} AND ";
+                }
+                if (IdClassifica.HasValue)
+                {
+                    sqlWhere += $"[IdClassifiche] = {IdClassifica} AND ";
+                }
+                if (IdStatoLegno.HasValue)
+                {
+                    sqlWhere += $"[IdStatoLegno] = {IdStatoLegno} AND ";
+                }
+                if (IdStagionatura.HasValue)
+                {
+                    sqlWhere += $"[IdStagionatura] = {IdStagionatura} AND ";
+                }
+                if (IdDeposito.HasValue)
+                {
+                    sqlWhere += $"[IdDeposito] = {IdDeposito} AND ";
+                }
+                if (IdProvenienza.HasValue)
+                {
+                    sqlWhere += $"[IdProvenienza] = {IdProvenienza} AND ";
+                }
+                sqlWhere = sqlWhere[..^5];
+            }
+
             // Create the connection.
-            using (SqlConnection connection = new("Server=192.168.0.17;Database=Magazzino;User Id=magazzino;Password=magazzino$;"))
+            using (SqlConnection connection = new(_context.Database.GetConnectionString()))
             {
                 // Create a SqlCommand
                 using (SqlCommand sqlCommand = new
-                        ($"SELECT TOP 1000 RANK() OVER (ORDER BY TipoPacco, Essenza, Classifica, StatoLegno, Stagionatura, Deposito) AS [Rank], * " +
-                        $"FROM[Magazzino].[dbo].[AgentiGiacenza]" +
+                        ($"SELECT RANK() OVER (ORDER BY TipoPacco, Essenza, Classifica, StatoLegno, Stagionatura, Deposito) AS [Rank], * " +
+                        $"FROM [AgentiGiacenza]" +
+                        $" {sqlWhere} "+
                         $"ORDER BY TipoPacco, Essenza, Classifica, StatoLegno, Stagionatura, Deposito", connection))
                 {
                     // Treat command as a text sql command
@@ -346,8 +411,8 @@ namespace BassoLegnami.Model.Data.Repositories
                 {
                     if (Giacenze != null)
                     {
-                        if (id.HasValue)
-                            Giacenze = Giacenze.Where(r => r.Id == id).ToList();
+                        //if (id.HasValue)
+                        //    Giacenze = Giacenze.Where(r => r.Id == id).ToList();
 
                         foreach (AgentiGiacenze item in Giacenze)
                         {
@@ -376,31 +441,33 @@ namespace BassoLegnami.Model.Data.Repositories
             return EstrazioneGiacenze;
         }
 
-        public System.IO.MemoryStream Print(long? id)
+        public byte[] Print(List<AgentiGiacenze> giacenze, int? filterTipoStampa, int? filterTipoTavola)
         {
-            Microsoft.Extensions.Options.IOptions<Microsoft.Extensions.Localization.LocalizationOptions> options = Microsoft.Extensions.Options.Options.Create(new Microsoft.Extensions.Localization.LocalizationOptions() { ResourcesPath = "Resources" });
-            Microsoft.Extensions.Localization.ResourceManagerStringLocalizerFactory factory = new Microsoft.Extensions.Localization.ResourceManagerStringLocalizerFactory(options, Microsoft.Extensions.Logging.Abstractions.NullLoggerFactory.Instance);
+            MemoryStream outputStream = new();
 
-            List<AgentiGiacenze> giacenze = GetData(null).ToList();
+            Reports.StampaTavoleNormailUfficio StampaTavoleNormailUfficioPDF = new();
 
-            if (giacenze == null)
+            Reports.StampaTavoleNormailUfficio.GiacenzeDATA data = new Reports.StampaTavoleNormailUfficio.GiacenzeDATA
             {
-                throw new ArgumentException();
+                Classifica = giacenze.FirstOrDefault()?.Classifica ?? string.Empty,
+                Essenza = giacenze.FirstOrDefault()?.Essenza ?? string.Empty,
+                Stagionatura = giacenze.FirstOrDefault()?.Stagionatura ?? string.Empty,
+                StatoLegno = giacenze.FirstOrDefault()?.StatoLegno ?? string.Empty
+            };
+
+            foreach (AgentiGiacenze item in giacenze)
+            {
+                Reports.StampaTavoleNormailUfficio.GiacenzeDATA.GiacenzeDATAList giacenzeList = new()
+                {
+
+                };
+                data.GiacenzeList.Add(giacenzeList);
             }
 
-            //string standardSurveyRiskDescriptionTemplate = _sharedLocalizer["StandardSurveyRiskDescriptionTemplate"].Value;
-            //string plantSurveyDocumentsRiskDescriptionTemplate = _sharedLocalizer["PlantSurveyDocumentsRiskDescriptionTemplate"].Value;
-            //string plantSurveyAnomaliesRiskDescriptionTemplate = _sharedLocalizer["PlantSurveyAnomaliesRiskDescriptionTemplate"].Value;
+            StampaTavoleNormailUfficioPDF.Variables.Add(Reports.StampaTavoleNormailUfficio.DATA, data);
+            StampaTavoleNormailUfficioPDF.PrintReport(outputStream);
 
-            IFilesRepository filesRepository = new FilesRepository(_httpContext, _context, User);
-            IAgentiGiacenzeRepository giacenzeRepository = new AgentiGiacenzeRepository(_httpContext, _context, User);
-
-            Reports.StampaTavoleNormailUfficio report = new Reports.StampaTavoleNormailUfficio(_env);
-            Reports.StampaTavoleNormailUfficio.GiacenzeDATA input = new Reports.StampaTavoleNormailUfficio.GiacenzeDATA()
-            {
-            };
-            return report.Print(input);
+            return outputStream.ToArray();
         }
-
     }
 }

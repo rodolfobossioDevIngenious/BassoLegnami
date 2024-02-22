@@ -116,7 +116,6 @@
     <Folder Include="Areas\GeographicSupport\Data\" />
     <Folder Include="Areas\GeographicSupport\Models\" />
     <Folder Include="Areas\Support\Data\" />
-    <Folder Include="Areas\Support\Models\" />
     <Folder Include="Areas\Users\Data\" />
     <Folder Include="Areas\Users\Models\" />
     <Folder Include="Hub\" />

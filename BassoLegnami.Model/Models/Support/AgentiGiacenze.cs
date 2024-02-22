@@ -1,4 +1,5 @@
-﻿using System;
+﻿using In.Core.Models;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
@@ -6,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace BassoLegnami.Model.Models.Support
 {
-	public class AgentiGiacenze : In.Core.Models.Auditable
+	public class AgentiGiacenze : Auditable
     {
         [Display(ResourceType = typeof(Resources.Models.Support.AgentiGiacenze.AgentiGiacenze), Name = "Id", Description = "Id")]
         public int Id { get; set; }
@@ -104,7 +105,7 @@ namespace BassoLegnami.Model.Models.Support
 
         public override IEnumerable<ValidationResult> Validate(ValidationContext validationContext)
         {
-            throw new NotImplementedException();
+            return Enumerable.Empty<ValidationResult>();
         }
     }
 }

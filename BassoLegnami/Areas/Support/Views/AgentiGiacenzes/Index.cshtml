@@ -9,90 +9,86 @@
 
 <div class="row">
     <div class="col-md-12">
-        <form asp-action="Index">
-            <div class="card stacked-form">
-                <div class="card-header ">
-                    <div asp-validation-summary="ModelOnly" class="alert alert-danger"><i class="fa fa-close"></i></div>
-                    <h4 class="card-title">@SR["SearchRecords"]</h4>
-                </div>
-                <div class="card-body">
-                    <div class="row">
-                        <div class="col-md-3 col-lg-3">
-                            <div class="form-group">
-                                <label class="control-label">Essenza</label>
-                                <select id="IdEssenza" name="IdEssenza" class="form-control" asp-items="ViewBag.IdEssenza">
-                                    <option value=""></option>
-                                </select>
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-lg-3">
-                            <div class="form-group">
-                                <label class="control-label">Classifica</label>
-                                <select id="IdClassifica" name="IdClassifica" class="form-control" asp-items="ViewBag.IdClassifica">
-                                    <option value=""></option>
-                                </select>
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-lg-3">
-                            <div class="form-group">
-                                <label class="control-label">Stato Legno</label>
-                                <select id="IdStatoLegno" name="IdStatoLegno" class="form-control" asp-items="ViewBag.IdStatoLegno">
-                                    <option value=""></option>
-                                </select>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-3">
-                            <div class="form-group">
-                                <label class="control-label">Stagionatura</label>
-                                <select id="IdStagionatura" name="IdStagionatura" class="form-control" asp-items="ViewBag.IdStagionatura">
-                                    <option value=""></option>
-                                </select>
-                            </div>
-                        </div>
-                        <div class="col-md-3">
-                            <div class="form-group">
-                                <label class="control-label">Deposito</label>
-                                <select id="IdDeposito" name="IdDeposito" class="form-control" asp-items="ViewBag.IdDeposito">
-                                    <option value=""></option>
-                                </select>
-                            </div>
-                        </div>
-                        <div class="col-md-3">
-                            <div class="form-group">
-                                <label class="control-label">Provenienza</label>
-                                <select id="IdProvenienza" name="IdProvenienza" class="form-control" asp-items="ViewBag.IdProvenienza">
-                                    <option value=""></option>
-                                </select>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-lg-6">
-                            <button type="submit" name="submitButton" value="default" class="btn btn-default"><i class="fa fa-search"></i> @SR["SearchRecords"]</button>
-                            <a asp-action="PrintPDF" class="btn btn-success"><i class="fa fa-print"></i> Stampa PDF</a>
-                        </div>
-                    </div>
-                </div>
-                @if (Model != null && Model.Count() == 0)
-                {
-                    <div class="row">
-                        <div class="col-lg-12">
-                            <hr />
-                            <div class="alert alert-warning">
-                                <span><i class="fa fa-warning"></i> @SR["NoData"]</span>
-                            </div>
-                        </div>
-                    </div>
-                }
+        <div class="card stacked-form">
+            <div class="card-header ">
+                <div asp-validation-summary="ModelOnly" class="alert alert-danger"><i class="fa fa-close"></i></div>
+                <h4 class="card-title">@SR["SearchRecords"]</h4>
             </div>
-        </form>
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-md-3 col-lg-3">
+                        <div class="form-group">
+                            <label class="control-label">Essenza</label>
+                            <select id="IdEssenza" name="IdEssenza" class="form-control" asp-items="ViewBag.IdEssenza">
+                                <option value=""></option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-lg-3">
+                        <div class="form-group">
+                            <label class="control-label">Classifica</label>
+                            <select id="IdClassifica" name="IdClassifica" class="form-control" asp-items="ViewBag.IdClassifica">
+                                <option value=""></option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-lg-3">
+                        <div class="form-group">
+                            <label class="control-label">Stato Legno</label>
+                            <select id="IdStatoLegno" name="IdStatoLegno" class="form-control" asp-items="ViewBag.IdStatoLegno">
+                                <option value=""></option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="form-group">
+                            <label class="control-label">Stagionatura</label>
+                            <select id="IdStagionatura" name="IdStagionatura" class="form-control" asp-items="ViewBag.IdStagionatura">
+                                <option value=""></option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="form-group">
+                            <label class="control-label">Deposito</label>
+                            <select id="IdDeposito" name="IdDeposito" class="form-control" asp-items="ViewBag.IdDeposito">
+                                <option value=""></option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="form-group">
+                            <label class="control-label">Provenienza</label>
+                            <select id="IdProvenienza" name="IdProvenienza" class="form-control" asp-items="ViewBag.IdProvenienza">
+                                <option value=""></option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <button id="search" type="button" name="submitButton" value="default" class="btn btn-default"><i class="fa fa-search"></i> @SR["SearchRecords"]</button>
+                        <a asp-action="Print" class="btn btn-success"><i class="fa fa-print"></i> Stampa PDF</a>
+                    </div>
+                </div>
+            </div>
+            @if (Model != null && Model.Count() == 0)
+            {
+                <div class="row">
+                    <div class="col-lg-12">
+                        <hr />
+                        <div class="alert alert-warning">
+                            <span><i class="fa fa-warning"></i> @SR["NoData"]</span>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
     </div>
 </div>
 
-@if (Model != null && Model.Count() > 0)
-{
     <div class="row">
         <div class="col-md-12">
             <div class="card data-tables">
@@ -125,69 +121,91 @@
             </div>
         </div>
     </div>
-}
+
 @section scripts {
     <script type="text/javascript">
         var lastGiacenzaID = 0;
         var counter = 0;
-        $.ajax({
-            type: "GET",
-            cache: false,
-            dataType: "json",
-            url: "@Url.Action("GetIndexTable")",
-            success: function (result) {
-                $.each(result, function (i, e) {
-                    var currentGiacenzaID = e.RankID;
-                    if (currentGiacenzaID != lastGiacenzaID) {
-                        var row = "";
-                        row += '<tr class="parent" style="background-color:palegreen;">';
+
+        function GetData() {
+            $.ajax({
+                type: "GET",
+                cache: false,
+                dataType: "json",
+                url: "@Url.Action("GetIndexTable")",
+                data: {
+                    idEssenza: $("#IdEssenza").val(),
+                    idClassifica: $("#IdClassifica").val(),
+                    idStatoLegno: $("#IdStatoLegno").val(),
+                    idStagionatura: $("#IdStagionatura").val(),
+                    idDeposito: $("#IdDeposito").val(),
+                    idProvenienza: $("#IdProvenienza").val(),
+                },
+                beforeSend: function () { 
+                    $("#customerRowsTable tbody").empty();
+                },
+                success: function (result) {
+                    $.each(result, function (i, e) {
+                        var currentGiacenzaID = e.RankID;
+                        if (currentGiacenzaID != lastGiacenzaID) {
+                            var row = "";
+                            row += '<tr class="parent" style="background-color:palegreen;">';
+                            row += '<td>' + e.TipoPacco + '</td>';
+                            row += '<td>' + e.Essenza + '</td>';
+                            row += '<td>' + e.Classifica + '</td>';
+                            row += '<td>' + e.StatoLegno + '</td>';
+                            row += '<td>' + e.Stagionatura + '</td>';
+                            row += '<td>' + e.Deposito + '</td>';
+                            // row += '<td class="text-right">' + e.Quantita + '</td>';
+                            // row += '<td class="text-right">' + e.Volume + '</td>';
+
+                            row += '<td class="text-right">' + '</td>';
+                            row += '<td class="text-right">' + '</td>';
+
+                            row += '<td class="text-right">';
+                            // row += '<a asp-action="Details" href=/support/agentigiacenzes/details/' + e.Id + ' class="btn btn-primary"><i class="fa fa-list-alt"></i></a>&nbsp;';
+                            row += '<a class="OpenDetails btn btn-primary" data-toggle="collapse" data-giacenzaRowID="' + e.RankID + '" role="button" aria-expanded="false" aria-controls="collapse" style="color:white;"><i class="fa fa-expand"></i></a>&nbsp;';
+                            row += '</td>';
+                            row += '</tr>';
+
+                            $("#customerRowsTable tbody").append(row);
+                            lastGiacenzaID = currentGiacenzaID;
+                            counter++;
+                        }
+
+                        row = "";
+                        row += '<tr colspan="9" class="elements_' + e.RankID + ' d-none">';
                         row += '<td>' + e.TipoPacco + '</td>';
                         row += '<td>' + e.Essenza + '</td>';
                         row += '<td>' + e.Classifica + '</td>';
                         row += '<td>' + e.StatoLegno + '</td>';
                         row += '<td>' + e.Stagionatura + '</td>';
                         row += '<td>' + e.Deposito + '</td>';
-                        // row += '<td class="text-right">' + e.Quantita + '</td>';
-                        // row += '<td class="text-right">' + e.Volume + '</td>';
-
-                        row += '<td class="text-right">' + '</td>';
-                        row += '<td class="text-right">' + '</td>';
-
-                        row += '<td class="text-right">';
-                        // row += '<a asp-action="Details" href=/support/agentigiacenzes/details/' + e.Id + ' class="btn btn-primary"><i class="fa fa-list-alt"></i></a>&nbsp;';
-                        row += '<a class="OpenDetails btn btn-primary" data-toggle="collapse" data-giacenzaRowID="' + e.RankID + '" role="button" aria-expanded="false" aria-controls="collapse" style="color:white;"><i class="fa fa-expand"></i></a>&nbsp;';
-                        row += '</td>';
+                        row += '<td class="text-right">' + e.Quantita + '</td>';
+                        row += '<td class="text-right">' + e.Volume + '</td>';
+                        row += '<td class="text-right"> <a asp-action="Details" href=/support/agentigiacenzes/details/' + e.Id + ' class="btn btn-primary"><i class="fa fa-list-alt"></i></a>&nbsp; </td>';
                         row += '</tr>';
-
                         $("#customerRowsTable tbody").append(row);
-                        lastGiacenzaID = currentGiacenzaID;
-                        counter++;
-                    }
+                    });
 
-                    row = "";
-                    row += '<tr colspan="9" class="elements_' + e.RankID + ' d-none">';
-                    row += '<td>' + e.TipoPacco + '</td>';
-                    row += '<td>' + e.Essenza + '</td>';
-                    row += '<td>' + e.Classifica + '</td>';
-                    row += '<td>' + e.StatoLegno + '</td>';
-                    row += '<td>' + e.Stagionatura + '</td>';
-                    row += '<td>' + e.Deposito + '</td>';
-                    row += '<td class="text-right">' + e.Quantita + '</td>';
-                    row += '<td class="text-right">' + e.Volume + '</td>';
-                    row += '<td class="text-right"> <a asp-action="Details" href=/support/agentigiacenzes/details/' + e.Id + ' class="btn btn-primary"><i class="fa fa-list-alt"></i></a>&nbsp; </td>';
-                    row += '</tr>';
-                    $("#customerRowsTable tbody").append(row);
-                });
+                    $('a[data-toggle="collapse"]').on("click", function () {
+                        $("tr.elements_" + $(this).attr("data-giacenzaRowID")).toggleClass("d-none");
+                    });
+                },
+                error: function (xhr, ajaxOptions, thrownError) {
+                    console.log(xhr.status);
+                    console.error(xhr.status);
+                    console.error(thrownError);
+                }
+            });
+        }
 
-                $('a[data-toggle="collapse"]').on("click", function () {
-                    $("tr.elements_" + $(this).attr("data-giacenzaRowID")).toggleClass("d-none");
-                });
-            },
-            error: function (xhr, ajaxOptions, thrownError) {
-                console.log(xhr.status);
-                console.error(xhr.status);
-                console.error(thrownError);
-            }
+        $(function () {
+            GetData();
+
+            $("#search").on("click", function () {
+                GetData();
+            });
         });
     </script>
 }

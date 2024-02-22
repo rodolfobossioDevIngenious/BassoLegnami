@@ -55,41 +55,50 @@ namespace BassoLegnami.Reports
             throw new NotImplementedException();
         }
 
-
         public class GiacenzeDATA
         {
-            public int Id { get; set; }
-            public string TipoPacco { get; set; }
             public string Essenza { get; set; }
             public string StatoLegno { get; set; }
             public string Stagionatura { get; set; }
-            public string Deposito { get; set; }
-            public string Provenienza { get; set; }
-            public string Fornitore { get; set; }
-            public string UnitaMisuraPrezzoAcquisto { get; set; }
-            public string Misura { get; set; }
-            public string Dim1 { get; set; }
-            public string Dim2 { get; set; }
-            public string Dim3 { get; set; }
-            public int? Quantita { get; set; }
-            public string Pacco { get; set; }
-            public string Tipo { get; set; }
-            public decimal? Volume { get; set; }
-            public string NPackList { get; set; }
-            public string Marchio { get; set; }
-            public string PrezzoAcquisto { get; set; }
-            public string QuantitaVenduta { get; set; }
-            public string DataImpegno { get; set; }
-            public string DataVendita { get; set; }
-            public string ClienteImpegno { get; set; }
-            public string Certificazione { get; set; }
-            public string Qualita { get; set; }
-            public string Note { get; set; }
-            public string LunghezzaDescr { get; set; }
-            public string Strati { get; set; }
-            public string NumeroCarico { get; set; }
             public string Classifica { get; set; }
-            public long? RankID { get; set; }
+            public virtual ICollection<GiacenzeDATAList> GiacenzeList { get; set; }
+
+            public GiacenzeDATA()
+            {
+                GiacenzeList = new HashSet<GiacenzeDATAList>();
+            }
+
+            public class GiacenzeDATAList
+            {
+                public int Id { get; set; }
+                public string TipoPacco { get; set; }
+                public string Deposito { get; set; }
+                public string Provenienza { get; set; }
+                public string Fornitore { get; set; }
+                public string UnitaMisuraPrezzoAcquisto { get; set; }
+                public string Misura { get; set; }
+                public string Dim1 { get; set; }
+                public string Dim2 { get; set; }
+                public string Dim3 { get; set; }
+                public int? Quantita { get; set; }
+                public string Pacco { get; set; }
+                public string Tipo { get; set; }
+                public decimal? Volume { get; set; }
+                public string NPackList { get; set; }
+                public string Marchio { get; set; }
+                public string PrezzoAcquisto { get; set; }
+                public string QuantitaVenduta { get; set; }
+                public string DataImpegno { get; set; }
+                public string DataVendita { get; set; }
+                public string ClienteImpegno { get; set; }
+                public string Certificazione { get; set; }
+                public string Qualita { get; set; }
+                public string Note { get; set; }
+                public string LunghezzaDescr { get; set; }
+                public string Strati { get; set; }
+                public string NumeroCarico { get; set; }
+                public long? RankID { get; set; }
+            }
         }
     }
 }
