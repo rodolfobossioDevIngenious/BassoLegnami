@@ -15,64 +15,67 @@
                 <h4 class="card-title">@SR["SearchRecords"]</h4>
             </div>
             <div class="card-body">
-                <div class="row">
-                    <div class="col-md-3 col-lg-3">
-                        <div class="form-group">
-                            <label class="control-label">Essenza</label>
-                            <select id="IdEssenza" name="IdEssenza" class="form-control" asp-items="ViewBag.IdEssenza">
-                                <option value=""></option>
-                            </select>
+                <form asp-action="Print">
+
+                    <div class="row">
+                        <div class="col-md-3 col-lg-3">
+                            <div class="form-group">
+                                <label class="control-label">Essenza</label>
+                                <select id="IdEssenza" name="IdEssenza" class="form-control" asp-items="ViewBag.IdEssenza">
+                                    <option value=""></option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-lg-3">
+                            <div class="form-group">
+                                <label class="control-label">Classifica</label>
+                                <select id="IdClassifica" name="IdClassifica" class="form-control" asp-items="ViewBag.IdClassifica">
+                                    <option value=""></option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-lg-3">
+                            <div class="form-group">
+                                <label class="control-label">Stato Legno</label>
+                                <select id="IdStatoLegno" name="IdStatoLegno" class="form-control" asp-items="ViewBag.IdStatoLegno">
+                                    <option value=""></option>
+                                </select>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-md-3 col-lg-3">
-                        <div class="form-group">
-                            <label class="control-label">Classifica</label>
-                            <select id="IdClassifica" name="IdClassifica" class="form-control" asp-items="ViewBag.IdClassifica">
-                                <option value=""></option>
-                            </select>
+                    <div class="row">
+                        <div class="col-md-3">
+                            <div class="form-group">
+                                <label class="control-label">Stagionatura</label>
+                                <select id="IdStagionatura" name="IdStagionatura" class="form-control" asp-items="ViewBag.IdStagionatura">
+                                    <option value=""></option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="form-group">
+                                <label class="control-label">Deposito</label>
+                                <select id="IdDeposito" name="IdDeposito" class="form-control" asp-items="ViewBag.IdDeposito">
+                                    <option value=""></option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="form-group">
+                                <label class="control-label">Provenienza</label>
+                                <select id="IdProvenienza" name="IdProvenienza" class="form-control" asp-items="ViewBag.IdProvenienza">
+                                    <option value=""></option>
+                                </select>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-md-3 col-lg-3">
-                        <div class="form-group">
-                            <label class="control-label">Stato Legno</label>
-                            <select id="IdStatoLegno" name="IdStatoLegno" class="form-control" asp-items="ViewBag.IdStatoLegno">
-                                <option value=""></option>
-                            </select>
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <button id="search" type="button" name="submitButton" value="default" class="btn btn-default"><i class="fa fa-search"></i> @SR["SearchRecords"]</button>
+                            <button type="submit" name="submitButton" value="default" class="btn btn-default"><i class="fa fa-print"></i> Stampa PDF</button>
                         </div>
                     </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-3">
-                        <div class="form-group">
-                            <label class="control-label">Stagionatura</label>
-                            <select id="IdStagionatura" name="IdStagionatura" class="form-control" asp-items="ViewBag.IdStagionatura">
-                                <option value=""></option>
-                            </select>
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="form-group">
-                            <label class="control-label">Deposito</label>
-                            <select id="IdDeposito" name="IdDeposito" class="form-control" asp-items="ViewBag.IdDeposito">
-                                <option value=""></option>
-                            </select>
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="form-group">
-                            <label class="control-label">Provenienza</label>
-                            <select id="IdProvenienza" name="IdProvenienza" class="form-control" asp-items="ViewBag.IdProvenienza">
-                                <option value=""></option>
-                            </select>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-6">
-                        <button id="search" type="button" name="submitButton" value="default" class="btn btn-default"><i class="fa fa-search"></i> @SR["SearchRecords"]</button>
-                        <a asp-action="Print" class="btn btn-success"><i class="fa fa-print"></i> Stampa PDF</a>
-                    </div>
-                </div>
+                </form>
             </div>
             @if (Model != null && Model.Count() == 0)
             {
@@ -89,43 +92,67 @@
     </div>
 </div>
 
-    <div class="row">
-        <div class="col-md-12">
-            <div class="card data-tables">
-                <div class="card-body table-striped table-bordered table-hover dataTable dtr-inline table-full-width">
-                    <div class="card-header">
-                        <h4 class="card-title title">@ViewData["Title"]</h4>
-                    </div>
-                    <hr />
-                    <div class="fresh-datatables">
-                        <table id="customerRowsTable" class="table table-striped table-bordered table-hover excluded" cellspacing="0" width="100%" style="width:100%">
-                            <thead>
-                                <tr>
-                                    <th><displayName asp-for="@Model.FirstOrDefault().TipoPacco" class="control-label"></displayName></th>
-                                    <th><displayName asp-for="@Model.FirstOrDefault().Essenza" class="control-label"></displayName></th>
-                                    <th><displayName asp-for="@Model.FirstOrDefault().Classifica" class="control-label"></displayName></th>
-                                    <th><displayName asp-for="@Model.FirstOrDefault().StatoLegno" class="control-label"></displayName></th>
-                                    <th><displayName asp-for="@Model.FirstOrDefault().Stagionatura" class="control-label"></displayName></th>
-                                    <th class="col-1"><displayName asp-for="@Model.FirstOrDefault().Deposito" class="control-label"></displayName></th>
-                                    <th class="col-1"><displayName asp-for="@Model.FirstOrDefault().Quantita" class="control-label"></displayName></th>
-                                    <th class="col-1"><displayName asp-for="@Model.FirstOrDefault().Volume" class="control-label"></displayName></th>
-                                    <th class="text-right col-1">
-                                    </th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                            </tbody>
-                        </table>
-                    </div>
+<div class="row">
+    <div class="col-md-12">
+        <div class="card data-tables">
+            <div class="card-body table-striped table-bordered table-hover dataTable dtr-inline table-full-width">
+                <div class="card-header">
+                    <h4 class="card-title title">@ViewData["Title"]</h4>
+                </div>
+                <hr />
+                <div class="fresh-datatables">
+                    <table id="customerRowsTable" class="table table-striped table-bordered table-hover excluded" cellspacing="0" width="100%" style="width:100%">
+                        <thead>
+                            <tr>
+                                <th><displayName asp-for="@Model.FirstOrDefault().TipoPacco" class="control-label"></displayName></th>
+                                <th><displayName asp-for="@Model.FirstOrDefault().Essenza" class="control-label"></displayName></th>
+                                <th><displayName asp-for="@Model.FirstOrDefault().Classifica" class="control-label"></displayName></th>
+                                <th><displayName asp-for="@Model.FirstOrDefault().StatoLegno" class="control-label"></displayName></th>
+                                <th><displayName asp-for="@Model.FirstOrDefault().Stagionatura" class="control-label"></displayName></th>
+                                <th class="col-1"><displayName asp-for="@Model.FirstOrDefault().Deposito" class="control-label"></displayName></th>
+                                <th class="col-1"><displayName asp-for="@Model.FirstOrDefault().Quantita" class="control-label"></displayName></th>
+                                <th class="col-1"><displayName asp-for="@Model.FirstOrDefault().Volume" class="control-label"></displayName></th>
+                                <th class="text-right col-1">
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                        </tbody>
+                    </table>
                 </div>
             </div>
         </div>
     </div>
+</div>
 
 @section scripts {
     <script type="text/javascript">
         var lastGiacenzaID = 0;
         var counter = 0;
+
+        function PrintData() {
+            $.ajax({
+                type: "GET",
+                cache: false,
+                dataType: "json",
+                url: "@Url.Action("Print")",
+                data: {
+                    idEssenza: $("#IdEssenza").val(),
+                    idClassifica: $("#IdClassifica").val(),
+                    idStatoLegno: $("#IdStatoLegno").val(),
+                    idStagionatura: $("#IdStagionatura").val(),
+                    idDeposito: $("#IdDeposito").val(),
+                    idProvenienza: $("#IdProvenienza").val(),
+                },
+                success: function (result) {
+                },
+                error: function (xhr, ajaxOptions, thrownError) {
+                    console.log(xhr.status);
+                    console.error(xhr.status);
+                    console.error(thrownError);
+                }
+            });
+        }
 
         function GetData() {
             $.ajax({
@@ -141,7 +168,7 @@
                     idDeposito: $("#IdDeposito").val(),
                     idProvenienza: $("#IdProvenienza").val(),
                 },
-                beforeSend: function () { 
+                beforeSend: function () {
                     $("#customerRowsTable tbody").empty();
                 },
                 success: function (result) {
@@ -205,6 +232,10 @@
 
             $("#search").on("click", function () {
                 GetData();
+            });
+
+            $("#print").on("click", function () {
+                PrintData();
             });
         });
     </script>

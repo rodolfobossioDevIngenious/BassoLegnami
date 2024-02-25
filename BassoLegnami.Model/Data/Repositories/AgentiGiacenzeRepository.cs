@@ -360,7 +360,7 @@ namespace BassoLegnami.Model.Data.Repositories
             {
                 // Create a SqlCommand
                 using (SqlCommand sqlCommand = new
-                        ($"SELECT RANK() OVER (ORDER BY TipoPacco, Essenza, Classifica, StatoLegno, Stagionatura, Deposito) AS [Rank], * " +
+                        ($"SELECT TOP 500 RANK() OVER (ORDER BY TipoPacco, Essenza, Classifica, StatoLegno, Stagionatura, Deposito) AS [Rank], * " +
                         $"FROM [AgentiGiacenza]" +
                         $" {sqlWhere} " +
                         $"ORDER BY TipoPacco, Essenza, Classifica, StatoLegno, Stagionatura, Deposito", connection))

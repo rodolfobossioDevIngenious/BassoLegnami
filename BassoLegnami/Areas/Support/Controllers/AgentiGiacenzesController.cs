@@ -70,8 +70,10 @@ namespace BassoLegnami.Areas.Support.Controllers
 
         public FileContentResult Print(int? IdEssenza, int? IdClassifica, int? IdStatoLegno, int? IdStagionatura, int? IdDeposito, int? IdProvenienza, int? tipoStampa, int? tipoTavola)
         {
-            return File(_unitOfWork.AgentiGiacenzeRepository.Print(_unitOfWork.AgentiGiacenzeRepository
-                        .GetData(IdEssenza, IdClassifica, IdStatoLegno, IdStagionatura, IdDeposito, IdProvenienza).ToList(), tipoStampa, tipoTavola), "application/octet-stream", "Giacenze.pdf");
+            byte[] data = _unitOfWork.AgentiGiacenzeRepository.Print(_unitOfWork.AgentiGiacenzeRepository
+                        .GetData(IdEssenza, IdClassifica, IdStatoLegno, IdStagionatura, IdDeposito, IdProvenienza).ToList(), tipoStampa, tipoTavola);
+
+            return File(data, "application/octet-stream", "Giacenze.pdf");
         }
     }
 }
