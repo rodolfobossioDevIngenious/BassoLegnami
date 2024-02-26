@@ -1,4 +1,5 @@
-﻿using In.Core.Models;
+﻿using DocumentFormat.OpenXml.Bibliography;
+using In.Core.Models;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
@@ -40,13 +41,13 @@ namespace BassoLegnami.Model.Models.Support
         public string Misura { get; set; }
 
         [Display(ResourceType = typeof(Resources.Models.Support.AgentiGiacenze.AgentiGiacenze), Name = "Dim1", Description = "Dim1")]
-        public string Dim1 { get; set; }
+        public decimal Dim1 { get; set; }
 
         [Display(ResourceType = typeof(Resources.Models.Support.AgentiGiacenze.AgentiGiacenze), Name = "Dim2", Description = "Dim2")]
-        public string Dim2 { get; set; }
+        public decimal Dim2 { get; set; }
 
         [Display(ResourceType = typeof(Resources.Models.Support.AgentiGiacenze.AgentiGiacenze), Name = "Dim3", Description = "Dim3")]
-        public string Dim3 { get; set; }
+        public decimal Dim3 { get; set; }
 
         [Display(ResourceType = typeof(Resources.Models.Support.AgentiGiacenze.AgentiGiacenze), Name = "Quantita", Description = "Quantita")]
         public int? Quantita { get; set; }
@@ -55,28 +56,28 @@ namespace BassoLegnami.Model.Models.Support
         public string Pacco { get; set; }
 
         [Display(ResourceType = typeof(Resources.Models.Support.AgentiGiacenze.AgentiGiacenze), Name = "Tipo", Description = "Tipo")]
-        public string Tipo { get; set; }
+        public int? Tipo { get; set; }
 
         [Display(ResourceType = typeof(Resources.Models.Support.AgentiGiacenze.AgentiGiacenze), Name = "Volume", Description = "Volume")]
         public decimal? Volume { get; set; }
 
         [Display(ResourceType = typeof(Resources.Models.Support.AgentiGiacenze.AgentiGiacenze), Name = "NPackList", Description = "NPackList")]
-        public string NPackList { get; set; }
+        public int NPackList { get; set; }
 
         [Display(ResourceType = typeof(Resources.Models.Support.AgentiGiacenze.AgentiGiacenze), Name = "Marchio", Description = "Marchio")]
         public string Marchio { get; set; }
 
         [Display(ResourceType = typeof(Resources.Models.Support.AgentiGiacenze.AgentiGiacenze), Name = "PrezzoAcquisto", Description = "PrezzoAcquisto")]
-        public string PrezzoAcquisto { get; set; }
+        public decimal? PrezzoAcquisto { get; set; }
 
         [Display(ResourceType = typeof(Resources.Models.Support.AgentiGiacenze.AgentiGiacenze), Name = "QuantitaVenduta", Description = "QuantitaVenduta")]
-        public string QuantitaVenduta { get; set; }
+        public decimal? QuantitaVenduta { get; set; }
 
         [Display(ResourceType = typeof(Resources.Models.Support.AgentiGiacenze.AgentiGiacenze), Name = "DataImpegno", Description = "DataImpegno")]
-        public string DataImpegno { get; set; }
+        public DateTime? DataImpegno { get; set; }
 
         [Display(ResourceType = typeof(Resources.Models.Support.AgentiGiacenze.AgentiGiacenze), Name = "DataVendita", Description = "DataVendita")]
-        public string DataVendita { get; set; }
+        public DateTime DataVendita { get; set; }
 
         [Display(ResourceType = typeof(Resources.Models.Support.AgentiGiacenze.AgentiGiacenze), Name = "ClienteImpegno", Description = "ClienteImpegno")]
         public string ClienteImpegno { get; set; }
@@ -94,10 +95,10 @@ namespace BassoLegnami.Model.Models.Support
         public string LunghezzaDescr { get; set; }
 
         [Display(ResourceType = typeof(Resources.Models.Support.AgentiGiacenze.AgentiGiacenze), Name = "Strati", Description = "Strati")]
-        public string Strati { get; set; }
+        public int Strati { get; set; }
 
         [Display(ResourceType = typeof(Resources.Models.Support.AgentiGiacenze.AgentiGiacenze), Name = "NumeroCarico", Description = "NumeroCarico")]
-        public string NumeroCarico { get; set; }
+        public int NumeroCarico { get; set; }
 
         [Display(ResourceType = typeof(Resources.Models.Support.AgentiGiacenze.AgentiGiacenze), Name = "Classifica", Description = "Classifica")]
         public string Classifica { get; set; }

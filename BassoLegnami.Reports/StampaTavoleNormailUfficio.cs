@@ -8,231 +8,192 @@ namespace BassoLegnami.Reports
     public class StampaTavoleNormailUfficio : Report
     {
         public const string DATA = "LabelsStampaTavoleNormailUfficioData";
+        protected override Rectangle PageSize => new Rectangle(iTextSharp.text.PageSize.A4.Height, iTextSharp.text.PageSize.A4.Width);
         protected override void PrintBoby()
         {
-            float verticalPosition = 0;
-            bool createTable = true;
-            float maxRowHeight = 0;
-            float previousHeight = 0;
-            int currentRow = 1;
-            const int MARGIN = 15;
-            const int DEFAULT_PARAGRAPH_WIDTH = 180;
+            Font boldDefaultFont = FontFactory.GetFont(FontFactory.HELVETICA_BOLD, 8F);
+            boldDefaultFont.SetColor(0, 0, 0);
             GiacenzeDATA? data = Variables[DATA] as GiacenzeDATA;
-            int rowCount = data.GiacenzeList.Count;
 
-            Font standardFont = FontFactory.GetFont(FontFactory.HELVETICA, 10F, Color.BLACK);
-            Font secondFont = FontFactory.GetFont(FontFactory.HELVETICA_OBLIQUE, 8F, Color.ORANGE);
-            Font obliqueFont = FontFactory.GetFont(FontFactory.HELVETICA_OBLIQUE, 10F, Color.BLACK);
+            Font standardFont = FontFactory.GetFont(FontFactory.HELVETICA, 9F, Color.BLACK);
             Font boldFont = FontFactory.GetFont(FontFactory.HELVETICA_BOLD, 10F, Color.BLACK);
 
-            verticalPosition += 10;
-            PrintText("Basso Legnami SRL", 105, verticalPosition, 0, Alignment.Center, boldFont);
+            PrintParagraph(DateTime.Now.ToString("dd/MM/yyyy HH:mm:ss"), 0, 10, 287, 15, 1f, Alignment.Right, DefaultFont);
+            PrintParagraph("BASSO LEGNAMI S.R.L.", 15, 15, 267, 5, 1f, Alignment.Center, TitleFont);
 
-            //PrintParagraph("Essenza: " + data.Essenza, MARGIN, verticalPosition, DEFAULT_PARAGRAPH_WIDTH, 1, Alignment.Justify, standardFont); verticalPosition += 2;
-            //PrintParagraph("Stagionatura: " + data.Stagionatura, MARGIN, verticalPosition, DEFAULT_PARAGRAPH_WIDTH, DEFAULT_LINE_HEIGHT * 2, 1, Alignment.Justify, standardFont); verticalPosition += 2;
-            //PrintParagraph("Stato: " + data.StatoLegno, MARGIN, verticalPosition, DEFAULT_PARAGRAPH_WIDTH, DEFAULT_LINE_HEIGHT * 2, 1, Alignment.Justify, standardFont); verticalPosition += 2;
-            //PrintParagraph("Classifica: " + data.Classifica, MARGIN, verticalPosition, DEFAULT_PARAGRAPH_WIDTH, DEFAULT_LINE_HEIGHT * 2, 1, Alignment.Justify, standardFont); verticalPosition += 2;
-
-            verticalPosition += 15;
-            PdfPTable table = null;
             PdfPCell cell;
-            if (createTable)
+            PdfPTable table = new PdfPTable(14)
             {
-                table = new PdfPTable(14)
-                {
-                    //Tabella
-                    SplitLate = true,
-                    SplitRows = false,
-                    TotalWidth = GetPDFXPos(100),
-                    LockedWidth = true,
-                    HeaderRows = 1
-                };
-                table.SetWidths(new int[14] { 1, 1, 1, 1, 1, 1, 1, 1, 50, 1, 1, 1, 1, 3 });
-                table.DefaultCell.BorderWidth = DEFAULT_LINE_WIDTH / 4f;
+                SplitLate = true,
+                SplitRows = false,
+                TotalWidth = GetPDFXPos(282),
+                LockedWidth = true,
+                HeaderRows = 1,
+            };
+            table.SetWidths(new float[14] { 5F, 7F, 7.5F, 4F, 5F, 5F, 7.5F, 7.5F, 7.5F, 7.5F, 10F, 7.5F, 5F, 5F });
 
-                //Header
-                cell = new iTextSharp.text.pdf.PdfPCell(new iTextSharp.text.Phrase(new iTextSharp.text.Chunk("Spes", boldFont)))
-                {
-                    BackgroundColor = iTextSharp.text.Color.LIGHT_GRAY,
-                    HorizontalAlignment = iTextSharp.text.Element.ALIGN_LEFT,
-                    BorderWidth = DEFAULT_LINE_WIDTH / 4F,
-                }; table.AddCell(cell);
-                cell = new iTextSharp.text.pdf.PdfPCell(new iTextSharp.text.Phrase(new iTextSharp.text.Chunk("Lunghezza", boldFont)))
-                {
-                    BackgroundColor = iTextSharp.text.Color.LIGHT_GRAY,
-                    HorizontalAlignment = iTextSharp.text.Element.ALIGN_LEFT,
-                    BorderWidth = DEFAULT_LINE_WIDTH / 4F,
-                }; table.AddCell(cell);
-                cell = new iTextSharp.text.pdf.PdfPCell(new iTextSharp.text.Phrase(new iTextSharp.text.Chunk("Pacco", boldFont)))
-                {
-                    BackgroundColor = iTextSharp.text.Color.LIGHT_GRAY,
-                    HorizontalAlignment = iTextSharp.text.Element.ALIGN_LEFT,
-                    BorderWidth = DEFAULT_LINE_WIDTH / 4F,
-                }; table.AddCell(cell);
-                cell = new iTextSharp.text.pdf.PdfPCell(new iTextSharp.text.Phrase(new iTextSharp.text.Chunk("Tav", boldFont)))
-                {
-                    BackgroundColor = iTextSharp.text.Color.LIGHT_GRAY,
-                    HorizontalAlignment = iTextSharp.text.Element.ALIGN_LEFT,
-                    BorderWidth = DEFAULT_LINE_WIDTH / 4F,
-                }; table.AddCell(cell);
-                cell = new iTextSharp.text.pdf.PdfPCell(new iTextSharp.text.Phrase(new iTextSharp.text.Chunk("M Cubi", boldFont)))
-                {
-                    BackgroundColor = iTextSharp.text.Color.LIGHT_GRAY,
-                    HorizontalAlignment = iTextSharp.text.Element.ALIGN_LEFT,
-                    BorderWidth = DEFAULT_LINE_WIDTH / 4F,
-                }; table.AddCell(cell);
-                cell = new iTextSharp.text.pdf.PdfPCell(new iTextSharp.text.Phrase(new iTextSharp.text.Chunk("Impegn", boldFont)))
-                {
-                    BackgroundColor = iTextSharp.text.Color.LIGHT_GRAY,
-                    HorizontalAlignment = iTextSharp.text.Element.ALIGN_LEFT,
-                    BorderWidth = DEFAULT_LINE_WIDTH / 4F,
-                }; table.AddCell(cell);
-                cell = new iTextSharp.text.pdf.PdfPCell(new iTextSharp.text.Phrase(new iTextSharp.text.Chunk("Stato", boldFont)))
-                {
-                    BackgroundColor = iTextSharp.text.Color.LIGHT_GRAY,
-                    HorizontalAlignment = iTextSharp.text.Element.ALIGN_LEFT,
-                    BorderWidth = DEFAULT_LINE_WIDTH / 4F,
-                }; table.AddCell(cell);
-                cell = new iTextSharp.text.pdf.PdfPCell(new iTextSharp.text.Phrase(new iTextSharp.text.Chunk("Classifica", boldFont)))
-                {
-                    BackgroundColor = iTextSharp.text.Color.LIGHT_GRAY,
-                    HorizontalAlignment = iTextSharp.text.Element.ALIGN_LEFT,
-                    BorderWidth = DEFAULT_LINE_WIDTH / 4F,
-                }; table.AddCell(cell);
-                cell = new iTextSharp.text.pdf.PdfPCell(new iTextSharp.text.Phrase(new iTextSharp.text.Chunk("Stagionatura", boldFont)))
-                {
-                    BackgroundColor = iTextSharp.text.Color.LIGHT_GRAY,
-                    HorizontalAlignment = iTextSharp.text.Element.ALIGN_LEFT,
-                    BorderWidth = DEFAULT_LINE_WIDTH / 4F,
-                }; table.AddCell(cell);
-                cell = new iTextSharp.text.pdf.PdfPCell(new iTextSharp.text.Phrase(new iTextSharp.text.Chunk("Dep", boldFont)))
-                {
-                    BackgroundColor = iTextSharp.text.Color.LIGHT_GRAY,
-                    HorizontalAlignment = iTextSharp.text.Element.ALIGN_LEFT,
-                    BorderWidth = DEFAULT_LINE_WIDTH / 4F,
-                }; table.AddCell(cell);
-                cell = new iTextSharp.text.pdf.PdfPCell(new iTextSharp.text.Phrase(new iTextSharp.text.Chunk("Fornitore", boldFont)))
-                {
-                    BackgroundColor = iTextSharp.text.Color.LIGHT_GRAY,
-                    HorizontalAlignment = iTextSharp.text.Element.ALIGN_LEFT,
-                    BorderWidth = DEFAULT_LINE_WIDTH / 4F,
-                }; table.AddCell(cell);
-                cell = new iTextSharp.text.pdf.PdfPCell(new iTextSharp.text.Phrase(new iTextSharp.text.Chunk("Arrivo", boldFont)))
-                {
-                    BackgroundColor = iTextSharp.text.Color.LIGHT_GRAY,
-                    HorizontalAlignment = iTextSharp.text.Element.ALIGN_LEFT,
-                    BorderWidth = DEFAULT_LINE_WIDTH / 4F,
-                }; table.AddCell(cell);
-                cell = new iTextSharp.text.pdf.PdfPCell(new iTextSharp.text.Phrase(new iTextSharp.text.Chunk("Fine Ess", boldFont)))
-                {
-                    BackgroundColor = iTextSharp.text.Color.LIGHT_GRAY,
-                    HorizontalAlignment = iTextSharp.text.Element.ALIGN_LEFT,
-                    BorderWidth = DEFAULT_LINE_WIDTH / 4F,
-                }; table.AddCell(cell);
-                cell = new iTextSharp.text.pdf.PdfPCell(new iTextSharp.text.Phrase(new iTextSharp.text.Chunk("Certif", boldFont)))
-                {
-                    BackgroundColor = iTextSharp.text.Color.LIGHT_GRAY,
-                    HorizontalAlignment = iTextSharp.text.Element.ALIGN_LEFT,
-                    BorderWidth = DEFAULT_LINE_WIDTH / 4F,
-                }; table.AddCell(cell);
-
-                createTable = false;
-            }
-            bool pageInterrupt;
-            bool lastPage;
-
-            //Corpo
-            while (currentRow <= rowCount)
+            //Header
+            cell = new PdfPCell(new Phrase(new Chunk("Spes", boldFont)))
             {
-                //cell = new iTextSharp.text.pdf.PdfPCell(new iTextSharp.text.Phrase(new iTextSharp.text.Chunk(data.GiacenzeList.ElementAt(currentRow - 1).Description, standardFont)))
-                cell = new iTextSharp.text.pdf.PdfPCell(new iTextSharp.text.Phrase(string.Empty, standardFont))
-                {
-                    HorizontalAlignment = iTextSharp.text.Element.ALIGN_LEFT,
-                    BorderWidth = DEFAULT_LINE_WIDTH / 4F,
-                }; table.AddCell(cell);
-                cell = new iTextSharp.text.pdf.PdfPCell(new iTextSharp.text.Phrase(new iTextSharp.text.Chunk(data.GiacenzeList.ElementAt(currentRow - 1)?.LunghezzaDescr ?? string.Empty, standardFont)))
-                {
-                    HorizontalAlignment = iTextSharp.text.Element.ALIGN_RIGHT,
-                    BorderWidth = DEFAULT_LINE_WIDTH / 4F,
-                }; table.AddCell(cell);
-                cell = new iTextSharp.text.pdf.PdfPCell(new iTextSharp.text.Phrase(new iTextSharp.text.Chunk(data.GiacenzeList.ElementAt(currentRow - 1)?.Pacco ?? string.Empty, standardFont)))
-                {
-                    HorizontalAlignment = iTextSharp.text.Element.ALIGN_LEFT,
-                    BorderWidth = DEFAULT_LINE_WIDTH / 4F,
-                }; table.AddCell(cell);
-                cell = new iTextSharp.text.pdf.PdfPCell(new iTextSharp.text.Phrase(string.Empty, standardFont))
-                {
-                    HorizontalAlignment = iTextSharp.text.Element.ALIGN_LEFT,
-                    BorderWidth = DEFAULT_LINE_WIDTH / 4F,
-                }; table.AddCell(cell);
-                cell = new iTextSharp.text.pdf.PdfPCell(new iTextSharp.text.Phrase(string.Empty, standardFont))
-                {
-                    HorizontalAlignment = iTextSharp.text.Element.ALIGN_LEFT,
-                    BorderWidth = DEFAULT_LINE_WIDTH / 4F,
-                }; table.AddCell(cell);
-                cell = new iTextSharp.text.pdf.PdfPCell(new iTextSharp.text.Phrase(new iTextSharp.text.Chunk(data.GiacenzeList.ElementAt(currentRow - 1)?.ClienteImpegno ?? string.Empty, standardFont)))
-                {
-                    HorizontalAlignment = iTextSharp.text.Element.ALIGN_RIGHT,
-                    BorderWidth = DEFAULT_LINE_WIDTH / 4F,
-                }; table.AddCell(cell);
-                cell = new iTextSharp.text.pdf.PdfPCell(new iTextSharp.text.Phrase(new iTextSharp.text.Chunk(data.GiacenzeList.ElementAt(currentRow - 1)?.StatoLegno ?? string.Empty, standardFont)))
-                {
-                    HorizontalAlignment = iTextSharp.text.Element.ALIGN_RIGHT,
-                    BorderWidth = DEFAULT_LINE_WIDTH / 4F,
-                }; table.AddCell(cell);
-                cell = new iTextSharp.text.pdf.PdfPCell(new iTextSharp.text.Phrase(new iTextSharp.text.Chunk(data.GiacenzeList.ElementAt(currentRow - 1)?.Classifica ?? string.Empty, standardFont)))
-                {
-                    HorizontalAlignment = iTextSharp.text.Element.ALIGN_RIGHT,
-                    BorderWidth = DEFAULT_LINE_WIDTH / 4F,
-                }; table.AddCell(cell);
-                cell = new iTextSharp.text.pdf.PdfPCell(new iTextSharp.text.Phrase(new iTextSharp.text.Chunk(data.GiacenzeList.ElementAt(currentRow - 1)?.Stagionatura ?? string.Empty, standardFont)))
-                {
-                    HorizontalAlignment = iTextSharp.text.Element.ALIGN_RIGHT,
-                    BorderWidth = DEFAULT_LINE_WIDTH / 4F,
-                }; table.AddCell(cell);
-                cell = new iTextSharp.text.pdf.PdfPCell(new iTextSharp.text.Phrase(new iTextSharp.text.Chunk(data.GiacenzeList.ElementAt(currentRow - 1)?.Deposito ?? string.Empty, standardFont)))
-                {
-                    HorizontalAlignment = iTextSharp.text.Element.ALIGN_RIGHT,
-                    BorderWidth = DEFAULT_LINE_WIDTH / 4F,
-                }; table.AddCell(cell);
-                cell = new iTextSharp.text.pdf.PdfPCell(new iTextSharp.text.Phrase(new iTextSharp.text.Chunk(data.GiacenzeList.ElementAt(currentRow - 1)?.Fornitore ?? string.Empty, standardFont)))
-                {
-                    HorizontalAlignment = iTextSharp.text.Element.ALIGN_RIGHT,
-                    BorderWidth = DEFAULT_LINE_WIDTH / 4F,
-                }; table.AddCell(cell);
-                cell = new iTextSharp.text.pdf.PdfPCell(new iTextSharp.text.Phrase(new iTextSharp.text.Chunk(data.GiacenzeList.ElementAt(currentRow - 1)?.DataVendita ?? string.Empty, standardFont)))
-                {
-                    HorizontalAlignment = iTextSharp.text.Element.ALIGN_RIGHT,
-                    BorderWidth = DEFAULT_LINE_WIDTH / 4F,
-                }; table.AddCell(cell);
-                cell = new iTextSharp.text.pdf.PdfPCell(new iTextSharp.text.Phrase(string.Empty, standardFont))
-                {
-                    HorizontalAlignment = iTextSharp.text.Element.ALIGN_RIGHT,
-                    BorderWidth = DEFAULT_LINE_WIDTH / 4F,
-                }; table.AddCell(cell);
-                cell = new iTextSharp.text.pdf.PdfPCell(new iTextSharp.text.Phrase(new iTextSharp.text.Chunk(data.GiacenzeList.ElementAt(currentRow - 1)?.Certificazione ?? string.Empty, standardFont)))
-                {
-                    HorizontalAlignment = iTextSharp.text.Element.ALIGN_RIGHT,
-                    BorderWidth = DEFAULT_LINE_WIDTH / 4F,
-                }; table.AddCell(cell);
-                currentRow++;
-                verticalPosition = table.CalculateHeights(currentRow == 1);
-                if (verticalPosition > 250)
-                {
-                    AddPage();
-                }
-            }
-
+                BackgroundColor = Color.LIGHT_GRAY,
+                HorizontalAlignment = Element.ALIGN_LEFT,
+                BorderWidth = DEFAULT_LINE_WIDTH / 4F,
+            }; table.AddCell(cell);
+            cell = new PdfPCell(new Phrase(new Chunk("Lunghezza", boldFont)))
+            {
+                BackgroundColor = Color.LIGHT_GRAY,
+                HorizontalAlignment = Element.ALIGN_LEFT,
+                BorderWidth = DEFAULT_LINE_WIDTH / 4F,
+            }; table.AddCell(cell);
+            cell = new PdfPCell(new Phrase(new Chunk("Pacco", boldFont)))
+            {
+                BackgroundColor = Color.LIGHT_GRAY,
+                HorizontalAlignment = Element.ALIGN_LEFT,
+                BorderWidth = DEFAULT_LINE_WIDTH / 4F,
+            }; table.AddCell(cell);
+            cell = new PdfPCell(new Phrase(new Chunk("Tav", boldFont)))
+            {
+                BackgroundColor = Color.LIGHT_GRAY,
+                HorizontalAlignment = Element.ALIGN_LEFT,
+                BorderWidth = DEFAULT_LINE_WIDTH / 4F,
+            }; table.AddCell(cell);
+            cell = new PdfPCell(new Phrase(new Chunk("M Cubi", boldFont)))
+            {
+                BackgroundColor = Color.LIGHT_GRAY,
+                HorizontalAlignment = Element.ALIGN_LEFT,
+                BorderWidth = DEFAULT_LINE_WIDTH / 4F,
+            }; table.AddCell(cell);
+            cell = new PdfPCell(new Phrase(new Chunk("Impegn", boldFont)))
+            {
+                BackgroundColor = Color.LIGHT_GRAY,
+                HorizontalAlignment = Element.ALIGN_LEFT,
+                BorderWidth = DEFAULT_LINE_WIDTH / 4F,
+            }; table.AddCell(cell);
+            cell = new PdfPCell(new Phrase(new Chunk("Stato Legno", boldFont)))
+            {
+                BackgroundColor = Color.LIGHT_GRAY,
+                HorizontalAlignment = Element.ALIGN_LEFT,
+                BorderWidth = DEFAULT_LINE_WIDTH / 4F,
+            }; table.AddCell(cell);
+            cell = new PdfPCell(new Phrase(new Chunk("Classifica", boldFont)))
+            {
+                BackgroundColor = Color.LIGHT_GRAY,
+                HorizontalAlignment = Element.ALIGN_LEFT,
+                BorderWidth = DEFAULT_LINE_WIDTH / 4F,
+            }; table.AddCell(cell);
+            cell = new PdfPCell(new Phrase(new Chunk("Stagionatura", boldFont)))
+            {
+                BackgroundColor = Color.LIGHT_GRAY,
+                HorizontalAlignment = Element.ALIGN_LEFT,
+                BorderWidth = DEFAULT_LINE_WIDTH / 4F,
+            }; table.AddCell(cell);
+            cell = new PdfPCell(new Phrase(new Chunk("Dep", boldFont)))
+            {
+                BackgroundColor = Color.LIGHT_GRAY,
+                HorizontalAlignment = Element.ALIGN_LEFT,
+                BorderWidth = DEFAULT_LINE_WIDTH / 4F,
+            }; table.AddCell(cell);
+            cell = new PdfPCell(new Phrase(new Chunk("Fornitore", boldFont)))
+            {
+                BackgroundColor = Color.LIGHT_GRAY,
+                HorizontalAlignment = Element.ALIGN_LEFT,
+                BorderWidth = DEFAULT_LINE_WIDTH / 4F,
+            }; table.AddCell(cell);
+            cell = new PdfPCell(new Phrase(new Chunk("Arrivo", boldFont)))
+            {
+                BackgroundColor = Color.LIGHT_GRAY,
+                HorizontalAlignment = Element.ALIGN_LEFT,
+                BorderWidth = DEFAULT_LINE_WIDTH / 4F,
+            }; table.AddCell(cell);
+            cell = new PdfPCell(new Phrase(new Chunk("Fine Ess", boldFont)))
+            {
+                BackgroundColor = Color.LIGHT_GRAY,
+                HorizontalAlignment = Element.ALIGN_LEFT,
+                BorderWidth = DEFAULT_LINE_WIDTH / 4F,
+            }; table.AddCell(cell);
+            cell = new PdfPCell(new Phrase(new Chunk("Certif", boldFont)))
+            {
+                BackgroundColor = Color.LIGHT_GRAY,
+                HorizontalAlignment = Element.ALIGN_LEFT,
+                BorderWidth = DEFAULT_LINE_WIDTH / 4F,
+            }; table.AddCell(cell);
             table.CompleteRow();
-            table.TotalWidth = 165;
-            table.LockedWidth = true;
 
-            verticalPosition = table.CalculateHeights(currentRow == 1);
-            maxRowHeight = Math.Max(maxRowHeight, verticalPosition - previousHeight);
-            previousHeight = verticalPosition;
-
-            //verticalPosition = 20;
-            PrintTable(table, 2, verticalPosition, 10);
+            foreach (GiacenzeDATA.GiacenzeDATAList item in data.GiacenzeList)
+            {
+                cell = new PdfPCell(new Phrase(string.Empty, standardFont))
+                {
+                    HorizontalAlignment = Element.ALIGN_LEFT,
+                    BorderWidth = DEFAULT_LINE_WIDTH / 4F,
+                }; table.AddCell(cell);
+                cell = new PdfPCell(new Phrase(new Chunk(item?.LunghezzaDescr ?? string.Empty, standardFont)))
+                {
+                    HorizontalAlignment = Element.ALIGN_LEFT,
+                    BorderWidth = DEFAULT_LINE_WIDTH / 4F,
+                }; table.AddCell(cell);
+                cell = new PdfPCell(new Phrase(new Chunk(item?.Pacco ?? string.Empty, standardFont)))
+                {
+                    HorizontalAlignment = Element.ALIGN_LEFT,
+                    BorderWidth = DEFAULT_LINE_WIDTH / 4F,
+                }; table.AddCell(cell);
+                cell = new PdfPCell(new Phrase(string.Empty, standardFont))
+                {
+                    HorizontalAlignment = Element.ALIGN_LEFT,
+                    BorderWidth = DEFAULT_LINE_WIDTH / 4F,
+                }; table.AddCell(cell);
+                cell = new PdfPCell(new Phrase(string.Empty, standardFont))
+                {
+                    HorizontalAlignment = Element.ALIGN_LEFT,
+                    BorderWidth = DEFAULT_LINE_WIDTH / 4F,
+                }; table.AddCell(cell);
+                cell = new PdfPCell(new Phrase(new Chunk(item?.ClienteImpegno ?? string.Empty, standardFont)))
+                {
+                    HorizontalAlignment = Element.ALIGN_LEFT,
+                    BorderWidth = DEFAULT_LINE_WIDTH / 4F,
+                }; table.AddCell(cell);
+                cell = new PdfPCell(new Phrase(new Chunk(item?.StatoLegno ?? string.Empty, standardFont)))
+                {
+                    HorizontalAlignment = Element.ALIGN_LEFT,
+                    BorderWidth = DEFAULT_LINE_WIDTH / 4F,
+                }; table.AddCell(cell);
+                cell = new PdfPCell(new Phrase(new Chunk(item?.Classifica ?? string.Empty, standardFont)))
+                {
+                    HorizontalAlignment = Element.ALIGN_LEFT,
+                    BorderWidth = DEFAULT_LINE_WIDTH / 4F,
+                }; table.AddCell(cell);
+                cell = new PdfPCell(new Phrase(new Chunk(item?.Stagionatura ?? string.Empty, standardFont)))
+                {
+                    HorizontalAlignment = Element.ALIGN_LEFT,
+                    BorderWidth = DEFAULT_LINE_WIDTH / 4F,
+                }; table.AddCell(cell);
+                cell = new PdfPCell(new Phrase(new Chunk(item?.Deposito ?? string.Empty, standardFont)))
+                {
+                    HorizontalAlignment = Element.ALIGN_LEFT,
+                    BorderWidth = DEFAULT_LINE_WIDTH / 4F,
+                }; table.AddCell(cell);
+                cell = new PdfPCell(new Phrase(new Chunk(item?.Fornitore ?? string.Empty, standardFont)))
+                {
+                    HorizontalAlignment = Element.ALIGN_LEFT,
+                    BorderWidth = DEFAULT_LINE_WIDTH / 4F,
+                }; table.AddCell(cell);
+                cell = new PdfPCell(new Phrase(new Chunk(item?.DataVendita ?? string.Empty, standardFont)))
+                {
+                    HorizontalAlignment = Element.ALIGN_LEFT,
+                    BorderWidth = DEFAULT_LINE_WIDTH / 4F,
+                }; table.AddCell(cell);
+                cell = new PdfPCell(new Phrase(string.Empty, standardFont))
+                {
+                    HorizontalAlignment = Element.ALIGN_LEFT,
+                    BorderWidth = DEFAULT_LINE_WIDTH / 4F,
+                }; table.AddCell(cell);
+                cell = new PdfPCell(new Phrase(new Chunk(item?.Certificazione ?? string.Empty, standardFont)))
+                {
+                    HorizontalAlignment = Element.ALIGN_LEFT,
+                    BorderWidth = DEFAULT_LINE_WIDTH / 4F,
+                }; table.AddCell(cell);
+                table.CompleteRow();
+            }
+            PrintTable(table, 15, 30);
 
         }
 

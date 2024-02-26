@@ -69,10 +69,37 @@
                             </div>
                         </div>
                     </div>
+
+                    @* <div class="row">
+                        <div class="col-md-3">
+                            <div class="form-group">
+                                <label class="control-label">Stagionatura</label>
+                                <select id="IdFornitore" name="IdFornitore" class="form-control" asp-items="ViewBag.IdFornitore">
+                                    <option value=""></option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="form-group">
+                                <label class="control-label">Deposito</label>
+                                <select id="IdStrati" name="IdStrati" class="form-control" asp-items="ViewBag.IdStrati">
+                                    <option value=""></option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="form-group">
+                                <label class="control-label">Provenienza</label>
+                                <select id="IdProvenienza" name="IdProvenienza" class="form-control" asp-items="ViewBag.IdProvenienza">
+                                    <option value=""></option>
+                                </select>
+                            </div>
+                        </div>
+                    </div> *@
                     <div class="row">
                         <div class="col-lg-6">
                             <button id="search" type="button" name="submitButton" value="default" class="btn btn-default"><i class="fa fa-search"></i> @SR["SearchRecords"]</button>
-                            <button type="submit" name="submitButton" value="default" class="btn btn-default"><i class="fa fa-print"></i> Stampa PDF</button>
+                            <button type="submit" name="submitButton" value="default" class="btn btn-success"><i class="fa fa-print"></i> Stampa PDF</button>
                         </div>
                     </div>
                 </form>
@@ -229,6 +256,8 @@
 
         $(function () {
             GetData();
+
+            $('.loading').css('display', 'none');
 
             $("#search").on("click", function () {
                 GetData();
