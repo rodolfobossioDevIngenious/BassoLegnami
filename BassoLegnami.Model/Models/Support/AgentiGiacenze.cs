@@ -10,6 +10,35 @@ namespace BassoLegnami.Model.Models.Support
 {
 	public class AgentiGiacenze : Auditable
     {
+        public enum TipoStampaEnum
+        {
+            [Display(ResourceType = typeof(Resources.Models.Support.AgentiGiacenze.AgentiGiacenze), Name = "TavoleNormali", Description = "TavoleNormali")]
+            TavoleNormali,
+
+            [Display(ResourceType = typeof(Resources.Models.Support.AgentiGiacenze.AgentiGiacenze), Name = "TavolePrismate", Description = "TavolePrismate")]
+            TavolePrismate,
+
+            [Display(ResourceType = typeof(Resources.Models.Support.AgentiGiacenze.AgentiGiacenze), Name = "Lamelle", Description = "Lamelle")]
+            Lamelle,
+
+            [Display(ResourceType = typeof(Resources.Models.Support.AgentiGiacenze.AgentiGiacenze), Name = "Multistrato", Description = "Multistrato")]
+            Multistrato,
+
+            [Display(ResourceType = typeof(Resources.Models.Support.AgentiGiacenze.AgentiGiacenze), Name = "Sfogliato", Description = "Sfogliato")]
+            Sfogliato,
+
+            [Display(ResourceType = typeof(Resources.Models.Support.AgentiGiacenze.AgentiGiacenze), Name = "Tranciato", Description = "Tranciato")]
+            Tranciato
+        }
+        public enum FormatoStampaEnum
+        {
+            [Display(ResourceType = typeof(Resources.Models.Support.AgentiGiacenze.AgentiGiacenze), Name = "Id", Description = "Id")]
+            SendEmail,
+
+            [Display(ResourceType = typeof(Resources.Models.Support.AgentiGiacenze.AgentiGiacenze), Name = "Id", Description = "Id")]
+            NotSendEmail
+        }
+
         [Display(ResourceType = typeof(Resources.Models.Support.AgentiGiacenze.AgentiGiacenze), Name = "Id", Description = "Id")]
         public int Id { get; set; }
 
@@ -103,6 +132,8 @@ namespace BassoLegnami.Model.Models.Support
         [Display(ResourceType = typeof(Resources.Models.Support.AgentiGiacenze.AgentiGiacenze), Name = "Classifica", Description = "Classifica")]
         public string Classifica { get; set; }
         public long? RankID { get; set; }
+        public TipoStampaEnum TipoStampa { get; set; }
+        public FormatoStampaEnum FormatoStampa { get; set; }
 
         public override IEnumerable<ValidationResult> Validate(ValidationContext validationContext)
         {

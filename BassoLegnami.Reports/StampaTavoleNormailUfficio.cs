@@ -121,12 +121,12 @@ namespace BassoLegnami.Reports
 
             foreach (GiacenzeDATA.GiacenzeDATAList item in data.GiacenzeList)
             {
-                cell = new PdfPCell(new Phrase(string.Empty, standardFont))
+                cell = new PdfPCell(new Phrase(item?.Dim3, standardFont))
                 {
                     HorizontalAlignment = Element.ALIGN_LEFT,
                     BorderWidth = DEFAULT_LINE_WIDTH / 4F,
                 }; table.AddCell(cell);
-                cell = new PdfPCell(new Phrase(new Chunk(item?.LunghezzaDescr ?? string.Empty, standardFont)))
+                cell = new PdfPCell(new Phrase(new Chunk(item?.Dim2 ?? string.Empty, standardFont)))
                 {
                     HorizontalAlignment = Element.ALIGN_LEFT,
                     BorderWidth = DEFAULT_LINE_WIDTH / 4F,
