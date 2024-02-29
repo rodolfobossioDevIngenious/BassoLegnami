@@ -1,20 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "E:\\Develop\\DTB\\Sphinx2_dotnet\\BassoLegnami\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{50575AD8-9519-4453-B4B7-694B15F226D9}|BassoLegnami\\BassoLegnami.csproj|e:\\develop\\dtb\\sphinx2_dotnet\\bassolegnami\\bassolegnami\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{50575AD8-9519-4453-B4B7-694B15F226D9}|BassoLegnami\\BassoLegnami.csproj|solutionrelative:bassolegnami\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8C2E03D0-644A-4798-BD89-3FE1F1F0CAA3}|BassoLegnami.Reports\\BassoLegnami.Reports.csproj|e:\\develop\\dtb\\sphinx2_dotnet\\bassolegnami\\bassolegnami.reports\\stampatavolenormailufficio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8C2E03D0-644A-4798-BD89-3FE1F1F0CAA3}|BassoLegnami.Reports\\BassoLegnami.Reports.csproj|solutionrelative:bassolegnami.reports\\stampatavolenormailufficio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{50575AD8-9519-4453-B4B7-694B15F226D9}|BassoLegnami\\BassoLegnami.csproj|e:\\develop\\dtb\\sphinx2_dotnet\\bassolegnami\\bassolegnami\\areas\\support\\controllers\\agentigiacenzescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{50575AD8-9519-4453-B4B7-694B15F226D9}|BassoLegnami\\BassoLegnami.csproj|solutionrelative:bassolegnami\\areas\\support\\controllers\\agentigiacenzescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -22,7 +9,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -45,43 +32,20 @@
               "Name": "ST:13:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "E:\\Develop\\DTB\\Sphinx2_dotnet\\BassoLegnami\\BassoLegnami\\appsettings.json",
-              "RelativeDocumentMoniker": "BassoLegnami\\appsettings.json",
-              "ToolTip": "E:\\Develop\\DTB\\Sphinx2_dotnet\\BassoLegnami\\BassoLegnami\\appsettings.json",
-              "RelativeToolTip": "BassoLegnami\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAnAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-02-28T09:11:21.959Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:14:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "StampaTavoleNormailUfficio.cs",
-              "DocumentMoniker": "E:\\Develop\\DTB\\Sphinx2_dotnet\\BassoLegnami\\BassoLegnami.Reports\\StampaTavoleNormailUfficio.cs",
-              "RelativeDocumentMoniker": "BassoLegnami.Reports\\StampaTavoleNormailUfficio.cs",
-              "ToolTip": "E:\\Develop\\DTB\\Sphinx2_dotnet\\BassoLegnami\\BassoLegnami.Reports\\StampaTavoleNormailUfficio.cs",
-              "RelativeToolTip": "BassoLegnami.Reports\\StampaTavoleNormailUfficio.cs",
-              "ViewState": "AQIAAB4AAAAAAAAAAAAowC4AAAAjAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-27T10:45:01.989Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:15:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AgentiGiacenzesController.cs",
-              "DocumentMoniker": "E:\\Develop\\DTB\\Sphinx2_dotnet\\BassoLegnami\\BassoLegnami\\Areas\\Support\\Controllers\\AgentiGiacenzesController.cs",
-              "RelativeDocumentMoniker": "BassoLegnami\\Areas\\Support\\Controllers\\AgentiGiacenzesController.cs",
-              "ToolTip": "E:\\Develop\\DTB\\Sphinx2_dotnet\\BassoLegnami\\BassoLegnami\\Areas\\Support\\Controllers\\AgentiGiacenzesController.cs",
-              "RelativeToolTip": "BassoLegnami\\Areas\\Support\\Controllers\\AgentiGiacenzesController.cs",
-              "ViewState": "AQIAABQAAAAAAAAAAAAQwDYAAAASAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-26T14:52:05.97Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:16:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             }
           ]
         }
